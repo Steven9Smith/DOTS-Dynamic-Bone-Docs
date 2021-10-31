@@ -1,0 +1,465 @@
+{
+  "sitemap": {
+    "baseUrl": "https://github.com/Steven9Smith/DOTS-Dynamic-Bone/"
+  },
+  "homepages": [],
+  "source_base_path": "E:/Documents/GitHub/SS/DOTS Dynamic Bone SP/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.html",
+          "hash": "W6XyHzecrYHC8Ki6VeWNLqFzPUSRu9nHhWIIJyT9mME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.UpdateMode.html",
+          "hash": "i0Q456+Zq4cTWDtQs8azH0aUkx9eLIsinYkG4eR6Jeo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.html",
+          "hash": "k6IfixYh+wEmNAHxpZFio69avcOG7KGAeP904N8f8JY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneClass.html",
+          "hash": "HppB/f6IjuhfAzelgHBKanHH/IgGyDf51q6b9hsox0w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneComponent.html",
+          "hash": "p8TarHKJa6UnpyPveewmJikkfauBVLIxGqmbD4+sg0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.html",
+          "hash": "VzCpBUDZkne9q0A2V8tuAv+zOQ7nddBqYLtMRGwi3No="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html",
+          "hash": "LW45YJNQESyC91HkguQkL/OMjzrPFowBejbmNq/i82M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBonesComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBonesComponent.html",
+          "hash": "bU+kJWFUm3wTWPllLQnh1mzWodALOsf1K7hT91uxhmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSPlane.html",
+          "hash": "7K1rTkjKGKUiUFNfVlgDQcGJRE7Zlzbum81TX+n+z20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.IndependantDOTSDynamicBone_Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.IndependantDOTSDynamicBone_Tag.html",
+          "hash": "gCw0DA0ZfNEk8WDq91BzxTWJfMzCa5Uwu0nuavoturg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Particle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Particle.html",
+          "hash": "Nb/Uvd14pKcjABudRNsZCtUz3Ofj2OzjVDjZ45Noeig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.ParticleTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.ParticleTransform.html",
+          "hash": "+CZ9LaCEr2mCwldN8VeKowtLNJ1ezNXT3N0uAbhDqqo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.html",
+          "hash": "zfcmtF/OnIV3PlE/Xyc4kjV1nER/MqJGNLbToDXTMHk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html",
+          "hash": "n2g0BXMX5oGlJisED90DER9APZwTe8qLmGEMPxbFzl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html",
+          "hash": "+c7yUKsx8VVJAFNS1HyjzSQR8zXhTuxNezk+IySWlN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html",
+          "hash": "Dc+/t7lNlSQqsJq/609XrLpBJAL1EPf+NxVAafuxMTo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.html",
+          "hash": "c3DAkt/NZuu737LhLZKj9U8C1iubPWwgiY0asQXV9NQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.html",
+          "hash": "3UEI8ZnYxCFndvjQ8ZjTwf2y4S3vCPgbUy4+FraI4hM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.html",
+          "hash": "H1QB/9oYybt8HiScBQckfDxdzZlxwwWxc7ZDTToF6jI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBoneExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBoneExtensions.html",
+          "hash": "dVvUXt137VLzukHJ1Lrel+5mdk03FRiwXz3hyZArdzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "k1cuU3COJVzHJrOhTEPFVv+U8T9SS72LeQMoZlmF+mA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "AJ8l5WRfWWmp8CiFXxZ6x/AXORbe0j1XuJzwSfLeb5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Components.DOTSDynamicBoneComponent.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Components.DOTSDynamicBoneComponent.html",
+          "hash": "esSsfFra3iELiOnLtOd5fN4HHSBZMcImGc3b4dNpkWc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Components.DOTSDynamicBonesComponent.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Components.DOTSDynamicBonesComponent.html",
+          "hash": "LcZ6gW6B/MJAbaClLkND7k0fayFp1woWc7ySLYAL0lQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Components.IndependantDOTSDynamicBone.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Components.IndependantDOTSDynamicBone.html",
+          "hash": "NedD768M/dIqbrviX+GcePhGD2bbpPyv+Ps7eIZEk7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Bones.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Bones.html",
+          "hash": "DTB+ZXeh/jZTuPui47Ozm9/ZkYC1QaRBoU2evNdWw+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.General.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.General.html",
+          "hash": "MVyjdukeGEqgfLJzZZTc++K7p0R1OaUPdm7y73okbio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Jobs.html",
+          "hash": "8SJzMYuzU/6ra/CInYNzfQkACqrjoiJKXY8lj6TbNq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Particles.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Particles.html",
+          "hash": "Ai1cZuFf67kHRN3EsK8O3W+VtxG/BqI6SAivX/fD6ZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Systems.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Systems.html",
+          "hash": "lToHoqHPsZMvKAOnen3JVx90lvcEczF0FYyEqen/moE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.ProjectSetup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.ProjectSetup.html",
+          "hash": "GdnsTdv4A9KJMrTCdYzpEUiwGQFzAzgx7DoEH2W7L98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "g3KutTWa+PE+Mt2t0ECiU+4NfFquIkSGiJoGoKaEBhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "3UR4P+AVMx6pzes4Ic26g3cA+I+O1ZlIdfiScegl9to="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 10
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 20,
+          "skipped_file_count": 20
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

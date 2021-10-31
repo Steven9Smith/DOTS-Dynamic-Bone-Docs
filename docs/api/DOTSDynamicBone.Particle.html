@@ -1,0 +1,763 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Particle
+   | DOTS Dynamic Bone </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Particle
+   | DOTS Dynamic Bone ">
+    <meta name="generator" content="docfx 2.58.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Particle">
+  
+  
+  <h1 id="DOTSDynamicBone_Particle" data-uid="DOTSDynamicBone.Particle" class="text-break">Struct Particle
+  </h1>
+  <div class="markdown level0 summary"><p>This contains all the data related to a section the DOTSDynamicBone. Here the data is store and calculations are performed on the data </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IBufferElementData</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DOTSDynamicBone.html">DOTSDynamicBone</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DOTSDynamicBone_Particle_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct Particle : IBufferElementData</code></pre>
+  </div>
+  <h5 id="DOTSDynamicBone_Particle_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This contains all the data related to a section the DOTSDynamicBone. Here the data is store and calculations are performed on the data</p>
+</div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_AnimatedLocalToRootIndex" data-uid="DOTSDynamicBone.Particle.AnimatedLocalToRootIndex">AnimatedLocalToRootIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AnimatedLocalToRootIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index relative to the Core Entity&apos;s AnimatedLocalToRoot and AnimatedLocalToWorld DynamicBuffer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_BoneLength" data-uid="DOTSDynamicBone.Particle.m_BoneLength">m_BoneLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_BoneLength</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>length of the bone at this particle</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Damping" data-uid="DOTSDynamicBone.Particle.m_Damping">m_Damping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Damping</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>How much the particle slowed down.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Disabled" data-uid="DOTSDynamicBone.Particle.m_Disabled">m_Disabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_Disabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>disable the particle from calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Elasticity" data-uid="DOTSDynamicBone.Particle.m_Elasticity">m_Elasticity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Elasticity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>How much the force applied to return each particle to original orientation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_EndOffset" data-uid="DOTSDynamicBone.Particle.m_EndOffset">m_EndOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float3 m_EndOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float3</span></td>
+        <td><p>Used for internal calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Exclude" data-uid="DOTSDynamicBone.Particle.m_Exclude">m_Exclude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool m_Exclude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>exclude the particle from calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Friction" data-uid="DOTSDynamicBone.Particle.m_Friction">m_Friction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Friction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>How much the particle slowed down when collide.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Inert" data-uid="DOTSDynamicBone.Particle.m_Inert">m_Inert</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Inert</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>How much particle&apos;s position change is ignored in physics simulation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_InitLocalPosition" data-uid="DOTSDynamicBone.Particle.m_InitLocalPosition">m_InitLocalPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float3 m_InitLocalPosition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float3</span></td>
+        <td><p>Used for internal calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_InitLocalRotation" data-uid="DOTSDynamicBone.Particle.m_InitLocalRotation">m_InitLocalRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public quaternion m_InitLocalRotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">quaternion</span></td>
+        <td><p>Used for internal calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_ParentIndex" data-uid="DOTSDynamicBone.Particle.m_ParentIndex">m_ParentIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int m_ParentIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the parent Particle (-1 = the parent info is in the bone data)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Position" data-uid="DOTSDynamicBone.Particle.m_Position">m_Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float3 m_Position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float3</span></td>
+        <td><p>Used for internal calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_PrevPosition" data-uid="DOTSDynamicBone.Particle.m_PrevPosition">m_PrevPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float3 m_PrevPosition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float3</span></td>
+        <td><p>Used for internal calculations</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Radius" data-uid="DOTSDynamicBone.Particle.m_Radius">m_Radius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Radius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Each particle can be a sphere to collide with colliders. Radius describe sphere&apos;s size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Stiffness" data-uid="DOTSDynamicBone.Particle.m_Stiffness">m_Stiffness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Stiffness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>How much particle&apos;s original orientation are preserved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_Transform" data-uid="DOTSDynamicBone.Particle.m_Transform">m_Transform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticleTransform m_Transform</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.ParticleTransform.html">ParticleTransform</a></td>
+        <td><p>The &quot;Transform&quot; of the Entity the Particle represents</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_Particle_m_TransformEntity" data-uid="DOTSDynamicBone.Particle.m_TransformEntity">m_TransformEntity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Entity m_TransformEntity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><p>Entity that the Particle epresents </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DOTSDynamicBone_Particle_CalculateParameters_" data-uid="DOTSDynamicBone.Particle.CalculateParameters*"></a>
+  <h4 id="DOTSDynamicBone_Particle_CalculateParameters" data-uid="DOTSDynamicBone.Particle.CalculateParameters">CalculateParameters()</h4>
+  <div class="markdown level1 summary"><p>Calculates the parameters based on internal data values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CalculateParameters()</code></pre>
+  </div>
+  
+  
+  <a id="DOTSDynamicBone_Particle_Create_" data-uid="DOTSDynamicBone.Particle.Create*"></a>
+  <h4 id="DOTSDynamicBone_Particle_Create_GameObjectConversionSystem_Transform_System_Boolean_System_Int32_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Boolean_" data-uid="DOTSDynamicBone.Particle.Create(GameObjectConversionSystem,Transform,System.Boolean,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean)">Create(GameObjectConversionSystem, Transform, Boolean, Int32, Single, Single, Single, Single, Single, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a Particle using the given arguments</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Particle Create(GameObjectConversionSystem conversionSystem, Transform t, bool exclude = false, int parentIndex = -1, float damping = 0F, float elasticity = 0F, float stiffness = 0F, float inert = 0F, float friction = 0F, float radius = 0F, float boneLength = 0F, bool isCollide = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObjectConversionSystem</span></td>
+        <td><span class="parametername">conversionSystem</span></td>
+        <td><p>GameObjectConversionSystem</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>the Referenced Transform that the particle will represent</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">exclude</span></td>
+        <td><p>exclude the particle from calculations</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">parentIndex</span></td>
+        <td><p>parent index of the particle within the DynamicBuffer. (This is setup automatically and should not be modified)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">damping</span></td>
+        <td><p>How much the particle slowed down.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">elasticity</span></td>
+        <td><p>How much the force applied to return each particle to original orientation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">stiffness</span></td>
+        <td><p>How much particle&apos;s original orientation are preserved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">inert</span></td>
+        <td><p>How much the particle slowed down.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">friction</span></td>
+        <td><p>How much the particle slowed down when collide.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td><p>Each particle can be a sphere to collide with colliders. Radius describe sphere&apos;s size.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">boneLength</span></td>
+        <td><p>length of the bone at this particle</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isCollide</span></td>
+        <td><p>true if the particle is colliding</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.Particle.html">Particle</a></td>
+        <td><p>Particle</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_Particle_Disable_" data-uid="DOTSDynamicBone.Particle.Disable*"></a>
+  <h4 id="DOTSDynamicBone_Particle_Disable" data-uid="DOTSDynamicBone.Particle.Disable">Disable()</h4>
+  <div class="markdown level1 summary"><p>Disables the Paricle and excludes it from calculations </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disable()</code></pre>
+  </div>
+  
+  
+  <a id="DOTSDynamicBone_Particle_Enable_" data-uid="DOTSDynamicBone.Particle.Enable*"></a>
+  <h4 id="DOTSDynamicBone_Particle_Enable" data-uid="DOTSDynamicBone.Particle.Enable">Enable()</h4>
+  <div class="markdown level1 summary"><p>Enables the Partile and includes it in calculations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable()</code></pre>
+  </div>
+  
+  
+  <a id="DOTSDynamicBone_Particle_Exclude_" data-uid="DOTSDynamicBone.Particle.Exclude*"></a>
+  <h4 id="DOTSDynamicBone_Particle_Exclude" data-uid="DOTSDynamicBone.Particle.Exclude">Exclude()</h4>
+  <div class="markdown level1 summary"><p>Excludes the Particle from calculations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Exclude()</code></pre>
+  </div>
+  
+  
+  <a id="DOTSDynamicBone_Particle_Include_" data-uid="DOTSDynamicBone.Particle.Include*"></a>
+  <h4 id="DOTSDynamicBone_Particle_Include" data-uid="DOTSDynamicBone.Particle.Include">Include()</h4>
+  <div class="markdown level1 summary"><p>Includes the Particles in calculations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Include()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IBufferElementData</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DOTS Dynamic Bone Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
