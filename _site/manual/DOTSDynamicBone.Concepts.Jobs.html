@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Jobs | DOTS Dynamic Bone </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Jobs | DOTS Dynamic Bone ">
+    <meta name="generator" content="docfx 2.58.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Jobs">
+<h1 id="jobs">Jobs</h1>
+
+<p>DOTS Dynamic Bone currently runs 7 total jobs. These jobs include:</p>
+<ul>
+<li>DOTSDynamicBone_ParticleLocalToWorldOverride</li>
+<li><a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></li>
+<li>IndependantDOTSDynamicBone</li>
+<li>DOTSDynamicBoneMultiple</li>
+<li>DOTSDynamicBoneMultipleWithColliders</li>
+<li>DOTSDynamicBoneWithColliders</li>
+<li>IndependantDOTSDynamicBoneWithColliders</li>
+</ul>
+<p>The reason for this is because each job&#39;s performance is maximized for the specific job they do. 
+For example, the IndependatDOTSDynamicBone job speciically only affects entities who has a tag of
+IndependatDOTSDynamicBone_Tag. Now you may be wondering, &quot;What&#39;s the point of Jobs like
+DOTSDynamicBones if I can have multiple IndependantDOTSDynamicBones that do the same thing?&quot;. The
+simple answer for this is data access time. IndependantDOTSDynamicBone relies on updating some of
+its data using the <strong>ComponentDataFromEntity</strong> call. Though 10 or 100 calls may not be noticable,
+it&#39;s important to consider the cases with <em>n</em> calls. comapring the extra <em>n</em> calls of 
+IndependantDOTSDynamicBone compared to the 0 calls (the data is already there) of DOTSDynamicBoneMultiple
+made it worth the effort of creating a specific Job for each. Of course, this only applies if your adding 
+multiple bones to the same Entity.
+ <em>remember you should only use DOTSDynamicBonesComponent on the Entity you want multiple bones to be added to</em></p>
+<p>Now to go over the different jobs and thier specific roles <em>Note: they all perform updates to the DynamicBuffer<particle> expect DOTSDynamicBone_ParticleLocalToWorldOverride</particle></em></p>
+<h1 id="dotsdynamicbone-job">DOTSDynamicBone Job</h1>
+<p>This Job updates all entities matching the below criteria.</p>
+<pre><code class="lang-csharp">Entities
+    .WithName(&quot;DOTSDynamicBone&quot;)
+    .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()//&lt;- notice we don&#39;t want colliders here to reduce checks, calls, and buffer allocation
+    .WithBurst()
+    .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
+        ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr, in LocalToWorld coreLTW,
+        in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
+    {
+        ...
+    })
+    .ScheduleParallel();
+</code></pre><h1 id="dotsdynamicbonemultiple-job">DOTSDynamicBoneMultiple Job</h1>
+<p>This Job updates all entities matching the below criteria.</p>
+<pre><code class="lang-csharp">Entities
+    .WithName(&quot;DOTSDynamicBoneMultiple&quot;)
+    .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;() //&lt;- notice we don&#39;t want colliders here to reduce checks, calls, and buffer allocation
+    .WithBurst()
+    .ForEach((ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones,
+        ref DynamicBuffer&lt;Particle&gt; particles,
+        ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
+        ref LocalToWorld coreLTW,
+        in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
+    {
+        ...
+    })
+    .ScheduleParallel();
+</code></pre><h1 id="independantdotsdynamicbone-job">IndependantDOTSDynamicBone Job</h1>
+<p>This Job updates all entities matching the below criteria.</p>
+<pre><code class="lang-csharp">
+    var GetLTW = GetComponentDataFromEntity&lt;LocalToWorld&gt;();
+        var GetAnimatedLocalToWorld = GetBufferFromEntity&lt;Unity.Animation.AnimatedLocalToWorld&gt;(true);
+        var GetAnimatedLocalToRoot = GetBufferFromEntity&lt;Unity.Animation.AnimatedLocalToRoot&gt;();
+
+
+    Entities
+        .WithName(&quot;IndependantDOTSDynamicBone&quot;)
+        .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()
+        .WithBurst()
+        .WithReadOnly(GetLTW)
+        .WithReadOnly(GetAnimatedLocalToWorld)
+        .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles) =&gt;
+        {
+            //notice the extra data I have to aquire seperate from what&#39;s already provided...maybe a Archtype job can speed this up?
+            DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr = GetAnimatedLocalToRoot[bone.m_RigComponentEntity];
+            DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw = GetAnimatedLocalToWorld[bone.m_RigComponentEntity];
+
+            LocalToWorld coreLTW = GetLTW[bone.m_RigComponentEntity];
+
+            ...
+        })
+        .Schedule(); 
+</code></pre><h1 id="dotsdynamicbonewithcolliders-job">DOTSDynamicBoneWithColliders Job</h1>
+<p>Does the same as DOTSDynamicBone except the collider buffer is added.</p>
+<pre><code class="lang-csharp">Entities
+    .WithName(&quot;DOTSDynamicBoneWithColliders&quot;)
+    .WithBurst()
+    .WithReadOnly(GetLTW)
+    .ForEach((Entity e, ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
+       ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
+       ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders,
+       in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
+   {
+
+       for (int i = 0; i &lt; m_Colliders.Length; i++)
+       {
+           var c = m_Colliders[i];
+           if (c.entity.Equals(Entity.Null))
+               Debug.LogWarning(&quot;COLLIDER HAS A NULL ENTITY&quot;); //&lt;- if you don&#39;t want this, let me know but it&#39;s hard to track otherwise
+           else
+           {
+               LocalToWorld cltw = GetLTW[c.entity];
+               c.UpdateTransform(cltw.Position, cltw.Rotation);
+           }
+       }
+        ...
+   })
+   .ScheduleParallel();
+</code></pre><h1 id="dotsdynamicbonemultiplewithcolliders-job">DOTSDynamicBoneMultipleWithColliders Job</h1>
+<p>Does the same as DOTSDynamicBoneMultiple except the collider buffer is added.</p>
+<pre><code class="lang-csharp">Entities
+    .WithName(&quot;DOTSDynamicBoneMultipleWithColliders&quot;)
+    .WithBurst()
+    .WithReadOnly(GetLTW)
+    .ForEach((Entity entity, ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones,
+        ref DynamicBuffer&lt;Particle&gt; particles,
+        ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
+        ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders,
+        in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
+    { 
+        // jeez, we are dealing with 5 buffers here
+        for (int i = 0; i &lt; m_Colliders.Length; i++)
+        {
+            var c = m_Colliders[i];
+            if (c.entity.Equals(Entity.Null))
+                Debug.LogWarning(&quot;COLLIDER HAS A NULL ENTITY&quot;);
+            else
+            {
+                LocalToWorld cltw = GetLTW[c.entity];
+                c.UpdateTransform(cltw.Position, cltw.Rotation);
+            }
+        }
+        ...
+    })
+    .ScheduleParallel();
+</code></pre><h1 id="independantdotsdynamicbonewithcolliders-job">IndependantDOTSDynamicBoneWithColliders Job</h1>
+<p>Does the same as IndependantDOTSDynamicBone except the collider buffer is added.</p>
+<pre><code class="lang-csharp">Entities
+    .WithName(&quot;IndependantDOTSDynamicBoneWithColliders&quot;)
+    .WithBurst()
+    .WithReadOnly(GetLTW)
+    .WithReadOnly(GetAnimatedLocalToWorld)
+    .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
+     ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders) =&gt;
+    {
+
+        DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr = GetAnimatedLocalToRoot[bone.m_RigComponentEntity];
+        DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw = GetAnimatedLocalToWorld[bone.m_RigComponentEntity];
+
+        LocalToWorld coreLTW = GetLTW[bone.m_RigComponentEntity];
+
+        for (int i = 0; i &lt; m_Colliders.Length; i++)
+        {
+            var c = m_Colliders[i];
+            if (c.entity.Equals(Entity.Null))
+                Debug.LogWarning(&quot;COLLIDER HAS A NULL ENTITY&quot;);
+            else
+            {
+                LocalToWorld cltw = GetLTW[c.entity];
+                c.UpdateTransform(cltw.Position, cltw.Rotation);
+            }
+        }
+        ...
+    })
+    .Schedule();
+</code></pre><h1 id="remarks">Remarks</h1>
+<p>It it important to remeber that the Jobs and systems are subject to change so if you have
+ any comments or suggestions, please let me know at <a href="">link</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DOTS Dynamic Bone Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
