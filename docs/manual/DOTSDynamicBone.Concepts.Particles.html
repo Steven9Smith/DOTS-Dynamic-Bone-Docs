@@ -77,13 +77,129 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Particles">
-<h1 id="particles">Particles</h1>
+<h1 id="what-is-a-particle">What is a Particle?</h1>
 
-<p><em>Particles</em> are the induvidual components that are modified during the physics simulation.
-<em>Particles</em> can represent different things like bones, segmenta, or divisions within a model.
-During each update, data from the associated bone is used with the particles to perform a physics
-simulation step. After the step is complete all the <em>Particles</em> will be updated with new positions
-and rotations. </p>
+<p><a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> in <strong>DOTS Dynamic Bone</strong> is a data structure that 
+represents a Bone within a model i.e: a Hip, Finger, Hair, or Tail bone. The <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> are updated 
+and modified during the simulation based on the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> and [DOTSDynamicBone](xref:DOTSDynamicBone.
+DOTSDynamicBone) parameters. <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> also can represent different things like  segments, or divisions 
+within a model. During each update, data from the associated <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a> is used to update 
+the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> in an initalization-like step. Afterward, the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> 
+is put through different methods that update its position and rotation based on the input data.</p>
+<h1 id="where-is-a-particle-created">Where is a Particle Created?</h1>
+<p>A <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> is created during the <code>Convert()</code> call in a <em>DOT Dynamic Bone Component</em>. You also 
+have the option to create one yourself using one of the static methods within the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> struct.
+Example #1:</p>
+<pre><code>// This is an example on how to add a particle from a MonoBehaviour.
+// NOTE: DOTS Dynamic Bone systems also require a DOTSDynamicBone or a
+//       DOTSDynamicBone_BufferElement to be present as well otherwise,
+//       the particle&#39;s data won&#39;t be processed or updated.
+public class CreateParticleComponent : MonoBehaviour, IConvertGameObjectToEntity{
+
+    public Transform TailBone;
+    // Optional boolean value
+    public bool m_ExcludeParticleFromCalculations = false;
+    // Optional boolean value
+    public bool m_ExcludeParticleFromCollision = false;
+
+    public void start(){...}
+    public void onValidate(){...}
+
+    /// &lt;summary&gt;
+        /// Sets up the Entity during conversion
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;entity&quot;&gt;The entity the GameObject will be convert to. &lt;/param&gt;
+        /// &lt;param name=&quot;dstManager&quot;&gt;The provided Entitymanager for conversion. &lt;/param&gt;
+        /// &lt;param name=&quot;conversionSystem&quot;&gt;The provided GameObjectConversionSystem for conversion. &lt;/param&gt;
+        public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem){
+
+            DynamicBuffer&lt;Particle&gt; m_Particles = dstManager.AddBuffer&lt;Particle&gt;(entity);
+
+            m_Particles.Add(
+                Particle.Create(
+                    m_ConversionSystem,
+                    TailBone,
+                    m_ExcludeParticleFromCalculations,
+                    m_ExcludeFromCollision
+                )
+            );
+        }
+
+}
+</code></pre><p>Example #2</p>
+<pre><code>// this is an example on how to add a particle if you alread have the Particle&#39;s Entity but did not add it to an Entity with
+// either a DOTSDynamicBone or a DOTSDynamicBone_BufferElement
+    ...
+    DynamicBuffer&lt;Particle&gt; m_Particles = GetBufferFromEntity&lt;Particle&gt;(DOTSDynamicBoneEntity);
+
+    m_Particles.Add(
+        Particle.Create(
+            m_ParticleEnity,
+            new ParticleTransform(
+                position,
+                localPosition,
+                rotation,
+                localRotation,
+                localScale,
+                lossyScale, 
+                childCount
+            )
+        )
+    );
+    ...
+</code></pre><p>Please <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Check Out the Particle Scripting Api Page</a> for more information on the <code>Create</code> method.</p>
+<h1 id="can-i-modify-a-particle">Can I Modify a Particle?</h1>
+<p>Yes, you can modify <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> during runtime by modifying the <code>DynamicBuffer</code>!
+Here&#39;s an example on how to modify a <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a>:</p>
+<pre><code>    ...
+    DynamicBuffer&lt;Particle&gt; m_Particles = GetBufferFromEntity&lt;Particle&gt;(DOTSDynamicBoneEntity);
+
+    int lastParticleIndex = m_Particles.Length-1;
+
+    Particle particle = m_Particles[lastParticleIndex];
+    // now we modify the particles properties here.
+    // some properties like disable and exclude require special functions to deal with.
+    // this is because positions and rotations still need to be calculated otherwise other 
+    // particles may not look right and may experience &quot;much jank&quot;. 
+
+    // when you call Disable(), the last values of m_Stiffness, m_Inert,
+    // m_Damping, m_Friction, and m_Elasticity are stored in the Particle struct. Then 
+    // when you call Enable() those stored values are restored.
+    particle.Disable();
+
+    particle.m_Radius *= 2; //multiply Particle radius by 2 
+
+     // it&#39;s important to set the value of the buffer otherwise the changes won&#39;t take effect!
+    m_Particles[i] = particle;
+    ...
+</code></pre><h1 id="particle-property-overview">Particle Property Overview</h1>
+<p>Here I will go over some important properties of <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a>. NOTE: Any properties not covered
+can be found <a class="xref" href="../api/DOTSDynamicBone.Particle.html">here</a>. </p>
+<h2 id="entity-mtransformentity">Entity m_TransformEntity</h2>
+<p>m_TransformEntity is the Entity the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> is associated with. This is a required field 
+during initialization and is recommended you don&#39;t modify this after initialization unless you know what you were doing.
+However, this field is required when your desired RigComponentEntity has the 
+<a href="xref:DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag">DOTSDynamicBoneParticleLocalToWorldOverride_Tag</a>.</p>
+<h2 id="particletransform-mtransform">ParticleTransform m_Transform</h2>
+<p>m_Transform is a <a class="xref" href="../api/DOTSDynamicBone.ParticleTransform.html">ParticleTransform</a> that represents the 
+<a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle&#39;s</a> transform component. since the <code>RigidTransform</code> didn&#39;t come with localPosition,
+ local Rotation, localScale, and lossyScale, I made <a href="xref:ParticleTransform">ParticleTransform</a>. the transform is a public struct
+ so you can create/initialize a <a href="xref:ParticleTransform">ParticleTransform</a> at any time.</p>
+<h2 id="animatedlocaltorootindex">AnimatedLocalToRootIndex</h2>
+<p>AnimatedLocalToRootIndex is an <code>int</code> that represents the index in the <code>DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt;</code>
+that is attached to the <strong>RigComponentEntity</strong>.</p>
+<h2 id="mparentindex">m_ParentIndex</h2>
+<p>m_ParentIndex is the index of the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle&#39;s</a> parent within the 
+<code>DynamicBuffer&lt;Particle&gt;</code> buffer. If the m_ParentIndex is <code>-1</code> then it is classified as a <em>Root</em>
+Bone/Particle.</p>
+<h2 id="mradius">m_Radius</h2>
+<p>m_Radius is the collision radius of a <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> that is used for the 
+ <a class="xref" href="DOTSDynamicBone.Concepts.Collisions.PresetCollisions.html">Preset Collision</a> collision system. </p>
+<h2 id="mbonelength">m_BoneLength</h2>
+<p>the length of this <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> in relation to the associated Bone&#39;s total bone length.</p>
+<h2 id="collider">collider</h2>
+<p>This is the Unity.Physics.PhysicCollider associated with the m_TransformEntity. If you are not using the Natural Colllision System
+then this value will be null.</p>
 </article>
           </div>
           

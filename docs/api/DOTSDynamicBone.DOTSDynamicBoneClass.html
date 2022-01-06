@@ -101,6 +101,18 @@ public class DOTSDynamicBoneClass</code></pre>
   <h5 id="DOTSDynamicBone_DOTSDynamicBoneClass_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This holds and displays all the data needs to modify to create the DOTSDynamicBone data</p>
 </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass__ctor_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.#ctor*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass__ctor" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.#ctor">DOTSDynamicBoneClass()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTSDynamicBoneClass()</code></pre>
+  </div>
   <h3 id="fields">Fields
   </h3>
   
@@ -130,6 +142,30 @@ public class DOTSDynamicBoneClass</code></pre>
   </table>
   
   
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_m_BoneTotalLength" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength">m_BoneTotalLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_BoneTotalLength</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_m_Colliders" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.m_Colliders">m_Colliders</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -147,7 +183,7 @@ public class DOTSDynamicBoneClass</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">DOTSDynamicBoneCollider</span>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html">DOTSDynamicBoneCollider</a>&gt;</td>
         <td><p>Collider objects interact with the bones.</p>
 </td>
       </tr>
@@ -223,7 +259,7 @@ public class DOTSDynamicBoneClass</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td><p>distnace the Entity has to be from the re</p>
+        <td><p>distnace the Entity has to be from the referenced Entity</p>
 </td>
       </tr>
     </tbody>
@@ -360,7 +396,7 @@ public class DOTSDynamicBoneClass</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Transform&gt; m_Exclusions</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;ExcludeEntityFromSimulation&gt; m_Exclusions</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -372,7 +408,7 @@ public class DOTSDynamicBoneClass</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Transform</span>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DOTSDynamicBone.ExcludeEntityFromSimulation.html">ExcludeEntityFromSimulation</a>&gt;</td>
         <td><p>Bones excluded from physics simulation.</p>
 </td>
       </tr>
@@ -705,6 +741,31 @@ public class DOTSDynamicBoneClass</code></pre>
   </table>
   
   
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_m_UpdateDataFrom" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom">m_UpdateDataFrom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTSDynamicBoneClass.UpdateDataFrom m_UpdateDataFrom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.html">DOTSDynamicBoneClass.UpdateDataFrom</a></td>
+        <td><p>An option to choose where the data updates from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_m_UpdateMode" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateMode">m_UpdateMode</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -750,6 +811,30 @@ public class DOTSDynamicBoneClass</code></pre>
         <td><span class="xref">System.Single</span></td>
         <td><p>Internal physics simulation rate.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_m_Weight" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight">m_Weight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_Weight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -830,6 +915,56 @@ public class DOTSDynamicBoneClass</code></pre>
   </table>
   
   
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_UpdateRotationTransforms" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms">UpdateRotationTransforms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateRotationTransforms</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Set to true to update the Rotation of the Particle&apos;s Corresponding Entity</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_UpdateTranslationTransforms" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms">UpdateTranslationTransforms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateTranslationTransforms</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Set to true to update the Translation of the Particle&apos;s Corresponding Entity</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_UseAnimatedLocalToRoot" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot">UseAnimatedLocalToRoot</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -853,8 +988,268 @@ public class DOTSDynamicBoneClass</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_UseNaturalColliders" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders">UseNaturalColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseNaturalColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Set this to true to use enable DOTS PhysicCollider collisions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneCalculationCulling_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneCalculationCulling_EntityManager_Entity_DOTSDynamicBone_DOTSDynamicBone__Entity_System_Single_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)">AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone, Entity, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddDOTSDynamicBoneCalculationCulling(EntityManager em, Entity e, ref DOTSDynamicBone bone, Entity reference_entity, float distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityManager</span></td>
+        <td><span class="parametername">em</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></td>
+        <td><span class="parametername">bone</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">reference_entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneColliderComponentsToEntity_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneColliderComponentsToEntity_EntityManager_Entity_System_Boolean_System_Boolean_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)">AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>adds some DynamicBoneColliderComponents to the given entity</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager em, Entity e, bool useNaturalColliders, bool excludePhysics)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityManager</span></td>
+        <td><span class="parametername">em</span></td>
+        <td><p>EntityManager</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>Entity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useNaturalColliders</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">excludePhysics</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_EntityManager_Entity_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)">RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDOTSDynamicBoneCalculationCulling(EntityManager em, Entity e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityManager</span></td>
+        <td><span class="parametername">em</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_EntityManager_Entity_DOTSDynamicBone_DOTSDynamicBone__" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)">RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDOTSDynamicBoneCalculationCulling(EntityManager em, Entity e, ref DOTSDynamicBone bone)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityManager</span></td>
+        <td><span class="parametername">em</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></td>
+        <td><span class="parametername">bone</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity_EntityManager_Entity_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)">RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager em, Entity e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EntityManager</span></td>
+        <td><span class="parametername">em</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBoneClass_SetDOTSDynamicBoneCalculationCulling_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBoneClass_SetDOTSDynamicBoneCalculationCulling_DOTSDynamicBone_DOTSDynamicBone__Entity_System_Single_System_Boolean_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)">SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone, Entity, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone bone, Entity reference_entity, float distance, bool ActivateCulling = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></td>
+        <td><span class="parametername">bone</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Entity</span></td>
+        <td><span class="parametername">reference_entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ActivateCulling</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DOTSDynamicBone_DOTSDynamicBoneClass_ToDOTSDynamicBone_" data-uid="DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone*"></a>

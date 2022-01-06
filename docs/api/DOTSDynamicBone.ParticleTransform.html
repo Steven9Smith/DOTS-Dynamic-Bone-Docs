@@ -105,13 +105,13 @@ public struct ParticleTransform : IComponentData</code></pre>
   
   
   <a id="DOTSDynamicBone_ParticleTransform__ctor_" data-uid="DOTSDynamicBone.ParticleTransform.#ctor*"></a>
-  <h4 id="DOTSDynamicBone_ParticleTransform__ctor_float3_float3_quaternion_quaternion_float3_System_Single_System_Int32_" data-uid="DOTSDynamicBone.ParticleTransform.#ctor(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)">ParticleTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)</h4>
+  <h4 id="DOTSDynamicBone_ParticleTransform__ctor_float3_float3_quaternion_quaternion_float3_float3_System_Int32_" data-uid="DOTSDynamicBone.ParticleTransform.#ctor(float3,float3,quaternion,quaternion,float3,float3,System.Int32)">ParticleTransform(float3, float3, quaternion, quaternion, float3, float3, Int32)</h4>
   <div class="markdown level1 summary"><p>creates a new ParticleTransform using the given arguments</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ParticleTransform(float3 position, float3 localPosition, quaternion rotation, quaternion localRotation, float3 localScale, float lossyScale, int childCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public ParticleTransform(float3 position, float3 localPosition, quaternion rotation, quaternion localRotation, float3 localScale, float3 lossyScale, int childCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -154,7 +154,7 @@ public struct ParticleTransform : IComponentData</code></pre>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">float3</span></td>
         <td><span class="parametername">lossyScale</span></td>
         <td><p>lossy scale</p>
 </td>
@@ -345,6 +345,30 @@ public struct ParticleTransform : IComponentData</code></pre>
         <td><span class="xref">float3</span></td>
         <td><p>position</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_ParticleTransform_rawLTW" data-uid="DOTSDynamicBone.ParticleTransform.rawLTW">rawLTW</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalToWorld rawLTW</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LocalToWorld</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -575,6 +599,48 @@ public struct ParticleTransform : IComponentData</code></pre>
   </table>
   
   
+  <a id="DOTSDynamicBone_ParticleTransform_ToLocalToWorld_" data-uid="DOTSDynamicBone.ParticleTransform.ToLocalToWorld*"></a>
+  <h4 id="DOTSDynamicBone_ParticleTransform_ToLocalToWorld_System_Boolean_" data-uid="DOTSDynamicBone.ParticleTransform.ToLocalToWorld(System.Boolean)">ToLocalToWorld(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LocalToWorld ToLocalToWorld(bool useOnlyLocalScale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useOnlyLocalScale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LocalToWorld</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DOTSDynamicBone_ParticleTransform_ToTransform_" data-uid="DOTSDynamicBone.ParticleTransform.ToTransform*"></a>
   <h4 id="DOTSDynamicBone_ParticleTransform_ToTransform_DOTSDynamicBone_ParticleTransform_" data-uid="DOTSDynamicBone.ParticleTransform.ToTransform(DOTSDynamicBone.ParticleTransform)">ToTransform(ParticleTransform)</h4>
   <div class="markdown level1 summary"><p>This creates a UnityEngine.Trasform from the PaticleTransform&apos;s data.</p>
@@ -620,13 +686,13 @@ public struct ParticleTransform : IComponentData</code></pre>
   
   
   <a id="DOTSDynamicBone_ParticleTransform_UpdateTransform_" data-uid="DOTSDynamicBone.ParticleTransform.UpdateTransform*"></a>
-  <h4 id="DOTSDynamicBone_ParticleTransform_UpdateTransform_float3_float3_quaternion_quaternion_float3_System_Single_System_Int32_" data-uid="DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)">UpdateTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)</h4>
+  <h4 id="DOTSDynamicBone_ParticleTransform_UpdateTransform_float3_float3_quaternion_quaternion_float3_float3_System_Int32_" data-uid="DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,float3,quaternion,quaternion,float3,float3,System.Int32)">UpdateTransform(float3, float3, quaternion, quaternion, float3, float3, Int32)</h4>
   <div class="markdown level1 summary"><p>Updates the ParticleTransform using the given data</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateTransform(float3 position, float3 localPosition, quaternion rotation, quaternion localRotation, float3 localScale, float lossyScale, int childCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateTransform(float3 position, float3 localPosition, quaternion rotation, quaternion localRotation, float3 localScale, float3 lossyScale, int childCount = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -669,7 +735,7 @@ public struct ParticleTransform : IComponentData</code></pre>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">float3</span></td>
         <td><span class="parametername">lossyScale</span></td>
         <td><p>lossy scale</p>
 </td>
@@ -713,6 +779,35 @@ public struct ParticleTransform : IComponentData</code></pre>
         <td><span class="xref">quaternion</span></td>
         <td><span class="parametername">rotation</span></td>
         <td><p>rotation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_ParticleTransform_UpdateTransform_" data-uid="DOTSDynamicBone.ParticleTransform.UpdateTransform*"></a>
+  <h4 id="DOTSDynamicBone_ParticleTransform_UpdateTransform_LocalToWorld_" data-uid="DOTSDynamicBone.ParticleTransform.UpdateTransform(LocalToWorld)">UpdateTransform(LocalToWorld)</h4>
+  <div class="markdown level1 summary"><p>Updates the ParticleTransform using the given data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateTransform(LocalToWorld ltw)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LocalToWorld</span></td>
+        <td><span class="parametername">ltw</span></td>
+        <td><p>LocalToWorld</p>
 </td>
       </tr>
     </tbody>

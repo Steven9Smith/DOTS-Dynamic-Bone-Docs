@@ -130,6 +130,31 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
   </table>
   
   
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_m_BoneTotalLength" data-uid="DOTSDynamicBone.DOTSDynamicBone.m_BoneTotalLength">m_BoneTotalLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float m_BoneTotalLength</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>total length of the bone</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DOTSDynamicBone_DOTSDynamicBone_m_Core" data-uid="DOTSDynamicBone.DOTSDynamicBone.m_Core">m_Core</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -148,7 +173,7 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="DOTSDynamicBone.ParticleTransform.html">ParticleTransform</a></td>
-        <td><p>This is a ParticleTransform that stores the data related to the m_RootEntity Transform</p>
+        <td><p>This is a ParticleTransform that stores the data related to the m_RigComponentEntity Transform</p>
 </td>
       </tr>
     </tbody>
@@ -730,6 +755,31 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
   </table>
   
   
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_m_UpdateDataFrom" data-uid="DOTSDynamicBone.DOTSDynamicBone.m_UpdateDataFrom">m_UpdateDataFrom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOTSDynamicBoneClass.UpdateDataFrom m_UpdateDataFrom</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.html">DOTSDynamicBoneClass.UpdateDataFrom</a></td>
+        <td><p>An option to choose where the data updates from. This was implemented </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DOTSDynamicBone_DOTSDynamicBone_m_UpdateMode" data-uid="DOTSDynamicBone.DOTSDynamicBone.m_UpdateMode">m_UpdateMode</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -830,6 +880,56 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
   </table>
   
   
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_UpdateRotationTransforms" data-uid="DOTSDynamicBone.DOTSDynamicBone.UpdateRotationTransforms">UpdateRotationTransforms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateRotationTransforms</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>this lets you know if the bone has given the  DOTSDynamicBoneParticleLocalToWorldOverride_Tag tag. It currently has no other use but will be given one later</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_UpdateTranslationTransforms" data-uid="DOTSDynamicBone.DOTSDynamicBone.UpdateTranslationTransforms">UpdateTranslationTransforms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateTranslationTransforms</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>this lets you know if the bone has given the  DOTSDynamicBoneParticleLocalToWorldOverride_Tag tag. It currently has no other use but will be given one later</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DOTSDynamicBone_DOTSDynamicBone_UseAnimatedLocalToRoot" data-uid="DOTSDynamicBone.DOTSDynamicBone.UseAnimatedLocalToRoot">UseAnimatedLocalToRoot</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -850,6 +950,30 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>set this to true to have all calculated values be converted into AnimatedLocalToRootValues (required for it to not look weird, but disable it if you want, it&apos;s your game)</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_UseNaturalColliders" data-uid="DOTSDynamicBone.DOTSDynamicBone.UseNaturalColliders">UseNaturalColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseNaturalColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -926,13 +1050,14 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
   </table>
   
   
-  <a id="DOTSDynamicBone_DOTSDynamicBone_Create_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Create*"></a>
-  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Create_GameObjectConversionSystem_RigComponent_Transform_System_Boolean_System_Boolean_Transform_System_Single_DOTSDynamicBone_DOTSDynamicBone_UpdateMode_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_float3_float3_float3_DOTSDynamicBone_DOTSDynamicBone_FreezeAxis_System_Boolean_System_Single_float3_float3_float3_System_Single_System_Single_System_Single_System_Single_System_Boolean_System_Single_System_Boolean_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Create(GameObjectConversionSystem,RigComponent,Transform,System.Boolean,System.Boolean,Transform,System.Single,DOTSDynamicBone.DOTSDynamicBone.UpdateMode,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,float3,float3,float3,DOTSDynamicBone.DOTSDynamicBone.FreezeAxis,System.Boolean,System.Single,float3,float3,float3,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Single,System.Boolean)">Create(GameObjectConversionSystem, RigComponent, Transform, Boolean, Boolean, Transform, Single, DOTSDynamicBone.UpdateMode, Single, Single, Single, Single, Single, Single, Single, float3, float3, float3, DOTSDynamicBone.FreezeAxis, Boolean, Single, float3, float3, float3, Single, Single, Single, Single, Boolean, Single, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="DOTSDynamicBone_DOTSDynamicBone_Disable_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Disable_DOTSDynamicBone_Particle____System_Int32_System_Int32_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable(DOTSDynamicBone.Particle[]@,System.Int32,System.Int32)">Disable(ref Particle[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Disables the bone and all the given Particles. (NOTE: the particles should be associated with the bones)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DOTSDynamicBone Create(GameObjectConversionSystem m_ConversionSystem, RigComponent RigComponent, Transform Root, bool useAnimatedLocalToRoot, bool updateLocalToWorld, Transform referencedObject = null, float updateRate = 60F, DOTSDynamicBone.UpdateMode updateMode = DOTSDynamicBone.UpdateMode.Default, float damping = 0.1F, float elasticity = 0.1F, float stiffness = 0.1F, float inert = 0F, float friction = 0F, float radius = 0F, float endLength = 0F, float3 endOffset = null, float3 gravity = null, float3 force = null, DOTSDynamicBone.FreezeAxis freezeAxis = DOTSDynamicBone.FreezeAxis.None, bool distantDisable = false, float distanceToObject = 20F, float3 localGravity = null, float3 objectMove = null, float3 objectPrevPosition = null, float boneTotalLength = 0F, float objectScale = 1F, float time = 0F, float weight = 1F, bool distantDisabled = false, float maxRestLength = 0.2F, bool disabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Disable(ref Particle[] m_Particles, int start, int end)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -945,188 +1070,33 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObjectConversionSystem</span></td>
-        <td><span class="parametername">m_ConversionSystem</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">RigComponent</span></td>
-        <td><span class="parametername">RigComponent</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">Root</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">useAnimatedLocalToRoot</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">updateLocalToWorld</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">referencedObject</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">updateRate</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBone.UpdateMode.html">DOTSDynamicBone.UpdateMode</a></td>
-        <td><span class="parametername">updateMode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">damping</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">elasticity</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">stiffness</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">inert</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">friction</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">radius</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">endLength</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float3</span></td>
-        <td><span class="parametername">endOffset</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float3</span></td>
-        <td><span class="parametername">gravity</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float3</span></td>
-        <td><span class="parametername">force</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.html">DOTSDynamicBone.FreezeAxis</a></td>
-        <td><span class="parametername">freezeAxis</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">distantDisable</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">distanceToObject</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float3</span></td>
-        <td><span class="parametername">localGravity</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float3</span></td>
-        <td><span class="parametername">objectMove</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">float3</span></td>
-        <td><span class="parametername">objectPrevPosition</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">boneTotalLength</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">objectScale</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">time</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">weight</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">distantDisabled</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">maxRestLength</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disabled</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></td>
-        <td><p>V0.8.2.1 Creates a DOTSDynamicBone using the given information</p>
+        <td><a class="xref" href="DOTSDynamicBone.Particle.html">Particle</a>[]</td>
+        <td><span class="parametername">m_Particles</span></td>
+        <td><p>particles to be disabled</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="DOTSDynamicBone_DOTSDynamicBone_Disable_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable*"></a>
-  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Disable_DynamicBuffer_DOTSDynamicBone_Particle___" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable(DynamicBuffer{DOTSDynamicBone.Particle}@)">Disable(ref DynamicBuffer&lt;Particle&gt;)</h4>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Disable_DynamicBuffer_DOTSDynamicBone_Particle___System_Int32_System_Int32_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable(DynamicBuffer{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)">Disable(ref DynamicBuffer&lt;Particle&gt;, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Disables the bone and all the given Particles. (NOTE: the particles should be associated with the bones)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Disable(ref DynamicBuffer&lt;Particle&gt; m_Particles)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Disable(ref DynamicBuffer&lt;Particle&gt; m_Particles, int start, int end)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1144,18 +1114,106 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
         <td><p>particles to be disabled</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBone_Disable_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Disable_List_DOTSDynamicBone_Particle___System_Int32_System_Int32_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Disable(List{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)">Disable(ref List&lt;Particle&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Disables the bone and all the given Particles. (NOTE: the particles should be associated with the bones)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disable(ref List&lt;Particle&gt; m_Particles, int start, int end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DOTSDynamicBone.Particle.html">Particle</a>&gt;</td>
+        <td><span class="parametername">m_Particles</span></td>
+        <td><p>particles to be disabled</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
   
   <a id="DOTSDynamicBone_DOTSDynamicBone_Enable_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable*"></a>
-  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Enable_DynamicBuffer_DOTSDynamicBone_Particle___" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable(DynamicBuffer{DOTSDynamicBone.Particle}@)">Enable(ref DynamicBuffer&lt;Particle&gt;)</h4>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Enable_DOTSDynamicBone_Particle____System_Int32_System_Int32_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable(DOTSDynamicBone.Particle[]@,System.Int32,System.Int32)">Enable(ref Particle[], Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Enables the bone and all the given Particles. (NOTE: the particles should be associated with the bones)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Enable(ref DynamicBuffer&lt;Particle&gt; m_Particles)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Enable(ref Particle[] m_Particles, int start, int end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DOTSDynamicBone.Particle.html">Particle</a>[]</td>
+        <td><span class="parametername">m_Particles</span></td>
+        <td><p>particles to be enabled</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_DOTSDynamicBone_Enable_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Enable_DynamicBuffer_DOTSDynamicBone_Particle___System_Int32_System_Int32_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable(DynamicBuffer{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)">Enable(ref DynamicBuffer&lt;Particle&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Enables the bone and all the given Particles. (NOTE: the particles should be associated with the bones)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable(ref DynamicBuffer&lt;Particle&gt; m_Particles, int start, int end)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1173,29 +1231,53 @@ public struct DOTSDynamicBone : IComponentData</code></pre>
         <td><p>particles to be enabled</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
   
-  <a id="DOTSDynamicBone_DOTSDynamicBone_GetWeight_" data-uid="DOTSDynamicBone.DOTSDynamicBone.GetWeight*"></a>
-  <h4 id="DOTSDynamicBone_DOTSDynamicBone_GetWeight" data-uid="DOTSDynamicBone.DOTSDynamicBone.GetWeight">GetWeight()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="DOTSDynamicBone_DOTSDynamicBone_Enable_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable*"></a>
+  <h4 id="DOTSDynamicBone_DOTSDynamicBone_Enable_List_DOTSDynamicBone_Particle___System_Int32_System_Int32_" data-uid="DOTSDynamicBone.DOTSDynamicBone.Enable(List{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)">Enable(ref List&lt;Particle&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Enables the bone and all the given Particles. (NOTE: the particles should be associated with the bones)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GetWeight()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Enable(ref List&lt;Particle&gt; m_Particles, int start, int end)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="DOTSDynamicBone.Particle.html">Particle</a>&gt;</td>
+        <td><span class="parametername">m_Particles</span></td>
+        <td><p>particles to be enabled</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">end</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Systems | DOTS Dynamic Bone </title>
+    <title>Tups | DOTS Dynamic Bone </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Systems | DOTS Dynamic Bone ">
+    <meta name="title" content="Tups | DOTS Dynamic Bone ">
     <meta name="generator" content="docfx 2.58.5.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -76,38 +76,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Systems">
-<h1 id="systems">Systems</h1>
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Collision.Tips">
+<h1 id="tips">Tips</h1>
 
-<p>DOTS Dynamic Bone contains 5 systems with each having a specific role and sepcfic execution location(Check the Systems tab for more information):</p>
-<p><em>NOTE: this list is ordered by when the system&#39;s Update call is executed</em></p>
+<p>Due to how Unity&#39;s Physic System works I wanted to give you some tips on how to get the desired result with 
+<strong>DOTS Dynamic Bone</strong>. </p>
+<h2 id="how-do-use-collisions-without-the-collisions-affecting-my-entity">How do Use collisions without the collisions affecting my Entity?</h2>
+<p>Add the PhysicsExclude Component to your GameObject or Entity. This allows your entity to have Unity&#39;s Physics-realted
+data without having it partake in Unity&#39;s Physics simulation. </p>
+<h2 id="i-checked-the-box-use-natural-colliders-but-collisions-are-not-working">I checked the box &quot;Use Natural Colliders&quot; but collisions are not working?</h2>
+<p>Perform these checks when trying to setup collision:</p>
 <ul>
-<li>DOTSDynamicBoneTransformOverrideSystem</li>
-<li>DOTSDynamicBoneCullingSystem</li>
-<li>DOTSDynamicBonePresetPhysicsCollisionSystem</li>
-<li>DOTSDynamicBoneNaturalCollisionSystem</li>
-<li>DOTSDynamicBoneUpdateSystem</li>
+<li>did you add a physics collider to the desired Gameobject/Entity?</li>
+<li>are the collision filters preventing the physic colliders from contacting each other?</li>
+<li>did you check the Override Trasnform options?</li>
 </ul>
-<h1 id="dotsdynamicbonetransformoverridesystem">DOTSDynamicBoneTransformOverrideSystem</h1>
-<p>The <strong>DOTSDynamicBoneTransformOverrideSystem</strong> is responsible for updating/overriding either the LocalToWorld, Translation, or Rotation ComponentData of an override&#39;s <code>Entity</code>. This
-system updates the <code>Entity</code> before the Build Physics World system which means that this system executes before collisions are performed globally. </p>
-<p>NOTE: a neat little consequence of this is that when overriding Transforms with DOTSDynamicBone and PhysicsJoints, by modifying the Translation and Rotation of the <code>Entity</code> you subsequently move the
-PhysicsJoint which is turn moves the <code>Unity.Physics.PhysicCollider</code>. This makes it so you can move <code>Unity.Physics.PhysicColliders</code> using <strong>DOTS Dynamic Bone</strong> and since <strong>DOTS Dynamic Bone</strong> works with
-<em>Unity DOTS Animation</em> then your DOTS Animations can move the <code>Unity.Physics.PhysicCollider</code> as well. pretty neat.</p>
-<h1 id="dotsdynamicbonecullingsystem">DOTSDynamicBoneCullingSystem</h1>
-<p>The <strong>DOTSDynamicBoneCullingSystem</strong> is responsible for performing culling checks. Each <strong>DOTS Dynamic Bone</strong> has culling data in it that makes it so if you exceed a distance from an Entity &quot;Like a Player&quot; then the <em>DOT Dynmaic Bone</em>
-calculations are no longer done on the <em>Dynamic Bone Entity</em>. Culling is great for instances where you want to save some computation time by not performing caculations on entities ourside a Players view.</p>
-<h1 id="dotsdynamicbonepresetphysicscollisionsystem">DOTSDynamicBonePresetPhysicsCollisionSystem</h1>
-<p>The <strong>DOTSDynamicBonePresetPhysicsCollisionSystem</strong> is responsible for updating <strong>DOTS Dynamic Bone</strong> Entities with Preset collisions. </p>
-<h1 id="dotsdynamicbonenaturalphysicscollisionsystem">DOTSDYnamicBoneNaturalPhysicsCollisionSystem</h1>
-<p>The <strong>DOTSDYnamicBoneNaturalPhysicsCollisionSystem</strong> is responsible for updating <strong>DOTS Dynamic Bone</strong> Entities that use Natural DOTS Collision. </p>
-<h1 id="dotsdynamicboneupdatesystem">DOTSDynamicBoneUpdateSystem</h1>
-<p>The <strong>DOTSDynamicBoneUpdateSystem</strong> is responsible for a few things:</p>
-<ul>
-<li>Updating Non-Collision related <strong>DOTS Dynamic Bone</strong> Entites.</li>
-<li>Updating Entity information with Entities linked to an Independant <strong>DOTS Dynamic Bone</strong> Entity.</li>
-<li>Updating the <code>AnimatedLocalToRoot</code> data.</li>
-</ul>
+<h2 id="can-i-get-the-collision-to-move-with-my-animation">Can I get the collision to move with my animation?</h2>
+<p>Yes, if you use the override options it will move the Entity associated with it which will in turn,
+move the physics collider. NOTE: static and kinematic bodies may not act as expected. Please make sure you
+understand how Unity&#39;s physics system works on these bodies before using them.</p>
+<h2 id="my-entity-keeps-getting-moved-by-other-colliders-when-it-touches-my-dots-dynamic-bone-collider">My Entity keeps getting moved by other colliders when it touches my DOTS Dynamic Bone collider!</h2>
+<p>This is normal behavior. if you only want the <strong>DOTS Dynamic Bone</strong> affected entities to move then I suggest adding
+a <code>PhysicExclude</code> component to it. If this is desired but the effect is too strong, i recommend playing around with the entity&#39;s
+mass. </p>
 </article>
           </div>
           

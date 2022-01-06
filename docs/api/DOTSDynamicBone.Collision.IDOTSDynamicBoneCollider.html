@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DOTSDynamicBoneComponent
+    <title>Interface IDOTSDynamicBoneCollider
    | DOTS Dynamic Bone </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DOTSDynamicBoneComponent
+    <meta name="title" content="Interface IDOTSDynamicBoneCollider
    | DOTS Dynamic Bone ">
     <meta name="generator" content="docfx 2.58.5.0">
     
@@ -78,44 +78,32 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent">
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider">
   
   
-  <h1 id="DOTSDynamicBone_DOTSDynamicBoneComponent" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent" class="text-break">Class DOTSDynamicBoneComponent
+  <h1 id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider" class="text-break">Interface IDOTSDynamicBoneCollider
   </h1>
-  <div class="markdown level0 summary"><p>This is a component that creates a single DOTSDynamicBone onto an Entity. If you want more please use the DOTSDynamicBonesComponent or the IndependantDOTSDynamicBoneComponent</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DOTSDynamicBoneComponent</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IConvertGameObjectToEntity</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DOTSDynamicBone.html">DOTSDynamicBone</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DOTSDynamicBone.Collision.html">DOTSDynamicBone.Collision</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="DOTSDynamicBone_DOTSDynamicBoneComponent_syntax">Syntax</h5>
+  <h5 id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DOTSDynamicBoneComponent : MonoBehaviour, IConvertGameObjectToEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDOTSDynamicBoneCollider : IBufferElementData</code></pre>
   </div>
-  <h5 id="DOTSDynamicBone_DOTSDynamicBoneComponent_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>This is a component that creates a single DOTSDynamicBone onto an Entity. If you want more please use the DOTSDynamicBonesComponent or the IndependantDOTSDynamicBoneComponent</p>
-</div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="DOTSDynamicBone_DOTSDynamicBoneComponent_m_DOTSDynamicBone" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent.m_DOTSDynamicBone">m_DOTSDynamicBone</h4>
+  <a id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Bound_" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound*"></a>
+  <h4 id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Bound" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound">m_Bound</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DOTSDynamicBoneClass m_DOTSDynamicBone</code></pre>
+    <pre><code class="lang-csharp hljs">TransformsExtensions.Bound m_Bound { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -125,8 +113,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DOTSDynamicBone.DOTSDynamicBoneClass.html">DOTSDynamicBoneClass</a></td>
-        <td></td>
+        <td><span class="xref">TransformsExtensions.Bound</span></td>
+        <td><p>Constrain bones to outside bound or inside bound</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Center_" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center*"></a>
+  <h4 id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Center" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center">m_Center</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float3 m_Center { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float3</span></td>
+        <td><p>The center of the sphere or capsule, in the object&apos;s local space.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Direction_" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction*"></a>
+  <h4 id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Direction" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction">m_Direction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TransformsExtensions.Direction m_Direction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TransformsExtensions.Direction</span></td>
+        <td><p>The axis of the capsule&apos;s height.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -134,14 +175,13 @@
   </h3>
   
   
-  <a id="DOTSDynamicBone_DOTSDynamicBoneComponent_Convert_" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent.Convert*"></a>
-  <h4 id="DOTSDynamicBone_DOTSDynamicBoneComponent_Convert_Entity_EntityManager_GameObjectConversionSystem_" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)">Convert(Entity, EntityManager, GameObjectConversionSystem)</h4>
-  <div class="markdown level1 summary"><p>Sets up the Entity during conversion</p>
-</div>
+  <a id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_Collide_" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide*"></a>
+  <h4 id="DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_Collide_float3__System_Single_" data-uid="DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide(float3@,System.Single)">Collide(ref float3, Single)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Collide(ref float3 particlePosition, float particleRadius)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -154,39 +194,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Entity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td><p>The entity the GameObject will be convert to. </p>
-</td>
+        <td><span class="xref">float3</span></td>
+        <td><span class="parametername">particlePosition</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">EntityManager</span></td>
-        <td><span class="parametername">dstManager</span></td>
-        <td><p>The provided Entitymanager for conversion. </p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObjectConversionSystem</span></td>
-        <td><span class="parametername">conversionSystem</span></td>
-        <td><p>The provided GameObjectConversionSystem for conversion. </p>
-</td>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">particleRadius</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="DOTSDynamicBone_DOTSDynamicBoneComponent_Start_" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent.Start*"></a>
-  <h4 id="DOTSDynamicBone_DOTSDynamicBoneComponent_Start" data-uid="DOTSDynamicBone.DOTSDynamicBoneComponent.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IConvertGameObjectToEntity</span>
-  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

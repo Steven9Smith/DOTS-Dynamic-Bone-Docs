@@ -79,34 +79,72 @@
             <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.General">
 <h1 id="general-overview">General Overview</h1>
 
-<p>DOTS Dynamic Bone is broken up into 2 Systems, 7 Jobs, and 3 main components.</p>
+<p>DOTS Dynamic Bone is broken up into 5 Systems, 16 Jobs, and 3 main components.</p>
 <p>The purpose of DOTS Dynamic Bone is to perform physics simulations on components within your model.
 You can use this to perform simulations on cloths, hair, rope, etc. Using the benefits of Unity
-DOTS &amp; ECS, a system was created to perform these calculations efficently with minimal performance
+DOTS, ECS, &amp; Burst, systems were created to perform these calculations efficently with minimal performance
 hits in your Game/Application.</p>
 <h2 id="components">Components</h2>
 <p>DOTS Dynamic Bone contains 3 main component types (See the Components tab for more information:</p>
 <ul>
-<li>Bone</li>
-<li>Particle</li>
-<li>Collider</li>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Bones.html">Bones</a><ul>
+<li><a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">Bone</a></li>
+<li><a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">Multiple Bones</a></li>
+<li><a class="xref" href="../api/DOTSDynamicBone.IndependantDOTSDynamicBone.html">Independant Bone</a></li>
 </ul>
-<p>DOTS Dynamic Bone contains 2 systems (Check the Systems tab for more information):</p>
+</li>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Particles.html">Particles</a></li>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Collisions.html">Colliders</a>:<ul>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Collisions.PresetCollisions.html">Preset Colliders</a></li>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Collisions.NaturalCollisions.html">Natural Colliders</a></li>
+</ul>
+</li>
+</ul>
+<p>DOTS Dynamic Bone contains 5 <a class="xref" href="DOTSDynamicBone.Concepts.Systems.html">systems</a>:</p>
+<p><em>NOTE: this list is ordered by when the system&#39;s Update call is executed</em></p>
 <ul>
-<li>DynamicBoneUpdateSystem</li>
-<li>DynamicBonePhysicsSystem</li>
+<li>DOTSDynamicBoneTransformOverrideSystem</li>
+<li>DOTSDynamicBoneCullingSystem</li>
+<li>DOTSDynamicBonePresetPhysicsCollisionSystem</li>
+<li>DOTSDynamicBoneNaturalCollisionSystem</li>
+<li>DOTSDynamicBoneUpdateSystem</li>
 </ul>
-<p>DOTS Dynamic Bone performs 7 jobs that updates data based on the Components in the Entity. (Check 
-the Jobs tab for more information)
+<p>DOTS Dynamic Bone performs 16 <a class="xref" href="DOTSDynamicBone.Concepts.Jobs.html">jobs</a> that updates data based on the Components in the Entity. 
 These Jobs include:</p>
 <ul>
-<li>DOTSDynamicBone_ParticleLocalToWorldOverride</li>
-<li><a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></li>
-<li>IndependantDOTSDynamicBone</li>
-<li>DOTSDynamicBoneMultiple</li>
-<li>DOTSDynamicBoneMultipleWithColliders</li>
-<li>DOTSDynamicBoneWithColliders</li>
-<li>IndependantDOTSDynamicBoneWithColliders</li>
+<li>System: DOTSDynamicBoneCullingSystem<ul>
+<li>DOTSDynamicBoneCullingUpdateTransformsJob</li>
+<li>DOTSDynamicBoneMultiple   CullingUpdateTransformsJob</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBoneTransformOverrideSystem<ul>
+<li>DOTSDynamicBone_ParticleLocalToWorldOverrideJob</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBonePresetPhysicsCollisionSystem<ul>
+<li>DOTSDynamicBoneWithPresetCollidersJob</li>
+<li>DOTSDynamicBoneMultipleWithPresetCollidersJob</li>
+<li>IndependantDOTSDynamicBoneWithPresetCollidersJob</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBoneNaturalCollisionSystem<ul>
+<li>DOTSDynamicBoneNaturalCollisionUpdateJob</li>
+<li>DOTSDynamicBoneMultipleNaturalCollisionUpdateJob</li>
+<li>IndependantDOTSDynamicBoneNaturalCollisionUpdateJob</li>
+<li>DOTSDynamicBoneIndependantMultipleNaturalCollisionUpdateJob</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBoneUpdateSystem<ul>
+<li>DOTSDynamicBoneUpdateJob</li>
+<li>DOTSDynamicBoneMultipleUpdateJob</li>
+<li>DOTSDynamicBoneCollisionFinishJob</li>
+<li>DOTSDynamicBoneMultipleCollisionFinishJob</li>
+<li>IndependantDOTSDynamicBoneJob</li>
+<li>DOTSDynamicBoneIndependantMultipleJob</li>
+<li>IndependantDOTSDynamicBoneJob</li>
+<li>DOTSDynamicBoneIndependantCollisionFinishSystem</li>
+</ul>
+</li>
 </ul>
 </article>
           </div>

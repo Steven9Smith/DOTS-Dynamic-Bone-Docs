@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Natural Collision | DOTS Dynamic Bone </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Natural Collision | DOTS Dynamic Bone ">
+    <meta name="generator" content="docfx 2.58.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Collisions.NaturalCollisions">
+<h1 id="natural-collisions">Natural Collisions</h1>
+
+<p>In <strong>DOTS Dynamic Bone</strong> <em>Natural</em> collision referes to collisions using Unity&#39;s Unity.Physics package components/data.
+Instead of creating and storing custom data, <strong>DOTS Dynamic Bone</strong> uses the <code>Unity.Physics.PhysicsCollider</code> in its physics 
+calculations. This allows a <strong>DOTS Dynamic Bone</strong> <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> to collide with any other 
+entity that contains a <code>Unity.Physics.PhysicsCollider</code> and the best part is that it is very easy to use.</p>
+<p>In order to use <em>Natural</em> collision just set the <code>Use Natural Colliders</code> setting to true on any 
+<strong>DOTS Dynamic Bone</strong> Component. You can also add <em>Natural</em> collision to an already existing <a class="xref" href="DOTSDynamicBone.Concepts.Bones.html">Bone</a>
+by adding a <code>DOTSDynamicBoneNaturalCollider_Tag</code> to your <em>DOTSDynamicBone</em> <code>Entity</code>. This tag let&#39;s the <em>Natural</em> collision
+system know you want to use it. Also be sure to set UseNaturalColliders on the <strong>DOTS Dynamic Bone</strong> <code>Entity</code>
+to true and to make sure the <code>collider</code> property in the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle&#39;s</a> <code>DynamicBuffer</code>
+is not null. If you only want only some <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> to take part in the collision then you can leave
+the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle&#39;s</a> collider data null which will process the <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a>
+noramlly.</p>
+<p>Here&#39;s an example oh how to add a <strong>DOTS Dynamic Bone</strong> <code>Entity</code> to the <em>Natural</em> collision system:</p>
+<pre><code>
+public class DOTSDynamicBoneAddCollisionSystemExample : SystemBase
+{
+    protected override void OnUpdate()
+    {
+
+        Entities.
+            WithName(&quot;AddBoneToCollisionSystemJob&quot;)
+            .WithoutBurst()
+            .WithAll&lt;DOTSDynamicBone_AddToCollisionSystem_Tag&gt;()
+            .WithNone&lt;DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag&gt;()
+            .ForEach((Entity e,ref DOTSDynamicBone.DOTSDynamicBone boneData,ref DynamicBuffer&lt;DOTSDynamicBone.Particle&gt; particles)=&gt; {
+                // set the UseNaturalColliders property to true
+                boneData.UseNaturalColliders = true;
+
+                // let&#39;s add the Unity.Physics.PhysicsCollider to each respective particle.
+                // let&#39;s also disable collision calculations for every Particle who ith index is divisiable by 2 just because we can. 
+                for(int i = 0; i &lt; particles.Length; i++)
+                {
+                    DOTSDynamicBone.Particle p = particles[i];
+
+                    p.m_ExcludeFromCollision = i % 2 == 0;  // exclude from collision if i mod 2 == 0
+
+                    // if the m_TransformEntity has a PhysicsCollider then set it
+                    unsafe
+                    {
+                        if (HasComponent&lt;Unity.Physics.PhysicsCollider&gt;(p.m_TransformEntity))
+                        {
+                            Unity.Physics.PhysicsCollider col = GetComponent&lt;Unity.Physics.PhysicsCollider&gt;(p.m_TransformEntity);
+
+                            if (col.IsValid &amp;&amp; col.Value.IsCreated)
+                                p.collider = col.ColliderPtr;
+                            else p.collider = null;
+                        }
+                        else p.collider = null;
+                    }
+
+                    particles[i] = p;
+                }
+
+                // these two functions are not Burstable. this addition and removal should be done
+                // elsewhere. This is just an example.
+                EntityManager.AddComponentData(e, new DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag { });
+                EntityManager.RemoveComponent&lt;DOTSDynamicBone_AddToCollisionSystem_Tag&gt;(e);
+
+            })
+            .Run();
+
+    }
+}
+public struct DOTSDynamicBone_AddToCollisionSystem_Tag : IComponentData { }
+public struct DOTSDynamicBone_RemoveFromCollisionSystem_Tag : IComponentData { }
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DOTS Dynamic Bone Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

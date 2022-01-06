@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Preset Collisions | DOTS Dynamic Bone </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Preset Collisions | DOTS Dynamic Bone ">
+    <meta name="generator" content="docfx 2.58.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Collisions.PresetCollisions">
+<h1 id="preset-collisions">Preset Collisions</h1>
+
+<p>In <strong>DOTS Dynamic Bone</strong> the <em>Preset Collision System</em> simpily refers to colliders generated with/within the <a class="xref" href="../api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html">DOTSDynamicBoneCollider</a> Component. 
+The reason for this system is to allow the developer to either define a specific set of Entities to collide with or to collide with simple some simple shape data. When you add the 
+<a class="xref" href="../api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html">DOTSDynamicBoneCollider</a> Component it adds a <code>DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt;</code> which holds the data retaining to your <em>Preset Colliders</em>.
+This data is used everyframe to perform come collision calculations.</p>
+<p>Here&#39;s an example oh how to add a <strong>DOTS Dynamic Bone</strong> <code>Entity</code> to the <em>Preset</em> collision system:</p>
+<pre><code>
+public class DOTSDynamicBoneAddToPresetCollisionSystemExample : SystemBase
+{
+    protected override void OnUpdate()
+    {
+        // Get Collider Entity
+        ...
+        Entity colliderEntity;
+        Unity.Physics.PhysicsCollider otherEntityCollider = GetComponentData&lt;Unity.Physics.PhysicsCollider&gt;(colliderEntity);
+
+        ...
+
+
+        Entities.
+            WithName(&quot;AddBoneToPresetCollisionSystemJob&quot;)
+            .WithoutBurst()
+            .WithAll&lt;DOTSDynamicBone_AddToPresetCollisionSystem_Tag&gt;()
+            .WithNone&lt;DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag&gt;()
+            .WithReadOnly(colliderEntity)
+            .WithReadOnly(otherEntityCollider)
+            .ForEach((Entity e,ref DOTSDynamicBone.DOTSDynamicBone boneData,ref DynamicBuffer&lt;DOTSDynamicBone.Particle&gt; particles)=&gt; {
+                // set the UseNaturalColliders property to true to use the Particle&#39;s PhysicsCollider
+                boneData.UseNaturalColliders = true;
+                // add the buffer. NOTE: this should invalidate the DynamicBuffer&lt;DOTSDynamicBone.Particle&gt; buffer so we have to get it again
+                DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders = AddBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt;(e);
+                particles = GetBuffer&lt;DOTSDynamicBone.Particle&gt;(e);
+
+                //now let&#39;s add a preset collider
+                m_Colliders.add(new DOTSDynamicBoneCollider_BufferElement
+                    {
+                        m_Direction = TransformsExtensions.Direction.Y,
+                        enabled = true,
+                        fallbackToParicleRadiusOnNullPhysicsCollider = true,
+                        entity = colliderEntity,
+                        m_Radius = 0.5f,
+                        boneEntity = e,
+                        transform = new ParticleTransform(), //&lt;- you may want to set this yourself
+                        useUnityPhysicsCollider = true,
+                        useParticlePhysicsCollider = true,
+                        m_Bound = TransformsExtensions.Bound.Outside,
+                        m_Center = new float3(),
+                        persistant = true,
+                        colliderPtr = otherEntityCollider
+                    });
+
+                // let&#39;s add the Unity.Physics.PhysicsCollider to each respective particle.
+                // let&#39;s also disable collision calculations for every Particle who ith index is divisiable by 2 just because we can. 
+                for(int i = 0; i &lt; particles.Length; i++)
+                {
+                    DOTSDynamicBone.Particle p = particles[i];
+
+                    p.m_ExcludeFromCollision = i % 2 == 0;  // exclude from collision if i mod 2 == 0
+
+                    // if the m_TransformEntity has a PhysicsCollider then set it
+                    unsafe
+                    {
+                        if (HasComponent&lt;Unity.Physics.PhysicsCollider&gt;(p.m_TransformEntity))
+                        {
+                            Unity.Physics.PhysicsCollider col = GetComponent&lt;Unity.Physics.PhysicsCollider&gt;(p.m_TransformEntity);
+
+                            if (col.IsValid &amp;&amp; col.Value.IsCreated)
+                                p.collider = col.ColliderPtr;
+                            else p.collider = null;
+                        }
+                        else p.collider = null;
+                    }
+
+                    particles[i] = p;
+                }
+
+                // these two functions are not Burstable. this addition and removal should be done
+                // elsewhere. This is just an example.
+                EntityManager.AddComponentData(e, new DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag { });
+                EntityManager.RemoveComponent&lt;DOTSDynamicBone_AddToCollisionSystem_Tag&gt;(e);
+
+            })
+            .Run();
+
+    }
+}
+public struct DOTSDynamicBone_AddToPresetCollisionSystem_Tag : IComponentData { }
+public struct DOTSDynamicBone_RemoveFromPresetCollisionSystem_Tag : IComponentData { }
+</code></pre><p>[]</p>
+<p>This Component has the data nessacary to perform wither a <em>Natural Collision</em> or a </p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DOTS Dynamic Bone Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Systems | DOTS Dynamic Bone </title>
+    <title>Single Bone | DOTS Dynamic Bone </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Systems | DOTS Dynamic Bone ">
+    <meta name="title" content="Single Bone | DOTS Dynamic Bone ">
     <meta name="generator" content="docfx 2.58.5.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -76,38 +76,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Systems">
-<h1 id="systems">Systems</h1>
+            <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Bones.SingleBone">
+<h1 id="single-bone">Single Bone</h1>
 
-<p>DOTS Dynamic Bone contains 5 systems with each having a specific role and sepcfic execution location(Check the Systems tab for more information):</p>
-<p><em>NOTE: this list is ordered by when the system&#39;s Update call is executed</em></p>
-<ul>
-<li>DOTSDynamicBoneTransformOverrideSystem</li>
-<li>DOTSDynamicBoneCullingSystem</li>
-<li>DOTSDynamicBonePresetPhysicsCollisionSystem</li>
-<li>DOTSDynamicBoneNaturalCollisionSystem</li>
-<li>DOTSDynamicBoneUpdateSystem</li>
-</ul>
-<h1 id="dotsdynamicbonetransformoverridesystem">DOTSDynamicBoneTransformOverrideSystem</h1>
-<p>The <strong>DOTSDynamicBoneTransformOverrideSystem</strong> is responsible for updating/overriding either the LocalToWorld, Translation, or Rotation ComponentData of an override&#39;s <code>Entity</code>. This
-system updates the <code>Entity</code> before the Build Physics World system which means that this system executes before collisions are performed globally. </p>
-<p>NOTE: a neat little consequence of this is that when overriding Transforms with DOTSDynamicBone and PhysicsJoints, by modifying the Translation and Rotation of the <code>Entity</code> you subsequently move the
-PhysicsJoint which is turn moves the <code>Unity.Physics.PhysicCollider</code>. This makes it so you can move <code>Unity.Physics.PhysicColliders</code> using <strong>DOTS Dynamic Bone</strong> and since <strong>DOTS Dynamic Bone</strong> works with
-<em>Unity DOTS Animation</em> then your DOTS Animations can move the <code>Unity.Physics.PhysicCollider</code> as well. pretty neat.</p>
-<h1 id="dotsdynamicbonecullingsystem">DOTSDynamicBoneCullingSystem</h1>
-<p>The <strong>DOTSDynamicBoneCullingSystem</strong> is responsible for performing culling checks. Each <strong>DOTS Dynamic Bone</strong> has culling data in it that makes it so if you exceed a distance from an Entity &quot;Like a Player&quot; then the <em>DOT Dynmaic Bone</em>
-calculations are no longer done on the <em>Dynamic Bone Entity</em>. Culling is great for instances where you want to save some computation time by not performing caculations on entities ourside a Players view.</p>
-<h1 id="dotsdynamicbonepresetphysicscollisionsystem">DOTSDynamicBonePresetPhysicsCollisionSystem</h1>
-<p>The <strong>DOTSDynamicBonePresetPhysicsCollisionSystem</strong> is responsible for updating <strong>DOTS Dynamic Bone</strong> Entities with Preset collisions. </p>
-<h1 id="dotsdynamicbonenaturalphysicscollisionsystem">DOTSDYnamicBoneNaturalPhysicsCollisionSystem</h1>
-<p>The <strong>DOTSDYnamicBoneNaturalPhysicsCollisionSystem</strong> is responsible for updating <strong>DOTS Dynamic Bone</strong> Entities that use Natural DOTS Collision. </p>
-<h1 id="dotsdynamicboneupdatesystem">DOTSDynamicBoneUpdateSystem</h1>
-<p>The <strong>DOTSDynamicBoneUpdateSystem</strong> is responsible for a few things:</p>
-<ul>
-<li>Updating Non-Collision related <strong>DOTS Dynamic Bone</strong> Entites.</li>
-<li>Updating Entity information with Entities linked to an Independant <strong>DOTS Dynamic Bone</strong> Entity.</li>
-<li>Updating the <code>AnimatedLocalToRoot</code> data.</li>
-</ul>
+<p>In <strong>DOTS Dynamic Bone</strong> a <em>Single Bone</em> is associated with entities that contain the <a class="xref" href="../api/DOTSDynamicBone.html">DOTSDynamicBone</a>
+ComponentData. The <a class="xref" href="../api/DOTSDynamicBone.html">DOTSDynamicBone</a> data can be modified at any time. </p>
+<h1 id="general-single-bone-properties">General Single Bone Properties</h1>
+<p>Here I will go over some important properties and tips when working with the <a class="xref" href="../api/DOTSDynamicBone.html">DOTSDynamicBone</a> ComponentData.</p>
+<h3 id="dotsdynamicbone-and-dotsdynamicbonebufferelement-do-not-share-the-same-jobs">DOTSDynamicBone and DOTSDynamicBone_BufferElement do not share the same jobs.</h3>
+<p>since <a class="xref" href="../api/DOTSDynamicBone.html">DOTSDynamicBone</a> represents a single bone, a seperate <code>Job</code> is used for 
+<a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a>. Since 
+<a class="xref" href="../api/DOTSDynamicBone.html">DOTSDynamicBone</a> holds less data than <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a>
+and doesn&#39;t deal with inicies, it is generally faster to deal with. </p>
+<h3 id="usenaturalcolliders">UseNaturalColliders</h3>
+<p>this a <code>bool</code> associated with the <a class="xref" href="DOTSDynamicBone.Concepts.Collisions.NaturalCollisions.html">Natural Collision System</a>.</p>
+<h3 id="useanimatedlocaltoroot">UseAnimatedLocalToRoot</h3>
+<p>this is a <code>bool</code> that tells the <code>DOTSDynamicBoneUpdateSystem</code> whether or not to convert a <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle&#39;s</a>
+ transform data into <code>`Unity.Animation.AnimatedLocalToWorld</code> transform data. If this is false then you will experience &quot;jank&quot; unless
+you are centered in world coordinates. It is <strong>highly recommended</strong> you always set this to true. However, I leave the choice up to you.</p>
+<h3 id="updatelocaltoworldtransforms-updatetranslationtransforms-updaterotationtransforms">UpdateLocalToWorldTransforms, UpdateTranslationTransforms, UpdateRotationTransforms</h3>
+<p>These 3 <code>bool</code> values, when one of them is set to true, will add an transform override ComponentData to the <em>RigComponentEntity</em>.
+See <a href="xref:DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag">DOTSDynamicBoneParticleLocalToWorldOverride_Tag</a> for more information.</p>
+<h3 id="mrootentity">m_RootEntity</h3>
+<p>This is the the Entity associated with the root particle. this value should match the value of the m_TransformEntity of the first 
+<a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particle</a> in the <code>DynamicBuffer</code>. </p>
+<h3 id="mreferenceobjectentity-mreferenceobject-and-mdistancetoobject">m_ReferenceObjectEntity, m_ReferenceObject, and m_DistanceToObject</h3>
+<p>This data is used with the DOTSDynamicBoneCullingSystem. The m_ReferenceObjectEntity is the Entity used to the distance comparison.
+The m_ReferenceObject is the m_ReferenceObjectEntity&#39;s transform data. and the m_DistanceToObject is the max distance the <em>RigComponentEntity</em>
+and the m_ReferenceObjectEntity must be before the Bone is disabled. This data can be changed at anytime but in order for the
+DOTSDynamicBoneCullingSystem to pick it up, you must have the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBoneCulling_Tag.html">DOTSDynamicBoneCulling_Tag</a>
+ added to <code>Entity</code> as well.</p>
+<p>Any other not mentioned should be looked at <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">here</a></p>
 </article>
           </div>
           

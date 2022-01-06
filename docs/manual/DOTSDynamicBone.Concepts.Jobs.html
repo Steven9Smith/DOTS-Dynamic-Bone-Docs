@@ -79,167 +79,221 @@
             <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Jobs">
 <h1 id="jobs">Jobs</h1>
 
-<p>DOTS Dynamic Bone currently runs 7 total jobs. These jobs include:</p>
+<p>DOTS Dynamic Bone performs 18 jobs that updates data based on the Components in the Entity.
+These Jobs include:</p>
 <ul>
-<li>DOTSDynamicBone_ParticleLocalToWorldOverride</li>
-<li><a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a></li>
-<li>IndependantDOTSDynamicBone</li>
-<li>DOTSDynamicBoneMultiple</li>
-<li>DOTSDynamicBoneMultipleWithColliders</li>
-<li>DOTSDynamicBoneWithColliders</li>
-<li>IndependantDOTSDynamicBoneWithColliders</li>
+<li>System: DOTSDynamicBoneCullingSystem<ul>
+<li>DOTSDynamicBoneCullingUpdateTransformsJob</li>
+<li>DOTSDynamicBoneMultipleCullingUpdateTransformsJob</li>
 </ul>
-<p>The reason for this is because each job&#39;s performance is maximized for the specific job they do. 
-For example, the IndependatDOTSDynamicBone job speciically only affects entities who has a tag of
-IndependatDOTSDynamicBone_Tag. Now you may be wondering, &quot;What&#39;s the point of Jobs like
-DOTSDynamicBones if I can have multiple IndependantDOTSDynamicBones that do the same thing?&quot;. The
-simple answer for this is data access time. IndependantDOTSDynamicBone relies on updating some of
-its data using the <strong>ComponentDataFromEntity</strong> call. Though 10 or 100 calls may not be noticable,
-it&#39;s important to consider the cases with <em>n</em> calls. comapring the extra <em>n</em> calls of 
-IndependantDOTSDynamicBone compared to the 0 calls (the data is already there) of DOTSDynamicBoneMultiple
-made it worth the effort of creating a specific Job for each. Of course, this only applies if your adding 
-multiple bones to the same Entity.
- <em>remember you should only use DOTSDynamicBonesComponent on the Entity you want multiple bones to be added to</em></p>
-<p>Now to go over the different jobs and thier specific roles <em>Note: they all perform updates to the DynamicBuffer<particle> expect DOTSDynamicBone_ParticleLocalToWorldOverride</particle></em></p>
-<h1 id="dotsdynamicbone-job">DOTSDynamicBone Job</h1>
-<p>This Job updates all entities matching the below criteria.</p>
-<pre><code class="lang-csharp">Entities
-    .WithName(&quot;DOTSDynamicBone&quot;)
-    .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()//&lt;- notice we don&#39;t want colliders here to reduce checks, calls, and buffer allocation
-    .WithBurst()
-    .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
-        ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr, in LocalToWorld coreLTW,
-        in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
-    {
-        ...
-    })
-    .ScheduleParallel();
-</code></pre><h1 id="dotsdynamicbonemultiple-job">DOTSDynamicBoneMultiple Job</h1>
-<p>This Job updates all entities matching the below criteria.</p>
-<pre><code class="lang-csharp">Entities
-    .WithName(&quot;DOTSDynamicBoneMultiple&quot;)
-    .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;() //&lt;- notice we don&#39;t want colliders here to reduce checks, calls, and buffer allocation
-    .WithBurst()
-    .ForEach((ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones,
-        ref DynamicBuffer&lt;Particle&gt; particles,
-        ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
-        ref LocalToWorld coreLTW,
-        in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
-    {
-        ...
-    })
-    .ScheduleParallel();
-</code></pre><h1 id="independantdotsdynamicbone-job">IndependantDOTSDynamicBone Job</h1>
-<p>This Job updates all entities matching the below criteria.</p>
-<pre><code class="lang-csharp">
-    var GetLTW = GetComponentDataFromEntity&lt;LocalToWorld&gt;();
-        var GetAnimatedLocalToWorld = GetBufferFromEntity&lt;Unity.Animation.AnimatedLocalToWorld&gt;(true);
-        var GetAnimatedLocalToRoot = GetBufferFromEntity&lt;Unity.Animation.AnimatedLocalToRoot&gt;();
-
-
-    Entities
-        .WithName(&quot;IndependantDOTSDynamicBone&quot;)
-        .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()
+</li>
+<li>System: DOTSDynamicBoneTransformOverrideSystem<ul>
+<li>DOTSDynamicBone_ParticleLocalToWorldOverrideJob</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBonePresetPhysicsCollisionSystem<ul>
+<li>DOTSDynamicBoneWithPresetCollidersJob</li>
+<li>DOTSDynamicBoneMultipleWithPresetCollidersJob</li>
+<li>IndependantDOTSDynamicBoneWithPresetCollidersJob</li>
+<li>IndependantDOTSDynamicBoneMultipleWithColliders</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBoneNaturalCollisionSystem<ul>
+<li>DOTSDynamicBoneNaturalCollisionUpdateJob</li>
+<li>DOTSDynamicBoneMultipleNaturalCollisionUpdateJob</li>
+<li>IndependantDOTSDynamicBoneNaturalCollisionUpdateJob</li>
+<li>DOTSDynamicBoneIndependantMultipleNaturalCollisionUpdateJob</li>
+</ul>
+</li>
+<li>System: DOTSDynamicBoneUpdateSystem<ul>
+<li>DOTSDynamicBoneUpdateJob</li>
+<li>DOTSDynamicBoneMultipleUpdateJob</li>
+<li>DOTSDynamicBoneCollisionFinishJob</li>
+<li>DOTSDynamicBoneMultipleCollisionFinishJob</li>
+<li>IndependantDOTSDynamicBoneJob</li>
+<li>DOTSDynamicBoneIndependantMultipleJob</li>
+<li>DOTSDynamicBoneIndependantCollisionFinishSystem</li>
+</ul>
+</li>
+</ul>
+<p>Now i will go over each job and give a breif description:</p>
+<h1 id="dotsdynamicbonecullingsystem">DOTSDynamicBoneCullingSystem</h1>
+<p>Both <em>DOTSDynamicBoneCullingUpdateTransformsJob</em> and <em>DOTSDynamicBoneMultipleCullingUpdateTransformsJob</em> is
+responsible for Updating data related to the culling system. The difference between them is the that one
+modifies Entities with the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a> data component and the
+other modifies Entities with the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a>
+ <code>DynamicBuffer</code> d.</p>
+<pre><code>    Entities
+        .WithName(&quot;DOTSDynamicBoneCullingUpdateTransformsJob&quot;)
         .WithBurst()
+        .WithAll&lt;DOTSDynamicBoneCulling_Tag&gt;()
         .WithReadOnly(GetLTW)
-        .WithReadOnly(GetAnimatedLocalToWorld)
-        .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles) =&gt;
-        {
-            //notice the extra data I have to aquire seperate from what&#39;s already provided...maybe a Archtype job can speed this up?
-            DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr = GetAnimatedLocalToRoot[bone.m_RigComponentEntity];
-            DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw = GetAnimatedLocalToWorld[bone.m_RigComponentEntity];
-
-            LocalToWorld coreLTW = GetLTW[bone.m_RigComponentEntity];
-
+        .ForEach((ref DOTSDynamicBone bone) =&gt; {
             ...
         })
-        .Schedule(); 
-</code></pre><h1 id="dotsdynamicbonewithcolliders-job">DOTSDynamicBoneWithColliders Job</h1>
-<p>Does the same as DOTSDynamicBone except the collider buffer is added.</p>
-<pre><code class="lang-csharp">Entities
-    .WithName(&quot;DOTSDynamicBoneWithColliders&quot;)
-    .WithBurst()
-    .WithReadOnly(GetLTW)
-    .ForEach((Entity e, ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
-       ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
-       ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders,
-       in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
-   {
-
-       for (int i = 0; i &lt; m_Colliders.Length; i++)
-       {
-           var c = m_Colliders[i];
-           if (c.entity.Equals(Entity.Null))
-               Debug.LogWarning(&quot;COLLIDER HAS A NULL ENTITY&quot;); //&lt;- if you don&#39;t want this, let me know but it&#39;s hard to track otherwise
-           else
-           {
-               LocalToWorld cltw = GetLTW[c.entity];
-               c.UpdateTransform(cltw.Position, cltw.Rotation);
-           }
-       }
-        ...
-   })
-   .ScheduleParallel();
-</code></pre><h1 id="dotsdynamicbonemultiplewithcolliders-job">DOTSDynamicBoneMultipleWithColliders Job</h1>
-<p>Does the same as DOTSDynamicBoneMultiple except the collider buffer is added.</p>
-<pre><code class="lang-csharp">Entities
-    .WithName(&quot;DOTSDynamicBoneMultipleWithColliders&quot;)
-    .WithBurst()
-    .WithReadOnly(GetLTW)
-    .ForEach((Entity entity, ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones,
-        ref DynamicBuffer&lt;Particle&gt; particles,
-        ref DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
-        ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders,
-        in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
-    { 
-        // jeez, we are dealing with 5 buffers here
-        for (int i = 0; i &lt; m_Colliders.Length; i++)
-        {
-            var c = m_Colliders[i];
-            if (c.entity.Equals(Entity.Null))
-                Debug.LogWarning(&quot;COLLIDER HAS A NULL ENTITY&quot;);
-            else
+        .ScheduleParallel();
+</code></pre><pre><code>    Entities
+        .WithName(&quot;DOTSDynamicBoneMultipleCullingUpdateTransformsJob&quot;)
+        .WithBurst()
+        .WithAll&lt;DOTSDynamicBoneCulling_Tag&gt;()
+        .WithReadOnly(GetLTW)
+        .ForEach((ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones) =&gt; {
+            ...
+        })
+        .ScheduleParallel();
+</code></pre><h1 id="dotsdynamicbonetransformoverridesystem">DOTSDynamicBoneTransformOverrideSystem</h1>
+<p>The <em>DOTSDynamicBone_ParticleLocalToWorldOverrideJob</em> is responsible for updating entities that are associated
+with <strong>DOTS Dynamic Bone</strong> Entities that want the <code>LocalToWorld</code>, <code>Translation</code>, or <code>Rotation</code> 
+values overwritten with the <strong>DOTS Dynamic Bone</strong> values.</p>
+<pre><code>    var OverrideJobHandle = Entities
+        .WithName(&quot;DOTSDynamicBone_ParticleLocalToWorldOverrideJob&quot;)
+        .WithBurst()
+            .ForEach((in DynamicBuffer&lt;Particle&gt; particles, in DOTSDynamicBoneParticleLocalToWorldOverride_Tag tag) =&gt;
             {
-                LocalToWorld cltw = GetLTW[c.entity];
-                c.UpdateTransform(cltw.Position, cltw.Rotation);
-            }
-        }
-        ...
-    })
+                ...
+            })
+            .Schedule(Dependency);
+    OverrideJobHandle.Complete();
+</code></pre><h1 id="dotsdynamicbonepresetphysicscollisionsystem">DOTSDynamicBonePresetPhysicsCollisionSystem</h1>
+<p> The <em>DOTSDynamicBoneWithPresetCollidersJob</em>, <em>DOTSDynamicBoneMultipleWithPresetCollidersJob</em>,
+ <em>IndependantDOTSDynamicBoneWithPresetCollidersJob</em> are responsible for updating <strong>DOTS Dynamic Bone</strong>
+ Entities associated with the Preset Collision System. The difference between them is the that one
+modifies Entities with the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a> data component, the
+other modifies Entities with the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a>
+and the other one modifies <strong>DOTS Dynamic Bone</strong> Entities with Independant attributes.</p>
+<pre><code>
+    Entities
+            .WithName(&quot;DOTSDynamicBoneMultipleWithPresetCollidersJob&quot;)
+            .WithBurst()
+            .WithReadOnly(GetLTWR)
+            .WithNone&lt;IndependantDOTSDynamicBone_Tag&gt;()
+            .WithReadOnly(collisionWorld)
+            .ForEach((Entity entity, ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones,
+                ref DynamicBuffer&lt;Particle&gt; particles,
+                ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders,
+                in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
+            {
+                ...
+            })
+            .ScheduleParallel();
+</code></pre><pre><code>    Entities
+        .WithName(&quot;DOTSDynamicBoneWithPresetCollidersJob&quot;)
+        .WithBurst()
+        .WithNone&lt;IndependantDOTSDynamicBone_Tag&gt;()
+        .WithReadOnly(GetLTWR)
+            .WithReadOnly(collisionWorld)
+        .ForEach((Entity e, ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
+           ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders,
+           in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw) =&gt;
+        {
+            ...
+        })
+       .ScheduleParallel();
+</code></pre><pre><code>    Entities
+        .WithName(&quot;IndependantDOTSDynamicBoneWithPresetCollidersJob&quot;)
+        .WithBurst()
+        .WithReadOnly(GetLTWR)
+        .WithReadOnly(GetAnimatedLocalToWorld)
+            .WithReadOnly(collisionWorld)
+        .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
+         ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders, in IndependantDOTSDynamicBone_Tag tag) =&gt;
+        {
+            ...
+        })
+        .ScheduleParallel();
+</code></pre><pre><code>    Entities
+        .WithName(&quot;IndependantDOTSDynamicBoneMultipleWithColliders&quot;)
+        .WithBurst()
+        .WithReadOnly(GetLTWR)
+            .WithReadOnly(collisionWorld)
+        .WithReadOnly(GetAnimatedLocalToWorld)
+        .ForEach((ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones, ref DynamicBuffer&lt;Particle&gt; particles,
+         ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders, in IndependantDOTSDynamicBone_Tag tag) =&gt;
+        {
+            ...
+        })
+        .ScheduleParallel();
+</code></pre><p> NOTE: the <code>AnimtedLocalToRoot</code> data isn&#39;t updated in these jobs.</p>
+<h1 id="dotsdynamicbonenaturalphysicscollisionsystem">DOTSDynamicBoneNaturalPhysicsCollisionSystem</h1>
+<p> The <em>DOTSDynamicBoneNaturalCollisionUpdateJob</em> <em>DOTSDynamicBoneMultipleNaturalCollisionUpdateJob</em>
+    <em>IndependantDOTSDynamicBoneNaturalCollisionUpdateJob</em> <em>DOTSDynamicBoneIndependantMultipleNaturalCollisionUpdateJob</em> 
+    are responsible for updating <strong>DOTS Dynamic Bone</strong>
+ Entities associated with the Natural Collision System. The difference between them is the that one
+modifies Entities with the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a> data component, the
+other modifies Entities with the <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a>
+and the other one modifies <strong>DOTS Dynamic Bone</strong> Entities with Independant attributes.</p>
+<pre><code>
+    Entities
+        .WithName(&quot;DOTSDynamicBoneNaturalCollisionUpdateJob&quot;)
+        .WithBurst()
+        .WithNone&lt;DOTSDynamicBone_BufferElement&gt;()
+        .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()
+        .WithNone&lt;IndependantDOTSDynamicBone_Tag&gt;()
+        //.WithReadOnly(GetLTWR)
+        .WithReadOnly(collisionWorld)
+        .ForEach((Entity e, ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
+              in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr,
+           in LocalToWorld coreLTW,
+           in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw,
+           in DOTSDynamicBoneNaturalCollider_Tag tag) =&gt;
+        {
+            ...
+        })
     .ScheduleParallel();
-</code></pre><h1 id="independantdotsdynamicbonewithcolliders-job">IndependantDOTSDynamicBoneWithColliders Job</h1>
-<p>Does the same as IndependantDOTSDynamicBone except the collider buffer is added.</p>
-<pre><code class="lang-csharp">Entities
-    .WithName(&quot;IndependantDOTSDynamicBoneWithColliders&quot;)
-    .WithBurst()
-    .WithReadOnly(GetLTW)
-    .WithReadOnly(GetAnimatedLocalToWorld)
-    .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles,
-     ref DynamicBuffer&lt;DOTSDynamicBoneCollider_BufferElement&gt; m_Colliders) =&gt;
-    {
-
-        DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr = GetAnimatedLocalToRoot[bone.m_RigComponentEntity];
-        DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw = GetAnimatedLocalToWorld[bone.m_RigComponentEntity];
-
-        LocalToWorld coreLTW = GetLTW[bone.m_RigComponentEntity];
-
-        for (int i = 0; i &lt; m_Colliders.Length; i++)
+</code></pre><pre><code>    Entities
+        .WithName(&quot;DOTSDynamicBoneMultipleNaturalCollisionUpdateJob&quot;)
+        .WithBurst()
+        .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()
+        .WithNone&lt;IndependantDOTSDynamicBone_Tag&gt;()
+        .WithReadOnly(collisionWorld)
+        .ForEach((Entity e, DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones, ref DynamicBuffer&lt;Particle&gt; particles,
+              in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToRoot&gt; altr, in LocalToWorld coreLTW,
+           in DynamicBuffer&lt;Unity.Animation.AnimatedLocalToWorld&gt; altw, in DOTSDynamicBoneNaturalCollider_Tag tag) =&gt;
         {
-            var c = m_Colliders[i];
-            if (c.entity.Equals(Entity.Null))
-                Debug.LogWarning(&quot;COLLIDER HAS A NULL ENTITY&quot;);
-            else
+            ...
+        })
+    .ScheduleParallel();
+</code></pre><pre><code>    Entities
+            .WithName(&quot;IndependantDOTSDynamicBoneNaturalCollisionUpdateSystem&quot;)
+            .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()
+            .WithNone&lt;DOTSDynamicBone_BufferElement&gt;()
+            .WithBurst()
+            .WithReadOnly(GetLTWR)
+            .WithReadOnly(GetAnimatedLocalToWorld)
+            .WithReadOnly(collisionWorld)
+            .ForEach((ref DOTSDynamicBone bone, ref DynamicBuffer&lt;Particle&gt; particles, in IndependantDOTSDynamicBone_Tag tag, in DOTSDynamicBoneNaturalCollider_Tag tag2) =&gt;
             {
-                LocalToWorld cltw = GetLTW[c.entity];
-                c.UpdateTransform(cltw.Position, cltw.Rotation);
-            }
-        }
-        ...
-    })
-    .Schedule();
-</code></pre><h1 id="remarks">Remarks</h1>
+                ...
+            })
+            .ScheduleParallel();
+</code></pre><pre><code>    Entities
+        .WithName(&quot;DOTSDynamicBoneIndependantMultipleNaturalCollisionUpdateSystem&quot;)
+        .WithNone&lt;DOTSDynamicBoneCollider_BufferElement&gt;()
+        .WithNone&lt;DOTSDynamicBone&gt;()
+        .WithBurst()
+        .WithReadOnly(GetLTWR)
+        .WithReadOnly(GetAnimatedLocalToWorld)
+        .WithReadOnly(collisionWorld)
+        .ForEach((ref DynamicBuffer&lt;DOTSDynamicBone_BufferElement&gt; bones, ref DynamicBuffer&lt;Particle&gt; particles, in IndependantDOTSDynamicBone_Tag tag, in DOTSDynamicBoneNaturalCollider_Tag tag2) =&gt;
+        {
+            ...
+        })
+        .ScheduleParallel();
+</code></pre><p> NOTE: the <code>AnimtedLocalToRoot</code> data isn&#39;t updated in these jobs.</p>
+<h1 id="dotsdynamicboneupdatesystem">DOTSDynamicBoneUpdateSystem</h1>
+<p>The <em>DOTSDynamicBoneUpdateJob</em>, <em>DOTSDynamicBoneMultipleUpdateJob</em>, <em>IndependantDOTSDynamicBoneJob</em>, and the
+ <em>DOTSDynamicBoneIndependantMultipleJob</em> are responsible for updating the non-collision associated <strong><em>DOT Dynamic Bone</em>
+ Entities. The difference between them is the **DOTS Dynamic Bone</strong> data componant.</p>
+<p>The <em>DOTSDynamicBoneCollisionFinishJob</em>, <em>DOTSDynamicBoneMultipleCollisionFinishJob</em>, and the
+<em>DOTSDynamicBoneIndependantCollisionFinishSystem</em> is responsible for finalizing some calculations after
+another specific job is done. In an effeot to keep Jobs multithreaded, some processes needed to be broken up
+in order to allow for parallel writing in burst. For example, the IndependantDOTSDynamicBone Entity can be 
+seperate from the Entity it is associated with. Since Parallel writting isn&#39;t allowed on another entity,
+I break up the update method and the AnimatedLocalToRoot update method into 2 Jobs to allow for parallel
+writing for methods.</p>
+<h1 id="remarks">Remarks</h1>
 <p>It it important to remeber that the Jobs and systems are subject to change so if you have
- any comments or suggestions, please let me know at <a href="">link</a></p>
+ any comments or suggestions, please let me know at <a href="https://forum.unity.com/threads/official-dots-dynamic-bone.1194832/">link</a></p>
 </article>
           </div>
           

@@ -3,7 +3,7 @@
     "baseUrl": "https://github.com/Steven9Smith/DOTS-Dynamic-Bone/"
   },
   "homepages": [],
-  "source_base_path": "E:/Documents/GitHub/SS/DOTS Dynamic Bone SP/Documentation",
+  "source_base_path": "K:/Unity/Projects/DOTS Dynamic Bone Package/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14,6 +14,78 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html",
+          "hash": "pf+mSVEtbmZDt73N4vfPyqK/3zaJ3ubR4DOO9FJlAjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html",
+          "hash": "x/ZENyrxhBJfGvsOR2uIswItoZLh4NCiRj3jo0kmqME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.html",
+          "hash": "c3sTnpAEUrnGyV87xo4typQES1Wpd1OEpsurYamyf60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.html",
+          "hash": "rDquRQ9IGIqITF2FZ/O80hMZ3WGPKahMlVZQkKRy2Oo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html",
+          "hash": "J21rx6kioaEkpYFn5rTEf4t/niw77JoJYhnXi2cBZt8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Collision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Collision.html",
+          "hash": "vOiGh6clceHKUl4ke1jHJovc7gyM5TjAiCkzJcpOGb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -45,7 +117,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.DOTSDynamicBone.html",
-          "hash": "k6IfixYh+wEmNAHxpZFio69avcOG7KGAeP904N8f8JY="
+          "hash": "j8swPSI16VdLI9ODHmITBeMKW1cKeK9BSerRR3Lz/xU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.html",
+          "hash": "reFDq2s+DeP7BBwCUmzRX8iyC5frKJKaVZHwU08C8lc="
         }
       },
       "is_incremental": false,
@@ -57,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneClass.html",
-          "hash": "HppB/f6IjuhfAzelgHBKanHH/IgGyDf51q6b9hsox0w="
+          "hash": "41IK69pOtMzfQblgHDUDcPbQhdhn6fUKAr8HqyXc150="
         }
       },
       "is_incremental": false,
@@ -69,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneComponent.html",
-          "hash": "p8TarHKJa6UnpyPveewmJikkfauBVLIxGqmbD4+sg0Q="
+          "hash": "ODkNYzd8k7/H7aa05/b0Xae+64UGieAPdwjHLhFXFyU="
         }
       },
       "is_incremental": false,
@@ -77,11 +161,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.yml",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneCulling_Tag.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.html",
-          "hash": "VzCpBUDZkne9q0A2V8tuAv+zOQ7nddBqYLtMRGwi3No="
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneCulling_Tag.html",
+          "hash": "g2LkR6kEfdNbTrpXqDYzAKcp0xGxf0K0hMd0cyaqTbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.html",
+          "hash": "CZJ+ivLJ1fcbZfZ9TgrT8/nkOnTuUAVXhC3ij6z7dAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html",
+          "hash": "3T1OOw/oWFLbsy6ApjH6dCTnKjdSrIBYKA0SZ396qnQ="
         }
       },
       "is_incremental": false,
@@ -101,11 +209,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.html",
+          "hash": "UAc1V/y1qo1yXoBnycv7GefI6N61LNTFeKjiITssoqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DOTSDynamicBone.DOTSDynamicBonesComponent.yml",
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.DOTSDynamicBonesComponent.html",
-          "hash": "bU+kJWFUm3wTWPllLQnh1mzWodALOsf1K7hT91uxhmc="
+          "hash": "yAeY7z/oshzPd603J88aZIPpx4K1fLH50l8NPKbObqk="
         }
       },
       "is_incremental": false,
@@ -117,7 +237,31 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.DOTSPlane.html",
-          "hash": "7K1rTkjKGKUiUFNfVlgDQcGJRE7Zlzbum81TX+n+z20="
+          "hash": "QjBTk0s7A9TLAvzcBW4q7Z23WhWDwUrPxSciLSdl9UU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.ExcludeEntityFromSimulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.ExcludeEntityFromSimulation.html",
+          "hash": "DZtIwK3CSW1raF0ItIgfDdr+nTEO+0PJ58sQOFsk6wo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.IndependantDOTSDynamicBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.IndependantDOTSDynamicBone.html",
+          "hash": "xB2P9GV3v7n3DtB6GKxcmVVjvw+I7ygHhDaTMV5vdW8="
         }
       },
       "is_incremental": false,
@@ -141,7 +285,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.Particle.html",
-          "hash": "Nb/Uvd14pKcjABudRNsZCtUz3Ofj2OzjVDjZ45Noeig="
+          "hash": "IGoExw4zID8wBSWDmgm0WPRBdFvgX1Z3ZjIAjFA4KQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.html",
+          "hash": "unW/ZQ/jSFULjNhGCHxHnX8NF8f2uBEWm/NETuRsD+U="
         }
       },
       "is_incremental": false,
@@ -153,7 +309,31 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.ParticleTransform.html",
-          "hash": "+CZ9LaCEr2mCwldN8VeKowtLNJ1ezNXT3N0uAbhDqqo="
+          "hash": "P82WhFMCDRkugL9VZTqdaWpxfZ4xvHUzSpfnXMAe/cg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.html",
+          "hash": "1gLoZQRoJRKchyP6Kl7/U2RGMNXgq5I1dXYNxTaykCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DOTSDynamicBone.Systems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DOTSDynamicBone.Systems.html",
+          "hash": "jm9lAx75T7Dljv4mEQDirkcNJazbNyNvrEbPylZTS5c="
         }
       },
       "is_incremental": false,
@@ -165,91 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DOTSDynamicBone.html",
-          "hash": "zfcmtF/OnIV3PlE/Xyc4kjV1nER/MqJGNLbToDXTMHk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html",
-          "hash": "n2g0BXMX5oGlJisED90DER9APZwTe8qLmGEMPxbFzl0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html",
-          "hash": "+c7yUKsx8VVJAFNS1HyjzSQR8zXhTuxNezk+IySWlN8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html",
-          "hash": "Dc+/t7lNlSQqsJq/609XrLpBJAL1EPf+NxVAafuxMTo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.html",
-          "hash": "c3DAkt/NZuu737LhLZKj9U8C1iubPWwgiY0asQXV9NQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.html",
-          "hash": "3UEI8ZnYxCFndvjQ8ZjTwf2y4S3vCPgbUy4+FraI4hM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.html",
-          "hash": "H1QB/9oYybt8HiScBQckfDxdzZlxwwWxc7ZDTToF6jI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DOTSDynamicBoneExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DOTSDynamicBoneExtensions.html",
-          "hash": "dVvUXt137VLzukHJ1Lrel+5mdk03FRiwXz3hyZArdzQ="
+          "hash": "5jZY6QM6YUtA0Jid0cIU35xhC3PnGedW6w1/xhuf03g="
         }
       },
       "is_incremental": false,
@@ -261,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "k1cuU3COJVzHJrOhTEPFVv+U8T9SS72LeQMoZlmF+mA="
+          "hash": "HTyiuc7HOOrappjj4CSUWg4wsztNbAZh+/LMLum4EV4="
         }
       },
       "is_incremental": false,
@@ -273,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "AJ8l5WRfWWmp8CiFXxZ6x/AXORbe0j1XuJzwSfLeb5o="
+          "hash": "DQwSfZhIlaUoOPNO0eq7b4nPEtmJ7pgWBy/g2RsK25w="
         }
       },
       "is_incremental": false,
@@ -317,11 +413,86 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Bones.MultipleBone.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Bones.MultipleBone.html",
+          "hash": "xDcKC90KMXGet2SviWI2/VmTZBRIda5r2sP+T5nrTaY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Bones.SingleBone.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Bones.SingleBone.html",
+          "hash": "Ddkrgivd6I2oP2N2Ld8V3ldnXNNwMvMKlt+FcXb1lfs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/DOTSDynamicBone.Concepts.Bones.md",
       "output": {
         ".html": {
           "relative_path": "manual/DOTSDynamicBone.Concepts.Bones.html",
-          "hash": "DTB+ZXeh/jZTuPui47Ozm9/ZkYC1QaRBoU2evNdWw+s="
+          "hash": "8rnts3ngSO7wn80c5proczF9V8vsTblS1e4Yuu54Nao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.NaturalCollisions.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.NaturalCollisions.html",
+          "hash": "eZiyA1cUBB2KnjDnlwTr3IMw6WA+mJAe+pR561anByE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.PresetCollisions.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.PresetCollisions.html",
+          "hash": "5t0YGj5fXxSW8TSTdZtbZtqt7D4QtWVlHBKLDnqfyuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.Tips.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.Tips.html",
+          "hash": "edbUiiA1JtYdFnvTZdMI8QwL4pfjHPRIvvuH2Ye+Pvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/DOTSDynamicBone.Concepts.Collisions.html",
+          "hash": "VAU+DEE8GbJ/GCPSs7UZHtXe8TlcVlc1/nANEK1cyI4="
         }
       },
       "is_incremental": false,
@@ -333,7 +504,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/DOTSDynamicBone.Concepts.General.html",
-          "hash": "MVyjdukeGEqgfLJzZZTc++K7p0R1OaUPdm7y73okbio="
+          "hash": "SEQv2PJDLrYUjFxNWmBGbloe9Ka2FHmYWzMrr5uf/7k="
         }
       },
       "is_incremental": false,
@@ -345,19 +516,22 @@
       "output": {
         ".html": {
           "relative_path": "manual/DOTSDynamicBone.Concepts.Jobs.html",
-          "hash": "8SJzMYuzU/6ra/CInYNzfQkACqrjoiJKXY8lj6TbNq0="
+          "hash": "Ku2LQSjds3b9DXbiFE5ST9DLoOgRtl1IJTElPvwC/Ug="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "manual/DOTSDynamicBone.Concepts.Particles.md",
       "output": {
         ".html": {
           "relative_path": "manual/DOTSDynamicBone.Concepts.Particles.html",
-          "hash": "Ai1cZuFf67kHRN3EsK8O3W+VtxG/BqI6SAivX/fD6ZE="
+          "hash": "/CgLFBtpR1sYDKJsLIm8uWU/dyHhYt1Xszo+I7aILm0="
         }
       },
       "is_incremental": false,
@@ -369,7 +543,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/DOTSDynamicBone.Concepts.Systems.html",
-          "hash": "lToHoqHPsZMvKAOnen3JVx90lvcEczF0FYyEqen/moE="
+          "hash": "xQn5lo0NYwXj2KMLbm3GZt34My9HRbLv/b/NiqUV96Y="
         }
       },
       "is_incremental": false,
@@ -381,7 +555,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/DOTSDynamicBone.ProjectSetup.html",
-          "hash": "GdnsTdv4A9KJMrTCdYzpEUiwGQFzAzgx7DoEH2W7L98="
+          "hash": "AtUnKnpQkZmtQxrLzlg7sYHQg6mpEmku3HPHzHr0PSY="
         }
       },
       "is_incremental": false,
@@ -396,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "g3KutTWa+PE+Mt2t0ECiU+4NfFquIkSGiJoGoKaEBhc="
+          "hash": "SXTyuQngwvdyrxh8LdVOzJgGtjlDA2/tV1JEvI55grU="
         }
       },
       "is_incremental": false,
@@ -418,23 +592,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 10
+          "total_file_count": 16,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 20,
-          "skipped_file_count": 20
+          "total_file_count": 28,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

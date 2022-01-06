@@ -79,20 +79,27 @@
             <article class="content wrap" id="_content" data-uid="DOTSDynamicBone.Concepts.Bones">
 <h1 id="bones">Bones</h1>
 
-<p>A <em>Bone</em> is a data structure that holds all data relevant to the <em>Particles</em> and <em>Colliders</em> 
-associated with that <em>Bone</em>. Each <em>Bone</em> should have a specific set of <em>Particles</em> associated
-with it and whose <em>Particles</em> should not overlay with any other <em>Bone</em>. If a <em>Bone</em> addresses
-<em>Particles</em> that are addressed by another <em>Bone</em> unexpected behavoir is expected to happen.</p>
+<p>A <strong>Bone</strong> is a data structure that holds all data relevant to their associated <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> 
+and <em>Collider(s)</em>.the <strong>Bone</strong> data structure is associated with 1 <code>Entity</code>. The <code>`Entity</code> the <strong>Bone</strong> is associated with
+is refered as a <strong>RigComponentEntity</strong>. To create a <strong>RigComponentEntity</strong>, all you have to do is add a RigComponent and a ConvertToEntity
+Component to a GameObject. This will add all nessacary RigComponent data furing the Coversion of the GameObject.</p>
+<p>Each <strong>Bone</strong> is assigned a specific <code>DynamicBuffer&lt;Particle&gt;</code>. 
+NOTE: depending on the <strong>Bone</strong> type the way to access the <strong>Bone&#39;s</strong> <code>DynamicBuffer&lt;Particle</code> data may be different.</p>
 <p>There are 2 types of <em>Bones</em> that the system contains. They are:</p>
 <ul>
-<li>DOTSDynamicBone: A data structure used when only 1 <em>Bone</em> is added to an Entity.</li>
-<li>DOTSDynamicBone_BufferElement: a data structure used when multiple bones are added to an Entity.</li>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Bones.SingleBone.html">Single Bone</a>: where a <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a> data structure added to an <code>Entity</code>. The 
+<a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone.html">DOTSDynamicBone</a> data structure only represents a single bone.</li>
+<li><a class="xref" href="DOTSDynamicBone.Concepts.Bones.MultipleBone.html">Multiple Bones</a>: where a <a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a> data structure
+is added to an <code>Entity</code>. Unlike Single Bone, Multiple Bones is for use with Multiple Bones on a single <code>Entity</code>.</li>
 </ul>
-<p>The reason of having 2 was simply to save space on an Entity and to prevent unessacary allocation or data.
-However, this does mean that 2 Jobs are required to handle each Bone type but each job can Use Burst
-and ScheduleParallel.</p>
-<p><em>Bone</em> data is referenced and used throughout the calculations done on <em>Particles</em>
-so if you want to change all the Particles in one go then you want to change the <em>Bone</em> data.</p>
+<h2 id="why-not-just-use-dynamicbuffer-for-both-cases">Why not just use DynamicBuffer for both cases?</h2>
+<p>I do this simply for efficency and unnessacary memory allocation. The <code>DynamicBuffer</code> uses indexing and in order to manage
+multiple <a class="xref" href="../api/DOTSDynamicBone.Particle.html">Particles</a> on a single Entity, some more data needed to be added in the
+<a class="xref" href="../api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html">DOTSDynamicBone_BufferElement</a> data structure.</p>
+<h2 id="can-i-modify-the-bone-data">Can I modify the Bone data?</h2>
+<p>Yes, you can modify and create new bone at runtime in order to change how the <strong>DOTS Dynamic Bone</strong> functions. 
+See <a class="xref" href="DOTSDynamicBone.Concepts.Bones.SingleBone.html">Single Bone</a> and <a class="xref" href="DOTSDynamicBone.Concepts.Bones.MultipleBone.html">Multiple Bones</a>
+for more information.</p>
 </article>
           </div>
           

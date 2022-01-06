@@ -7,6 +7,373 @@ references:
   commentId: N:DOTSDynamicBone
   fullName: DOTSDynamicBone
   nameWithType: DOTSDynamicBone
+- uid: DOTSDynamicBone.Collision
+  name: DOTSDynamicBone.Collision
+  href: api/DOTSDynamicBone.Collision.html
+  commentId: N:DOTSDynamicBone.Collision
+  fullName: DOTSDynamicBone.Collision
+  nameWithType: DOTSDynamicBone.Collision
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  name: DOTSDynamicBoneCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  nameWithType: DOTSDynamicBoneCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  name: Enable
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_Enable
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  nameWithType: DOTSDynamicBoneCollider.Enable
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  name: FallbackToParicleRadiusOnNullPhysicsCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_FallbackToParicleRadiusOnNullPhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  name: HasPhysicsShape()
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_HasPhysicsShape
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape()
+  nameWithType: DOTSDynamicBoneCollider.HasPhysicsShape()
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape*
+  name: HasPhysicsShape
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_HasPhysicsShape_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  nameWithType: DOTSDynamicBoneCollider.HasPhysicsShape
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  name: m_Bound
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_m_Bound
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  nameWithType: DOTSDynamicBoneCollider.m_Bound
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  name: m_Center
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_m_Center
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  nameWithType: DOTSDynamicBoneCollider.m_Center
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  name: m_Direction
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_m_Direction
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  nameWithType: DOTSDynamicBoneCollider.m_Direction
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  name: m_Height
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_m_Height
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  nameWithType: DOTSDynamicBoneCollider.m_Height
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  name: m_Radius
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_m_Radius
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  nameWithType: DOTSDynamicBoneCollider.m_Radius
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  name: Persistant
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_Persistant
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  nameWithType: DOTSDynamicBoneCollider.Persistant
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem,Transform,System.Boolean)
+  name: ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem, Transform, Boolean)
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_ToDOTSDynamicBoneCollider_BufferElement_GameObjectConversionSystem_Transform_System_Boolean_
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem,Transform,System.Boolean)
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem, Transform, System.Boolean)
+  nameWithType: DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem, Transform, Boolean)
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement*
+  name: ToDOTSDynamicBoneCollider_BufferElement
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_ToDOTSDynamicBoneCollider_BufferElement_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+  nameWithType: DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  name: UseParticlePhysicsCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_UseParticlePhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  name: UseUnityPhysicsCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_UseUnityPhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  name: DOTSDynamicBoneCollider_BufferElement
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  nameWithType: DOTSDynamicBoneCollider_BufferElement
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.aabb
+  name: aabb
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_aabb
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.aabb
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.aabb
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.aabb
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.boneEntity
+  name: boneEntity
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_boneEntity
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.boneEntity
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.boneEntity
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.boneEntity
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide(float3@,System.Single)
+  name: Collide(ref float3, Single)
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_Collide_float3__System_Single_
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide(float3@,System.Single)
+  name.vb: Collide(ByRef float3, Single)
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide(ref float3, System.Single)
+  fullName.vb: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide(ByRef float3, System.Single)
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.Collide(ref float3, Single)
+  nameWithType.vb: DOTSDynamicBoneCollider_BufferElement.Collide(ByRef float3, Single)
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide*
+  name: Collide
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_Collide_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Collide
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.Collide
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.collider
+  name: collider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_collider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.collider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.collider
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.collider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.collisionEvent
+  name: collisionEvent
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_collisionEvent
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.collisionEvent
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.collisionEvent
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.collisionEvent
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.enabled
+  name: enabled
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_enabled
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.enabled
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.enabled
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.enabled
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.entity
+  name: entity
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_entity
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.entity
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.entity
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.entity
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.fallbackToParicleRadiusOnNullPhysicsCollider
+  name: fallbackToParicleRadiusOnNullPhysicsCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_fallbackToParicleRadiusOnNullPhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.fallbackToParicleRadiusOnNullPhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.fallbackToParicleRadiusOnNullPhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.fallbackToParicleRadiusOnNullPhysicsCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.IsCollided
+  name: IsCollided
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_IsCollided
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.IsCollided
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.IsCollided
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.IsCollided
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Bound
+  name: m_Bound
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Bound
+  commentId: P:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Bound
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Bound
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Bound
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Bound*
+  name: m_Bound
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Bound_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Bound
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Bound
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Bound
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Center
+  name: m_Center
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Center
+  commentId: P:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Center
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Center
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Center
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Center*
+  name: m_Center
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Center_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Center
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Center
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Center
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Direction
+  name: m_Direction
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Direction
+  commentId: P:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Direction
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Direction
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Direction
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Direction*
+  name: m_Direction
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Direction_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Direction
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Direction
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Direction
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Height
+  name: m_Height
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Height
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Height
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Height
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Height
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Radius
+  name: m_Radius
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_m_Radius
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Radius
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.m_Radius
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Radius
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Null
+  name: "Null"
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_Null
+  commentId: P:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Null
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Null
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.Null
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Null*
+  name: "Null"
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_Null_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Null
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.Null
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.Null
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.persistant
+  name: persistant
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_persistant
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.persistant
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.persistant
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.persistant
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.transform
+  name: transform
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_transform
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.transform
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.transform
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.transform
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.useParticlePhysicsCollider
+  name: useParticlePhysicsCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_useParticlePhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.useParticlePhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.useParticlePhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.useParticlePhysicsCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.useUnityPhysicsCollider
+  name: useUnityPhysicsCollider
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBone_Collision_DOTSDynamicBoneCollider_BufferElement_useUnityPhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.useUnityPhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement.useUnityPhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider_BufferElement.useUnityPhysicsCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+  name: DOTSDynamicBoneNaturalCollider_Tag
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.html
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+  nameWithType: DOTSDynamicBoneNaturalCollider_Tag
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.Create(Entity)
+  name: Create(Entity)
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.html#DOTSDynamicBone_Collision_DOTSDynamicBoneNaturalCollider_Tag_Create_Entity_
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.Create(Entity)
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.Create(Entity)
+  nameWithType: DOTSDynamicBoneNaturalCollider_Tag.Create(Entity)
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.Create*
+  name: Create
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.html#DOTSDynamicBone_Collision_DOTSDynamicBoneNaturalCollider_Tag_Create_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.Create
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.Create
+  nameWithType: DOTSDynamicBoneNaturalCollider_Tag.Create
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.RigComponentEntity
+  name: RigComponentEntity
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.html#DOTSDynamicBone_Collision_DOTSDynamicBoneNaturalCollider_Tag_RigComponentEntity
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.RigComponentEntity
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag.RigComponentEntity
+  nameWithType: DOTSDynamicBoneNaturalCollider_Tag.RigComponentEntity
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+  name: DOTSDynamicBoneNaturalColliderComponent
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.html
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+  nameWithType: DOTSDynamicBoneNaturalColliderComponent
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  name: Convert(Entity, EntityManager, GameObjectConversionSystem)
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.html#DOTSDynamicBone_Collision_DOTSDynamicBoneNaturalColliderComponent_Convert_Entity_EntityManager_GameObjectConversionSystem_
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.Convert(Entity, EntityManager, GameObjectConversionSystem)
+  nameWithType: DOTSDynamicBoneNaturalColliderComponent.Convert(Entity, EntityManager, GameObjectConversionSystem)
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.Convert*
+  name: Convert
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.html#DOTSDynamicBone_Collision_DOTSDynamicBoneNaturalColliderComponent_Convert_
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.Convert
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.Convert
+  nameWithType: DOTSDynamicBoneNaturalColliderComponent.Convert
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.rigComponent
+  name: rigComponent
+  href: api/DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.html#DOTSDynamicBone_Collision_DOTSDynamicBoneNaturalColliderComponent_rigComponent
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.rigComponent
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent.rigComponent
+  nameWithType: DOTSDynamicBoneNaturalColliderComponent.rigComponent
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+  name: IDOTSDynamicBoneCollider
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html
+  commentId: T:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+  nameWithType: IDOTSDynamicBoneCollider
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide(float3@,System.Single)
+  name: Collide(ref float3, Single)
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_Collide_float3__System_Single_
+  commentId: M:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide(float3@,System.Single)
+  name.vb: Collide(ByRef float3, Single)
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide(ref float3, System.Single)
+  fullName.vb: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide(ByRef float3, System.Single)
+  nameWithType: IDOTSDynamicBoneCollider.Collide(ref float3, Single)
+  nameWithType.vb: IDOTSDynamicBoneCollider.Collide(ByRef float3, Single)
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide*
+  name: Collide
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_Collide_
+  commentId: Overload:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.Collide
+  nameWithType: IDOTSDynamicBoneCollider.Collide
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound
+  name: m_Bound
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Bound
+  commentId: P:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound
+  nameWithType: IDOTSDynamicBoneCollider.m_Bound
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound*
+  name: m_Bound
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Bound_
+  commentId: Overload:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Bound
+  nameWithType: IDOTSDynamicBoneCollider.m_Bound
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center
+  name: m_Center
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Center
+  commentId: P:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center
+  nameWithType: IDOTSDynamicBoneCollider.m_Center
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center*
+  name: m_Center
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Center_
+  commentId: Overload:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Center
+  nameWithType: IDOTSDynamicBoneCollider.m_Center
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction
+  name: m_Direction
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Direction
+  commentId: P:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction
+  nameWithType: IDOTSDynamicBoneCollider.m_Direction
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction*
+  name: m_Direction
+  href: api/DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.html#DOTSDynamicBone_Collision_IDOTSDynamicBoneCollider_m_Direction_
+  commentId: Overload:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider.m_Direction
+  nameWithType: IDOTSDynamicBoneCollider.m_Direction
 - uid: DOTSDynamicBone.Components.DOTSDynamicBoneComponent
   name: DOTSDynamicBone Component
   href: manual/DOTSDynamicBone.Components.IndependantDOTSDynamicBone.html
@@ -19,6 +386,24 @@ references:
 - uid: DOTSDynamicBone.Concepts.Bones
   name: Bones
   href: manual/DOTSDynamicBone.Concepts.Bones.html
+- uid: DOTSDynamicBone.Concepts.Bones.MultipleBone
+  name: Multiple Bone
+  href: manual/DOTSDynamicBone.Concepts.Bones.MultipleBone.html
+- uid: DOTSDynamicBone.Concepts.Bones.SingleBone
+  name: Single Bone
+  href: manual/DOTSDynamicBone.Concepts.Bones.SingleBone.html
+- uid: DOTSDynamicBone.Concepts.Collision.Tips
+  name: Tups
+  href: manual/DOTSDynamicBone.Concepts.Collisions.Tips.html
+- uid: DOTSDynamicBone.Concepts.Collisions
+  name: Collisions
+  href: manual/DOTSDynamicBone.Concepts.Collisions.html
+- uid: DOTSDynamicBone.Concepts.Collisions.NaturalCollisions
+  name: Natural Collision
+  href: manual/DOTSDynamicBone.Concepts.Collisions.NaturalCollisions.html
+- uid: DOTSDynamicBone.Concepts.Collisions.PresetCollisions
+  name: Preset Collisions
+  href: manual/DOTSDynamicBone.Concepts.Collisions.PresetCollisions.html
 - uid: DOTSDynamicBone.Concepts.General
   name: General Concepts
   href: manual/DOTSDynamicBone.Concepts.General.html
@@ -43,12 +428,6 @@ references:
   commentId: M:DOTSDynamicBone.DOTSDynamicBone.Create(GameObjectConversionSystem,RigComponent,Transform,DOTSDynamicBone.DOTSDynamicBoneClass,System.Single)
   fullName: DOTSDynamicBone.DOTSDynamicBone.Create(GameObjectConversionSystem, RigComponent, Transform, DOTSDynamicBone.DOTSDynamicBoneClass, System.Single)
   nameWithType: DOTSDynamicBone.Create(GameObjectConversionSystem, RigComponent, Transform, DOTSDynamicBoneClass, Single)
-- uid: DOTSDynamicBone.DOTSDynamicBone.Create(GameObjectConversionSystem,RigComponent,Transform,System.Boolean,System.Boolean,Transform,System.Single,DOTSDynamicBone.DOTSDynamicBone.UpdateMode,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,float3,float3,float3,DOTSDynamicBone.DOTSDynamicBone.FreezeAxis,System.Boolean,System.Single,float3,float3,float3,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Single,System.Boolean)
-  name: Create(GameObjectConversionSystem, RigComponent, Transform, Boolean, Boolean, Transform, Single, DOTSDynamicBone.UpdateMode, Single, Single, Single, Single, Single, Single, Single, float3, float3, float3, DOTSDynamicBone.FreezeAxis, Boolean, Single, float3, float3, float3, Single, Single, Single, Single, Boolean, Single, Boolean)
-  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Create_GameObjectConversionSystem_RigComponent_Transform_System_Boolean_System_Boolean_Transform_System_Single_DOTSDynamicBone_DOTSDynamicBone_UpdateMode_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_float3_float3_float3_DOTSDynamicBone_DOTSDynamicBone_FreezeAxis_System_Boolean_System_Single_float3_float3_float3_System_Single_System_Single_System_Single_System_Single_System_Boolean_System_Single_System_Boolean_
-  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Create(GameObjectConversionSystem,RigComponent,Transform,System.Boolean,System.Boolean,Transform,System.Single,DOTSDynamicBone.DOTSDynamicBone.UpdateMode,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,float3,float3,float3,DOTSDynamicBone.DOTSDynamicBone.FreezeAxis,System.Boolean,System.Single,float3,float3,float3,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Single,System.Boolean)
-  fullName: DOTSDynamicBone.DOTSDynamicBone.Create(GameObjectConversionSystem, RigComponent, Transform, System.Boolean, System.Boolean, Transform, System.Single, DOTSDynamicBone.DOTSDynamicBone.UpdateMode, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, float3, float3, float3, DOTSDynamicBone.DOTSDynamicBone.FreezeAxis, System.Boolean, System.Single, float3, float3, float3, System.Single, System.Single, System.Single, System.Single, System.Boolean, System.Single, System.Boolean)
-  nameWithType: DOTSDynamicBone.Create(GameObjectConversionSystem, RigComponent, Transform, Boolean, Boolean, Transform, Single, DOTSDynamicBone.UpdateMode, Single, Single, Single, Single, Single, Single, Single, float3, float3, float3, DOTSDynamicBone.FreezeAxis, Boolean, Single, float3, float3, float3, Single, Single, Single, Single, Boolean, Single, Boolean)
 - uid: DOTSDynamicBone.DOTSDynamicBone.Create*
   name: Create
   href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Create_
@@ -56,15 +435,33 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.DOTSDynamicBone.Create
   nameWithType: DOTSDynamicBone.Create
-- uid: DOTSDynamicBone.DOTSDynamicBone.Disable(DynamicBuffer{DOTSDynamicBone.Particle}@)
-  name: Disable(ref DynamicBuffer<Particle>)
-  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Disable_DynamicBuffer_DOTSDynamicBone_Particle___
-  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Disable(DynamicBuffer{DOTSDynamicBone.Particle}@)
-  name.vb: Disable(ByRef DynamicBuffer(Of Particle))
-  fullName: DOTSDynamicBone.DOTSDynamicBone.Disable(ref DynamicBuffer<DOTSDynamicBone.Particle>)
-  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Disable(ByRef DynamicBuffer(Of DOTSDynamicBone.Particle))
-  nameWithType: DOTSDynamicBone.Disable(ref DynamicBuffer<Particle>)
-  nameWithType.vb: DOTSDynamicBone.Disable(ByRef DynamicBuffer(Of Particle))
+- uid: DOTSDynamicBone.DOTSDynamicBone.Disable(DOTSDynamicBone.Particle[]@,System.Int32,System.Int32)
+  name: Disable(ref Particle[], Int32, Int32)
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Disable_DOTSDynamicBone_Particle____System_Int32_System_Int32_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Disable(DOTSDynamicBone.Particle[]@,System.Int32,System.Int32)
+  name.vb: Disable(ByRef Particle(), Int32, Int32)
+  fullName: DOTSDynamicBone.DOTSDynamicBone.Disable(ref DOTSDynamicBone.Particle[], System.Int32, System.Int32)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Disable(ByRef DOTSDynamicBone.Particle(), System.Int32, System.Int32)
+  nameWithType: DOTSDynamicBone.Disable(ref Particle[], Int32, Int32)
+  nameWithType.vb: DOTSDynamicBone.Disable(ByRef Particle(), Int32, Int32)
+- uid: DOTSDynamicBone.DOTSDynamicBone.Disable(DynamicBuffer{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name: Disable(ref DynamicBuffer<Particle>, Int32, Int32)
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Disable_DynamicBuffer_DOTSDynamicBone_Particle___System_Int32_System_Int32_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Disable(DynamicBuffer{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name.vb: Disable(ByRef DynamicBuffer(Of Particle), Int32, Int32)
+  fullName: DOTSDynamicBone.DOTSDynamicBone.Disable(ref DynamicBuffer<DOTSDynamicBone.Particle>, System.Int32, System.Int32)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Disable(ByRef DynamicBuffer(Of DOTSDynamicBone.Particle), System.Int32, System.Int32)
+  nameWithType: DOTSDynamicBone.Disable(ref DynamicBuffer<Particle>, Int32, Int32)
+  nameWithType.vb: DOTSDynamicBone.Disable(ByRef DynamicBuffer(Of Particle), Int32, Int32)
+- uid: DOTSDynamicBone.DOTSDynamicBone.Disable(List{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name: Disable(ref List<Particle>, Int32, Int32)
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Disable_List_DOTSDynamicBone_Particle___System_Int32_System_Int32_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Disable(List{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name.vb: Disable(ByRef List(Of Particle), Int32, Int32)
+  fullName: DOTSDynamicBone.DOTSDynamicBone.Disable(ref List<DOTSDynamicBone.Particle>, System.Int32, System.Int32)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Disable(ByRef List(Of DOTSDynamicBone.Particle), System.Int32, System.Int32)
+  nameWithType: DOTSDynamicBone.Disable(ref List<Particle>, Int32, Int32)
+  nameWithType.vb: DOTSDynamicBone.Disable(ByRef List(Of Particle), Int32, Int32)
 - uid: DOTSDynamicBone.DOTSDynamicBone.Disable*
   name: Disable
   href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Disable_
@@ -78,15 +475,33 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBone.Disabled
   fullName: DOTSDynamicBone.DOTSDynamicBone.Disabled
   nameWithType: DOTSDynamicBone.Disabled
-- uid: DOTSDynamicBone.DOTSDynamicBone.Enable(DynamicBuffer{DOTSDynamicBone.Particle}@)
-  name: Enable(ref DynamicBuffer<Particle>)
-  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Enable_DynamicBuffer_DOTSDynamicBone_Particle___
-  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Enable(DynamicBuffer{DOTSDynamicBone.Particle}@)
-  name.vb: Enable(ByRef DynamicBuffer(Of Particle))
-  fullName: DOTSDynamicBone.DOTSDynamicBone.Enable(ref DynamicBuffer<DOTSDynamicBone.Particle>)
-  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Enable(ByRef DynamicBuffer(Of DOTSDynamicBone.Particle))
-  nameWithType: DOTSDynamicBone.Enable(ref DynamicBuffer<Particle>)
-  nameWithType.vb: DOTSDynamicBone.Enable(ByRef DynamicBuffer(Of Particle))
+- uid: DOTSDynamicBone.DOTSDynamicBone.Enable(DOTSDynamicBone.Particle[]@,System.Int32,System.Int32)
+  name: Enable(ref Particle[], Int32, Int32)
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Enable_DOTSDynamicBone_Particle____System_Int32_System_Int32_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Enable(DOTSDynamicBone.Particle[]@,System.Int32,System.Int32)
+  name.vb: Enable(ByRef Particle(), Int32, Int32)
+  fullName: DOTSDynamicBone.DOTSDynamicBone.Enable(ref DOTSDynamicBone.Particle[], System.Int32, System.Int32)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Enable(ByRef DOTSDynamicBone.Particle(), System.Int32, System.Int32)
+  nameWithType: DOTSDynamicBone.Enable(ref Particle[], Int32, Int32)
+  nameWithType.vb: DOTSDynamicBone.Enable(ByRef Particle(), Int32, Int32)
+- uid: DOTSDynamicBone.DOTSDynamicBone.Enable(DynamicBuffer{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name: Enable(ref DynamicBuffer<Particle>, Int32, Int32)
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Enable_DynamicBuffer_DOTSDynamicBone_Particle___System_Int32_System_Int32_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Enable(DynamicBuffer{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name.vb: Enable(ByRef DynamicBuffer(Of Particle), Int32, Int32)
+  fullName: DOTSDynamicBone.DOTSDynamicBone.Enable(ref DynamicBuffer<DOTSDynamicBone.Particle>, System.Int32, System.Int32)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Enable(ByRef DynamicBuffer(Of DOTSDynamicBone.Particle), System.Int32, System.Int32)
+  nameWithType: DOTSDynamicBone.Enable(ref DynamicBuffer<Particle>, Int32, Int32)
+  nameWithType.vb: DOTSDynamicBone.Enable(ByRef DynamicBuffer(Of Particle), Int32, Int32)
+- uid: DOTSDynamicBone.DOTSDynamicBone.Enable(List{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name: Enable(ref List<Particle>, Int32, Int32)
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Enable_List_DOTSDynamicBone_Particle___System_Int32_System_Int32_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBone.Enable(List{DOTSDynamicBone.Particle}@,System.Int32,System.Int32)
+  name.vb: Enable(ByRef List(Of Particle), Int32, Int32)
+  fullName: DOTSDynamicBone.DOTSDynamicBone.Enable(ref List<DOTSDynamicBone.Particle>, System.Int32, System.Int32)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBone.Enable(ByRef List(Of DOTSDynamicBone.Particle), System.Int32, System.Int32)
+  nameWithType: DOTSDynamicBone.Enable(ref List<Particle>, Int32, Int32)
+  nameWithType.vb: DOTSDynamicBone.Enable(ByRef List(Of Particle), Int32, Int32)
 - uid: DOTSDynamicBone.DOTSDynamicBone.Enable*
   name: Enable
   href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_Enable_
@@ -124,19 +539,12 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Z
   fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Z
   nameWithType: DOTSDynamicBone.FreezeAxis.Z
-- uid: DOTSDynamicBone.DOTSDynamicBone.GetWeight
-  name: GetWeight()
-  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_GetWeight
-  commentId: M:DOTSDynamicBone.DOTSDynamicBone.GetWeight
-  fullName: DOTSDynamicBone.DOTSDynamicBone.GetWeight()
-  nameWithType: DOTSDynamicBone.GetWeight()
-- uid: DOTSDynamicBone.DOTSDynamicBone.GetWeight*
-  name: GetWeight
-  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_GetWeight_
-  commentId: Overload:DOTSDynamicBone.DOTSDynamicBone.GetWeight
-  isSpec: "True"
-  fullName: DOTSDynamicBone.DOTSDynamicBone.GetWeight
-  nameWithType: DOTSDynamicBone.GetWeight
+- uid: DOTSDynamicBone.DOTSDynamicBone.m_BoneTotalLength
+  name: m_BoneTotalLength
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_m_BoneTotalLength
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.m_BoneTotalLength
+  fullName: DOTSDynamicBone.DOTSDynamicBone.m_BoneTotalLength
+  nameWithType: DOTSDynamicBone.m_BoneTotalLength
 - uid: DOTSDynamicBone.DOTSDynamicBone.m_Core
   name: m_Core
   href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_m_Core
@@ -281,6 +689,12 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBone.m_Stiffness
   fullName: DOTSDynamicBone.DOTSDynamicBone.m_Stiffness
   nameWithType: DOTSDynamicBone.m_Stiffness
+- uid: DOTSDynamicBone.DOTSDynamicBone.m_UpdateDataFrom
+  name: m_UpdateDataFrom
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_m_UpdateDataFrom
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.m_UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBone.m_UpdateDataFrom
+  nameWithType: DOTSDynamicBone.m_UpdateDataFrom
 - uid: DOTSDynamicBone.DOTSDynamicBone.m_UpdateMode
   name: m_UpdateMode
   href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_m_UpdateMode
@@ -335,12 +749,30 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBone.UpdateMode.UnscaledTime
   fullName: DOTSDynamicBone.DOTSDynamicBone.UpdateMode.UnscaledTime
   nameWithType: DOTSDynamicBone.UpdateMode.UnscaledTime
+- uid: DOTSDynamicBone.DOTSDynamicBone.UpdateRotationTransforms
+  name: UpdateRotationTransforms
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_UpdateRotationTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.UpdateRotationTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBone.UpdateRotationTransforms
+  nameWithType: DOTSDynamicBone.UpdateRotationTransforms
+- uid: DOTSDynamicBone.DOTSDynamicBone.UpdateTranslationTransforms
+  name: UpdateTranslationTransforms
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_UpdateTranslationTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.UpdateTranslationTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBone.UpdateTranslationTransforms
+  nameWithType: DOTSDynamicBone.UpdateTranslationTransforms
 - uid: DOTSDynamicBone.DOTSDynamicBone.UseAnimatedLocalToRoot
   name: UseAnimatedLocalToRoot
   href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_UseAnimatedLocalToRoot
   commentId: F:DOTSDynamicBone.DOTSDynamicBone.UseAnimatedLocalToRoot
   fullName: DOTSDynamicBone.DOTSDynamicBone.UseAnimatedLocalToRoot
   nameWithType: DOTSDynamicBone.UseAnimatedLocalToRoot
+- uid: DOTSDynamicBone.DOTSDynamicBone.UseNaturalColliders
+  name: UseNaturalColliders
+  href: api/DOTSDynamicBone.DOTSDynamicBone.html#DOTSDynamicBone_DOTSDynamicBone_UseNaturalColliders
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.UseNaturalColliders
+  fullName: DOTSDynamicBone.DOTSDynamicBone.UseNaturalColliders
+  nameWithType: DOTSDynamicBone.UseNaturalColliders
 - uid: DOTSDynamicBone.DOTSDynamicBone_BufferElement
   name: DOTSDynamicBone_BufferElement
   href: api/DOTSDynamicBone.DOTSDynamicBone_BufferElement.html
@@ -365,18 +797,96 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBone_BufferElement.Value
   fullName: DOTSDynamicBone.DOTSDynamicBone_BufferElement.Value
   nameWithType: DOTSDynamicBone_BufferElement.Value
+- uid: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag
+  name: DOTSDynamicBone_TransformOverrideLink_Tag
+  href: api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.html
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag
+  fullName: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag
+  nameWithType: DOTSDynamicBone_TransformOverrideLink_Tag
+- uid: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.boneIndex
+  name: boneIndex
+  href: api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.html#DOTSDynamicBone_DOTSDynamicBone_TransformOverrideLink_Tag_boneIndex
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.boneIndex
+  fullName: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.boneIndex
+  nameWithType: DOTSDynamicBone_TransformOverrideLink_Tag.boneIndex
+- uid: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.DOTSDynamicBoneEntity
+  name: DOTSDynamicBoneEntity
+  href: api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.html#DOTSDynamicBone_DOTSDynamicBone_TransformOverrideLink_Tag_DOTSDynamicBoneEntity
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.DOTSDynamicBoneEntity
+  fullName: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.DOTSDynamicBoneEntity
+  nameWithType: DOTSDynamicBone_TransformOverrideLink_Tag.DOTSDynamicBoneEntity
+- uid: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.particleIndex
+  name: particleIndex
+  href: api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.html#DOTSDynamicBone_DOTSDynamicBone_TransformOverrideLink_Tag_particleIndex
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.particleIndex
+  fullName: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.particleIndex
+  nameWithType: DOTSDynamicBone_TransformOverrideLink_Tag.particleIndex
+- uid: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.singleBone
+  name: singleBone
+  href: api/DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.html#DOTSDynamicBone_DOTSDynamicBone_TransformOverrideLink_Tag_singleBone
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.singleBone
+  fullName: DOTSDynamicBone.DOTSDynamicBone_TransformOverrideLink_Tag.singleBone
+  nameWithType: DOTSDynamicBone_TransformOverrideLink_Tag.singleBone
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass
   name: DOTSDynamicBoneClass
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html
   commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass
   nameWithType: DOTSDynamicBoneClass
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  name: DOTSDynamicBoneClass()
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass__ctor
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.DOTSDynamicBoneClass()
+  nameWithType: DOTSDynamicBoneClass.DOTSDynamicBoneClass()
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.#ctor*
+  name: DOTSDynamicBoneClass
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass__ctor_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.DOTSDynamicBoneClass
+  nameWithType: DOTSDynamicBoneClass.DOTSDynamicBoneClass
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)
+  name: AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone, Entity, Single)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneCalculationCulling_EntityManager_Entity_DOTSDynamicBone_DOTSDynamicBone__Entity_System_Single_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)
+  name.vb: AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone, Entity, Single)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single)
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone, Entity, Single)
+  nameWithType.vb: DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone, Entity, Single)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling*
+  name: AddDOTSDynamicBoneCalculationCulling
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneCalculationCulling_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)
+  name: AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, Boolean, Boolean)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneColliderComponentsToEntity_EntityManager_Entity_System_Boolean_System_Boolean_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, System.Boolean, System.Boolean)
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, Boolean, Boolean)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity*
+  name: AddDOTSDynamicBoneColliderComponentsToEntity
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_AddDOTSDynamicBoneColliderComponentsToEntity_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.Disable
   name: Disable
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_Disable
   commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.Disable
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.Disable
   nameWithType: DOTSDynamicBoneClass.Disable
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  name: m_BoneTotalLength
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_m_BoneTotalLength
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  nameWithType: DOTSDynamicBoneClass.m_BoneTotalLength
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Colliders
   name: m_Colliders
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_m_Colliders
@@ -515,6 +1025,12 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_StiffnessDistrib
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_StiffnessDistrib
   nameWithType: DOTSDynamicBoneClass.m_StiffnessDistrib
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  name: m_UpdateDataFrom
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_m_UpdateDataFrom
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  nameWithType: DOTSDynamicBoneClass.m_UpdateDataFrom
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateMode
   name: m_UpdateMode
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_m_UpdateMode
@@ -527,18 +1043,75 @@ references:
   commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateRate
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateRate
   nameWithType: DOTSDynamicBoneClass.m_UpdateRate
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  name: m_Weight
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_m_Weight
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  nameWithType: DOTSDynamicBoneClass.m_Weight
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.Name
   name: Name
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_Name
   commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.Name
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.Name
   nameWithType: DOTSDynamicBoneClass.Name
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)
+  name: RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_EntityManager_Entity_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)
+  name: RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_EntityManager_Entity_DOTSDynamicBone_DOTSDynamicBone__
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)
+  name.vb: RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone.DOTSDynamicBone)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone.DOTSDynamicBone)
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone)
+  nameWithType.vb: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling*
+  name: RemoveDOTSDynamicBoneCalculationCulling
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneCalculationCulling_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)
+  name: RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity_EntityManager_Entity_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity*
+  name: RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
   name: RigComponent
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_RigComponent
   commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
   nameWithType: DOTSDynamicBoneClass.RigComponent
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)
+  name: SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone, Entity, Single, Boolean)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_SetDOTSDynamicBoneCalculationCulling_DOTSDynamicBone_DOTSDynamicBone__Entity_System_Single_System_Boolean_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)
+  name.vb: SetDOTSDynamicBoneCalculationCulling(ByRef DOTSDynamicBone, Entity, Single, Boolean)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single, System.Boolean)
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ByRef DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single, System.Boolean)
+  nameWithType: DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone, Entity, Single, Boolean)
+  nameWithType.vb: DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ByRef DOTSDynamicBone, Entity, Single, Boolean)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling*
+  name: SetDOTSDynamicBoneCalculationCulling
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_SetDOTSDynamicBoneCalculationCulling_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling
+  nameWithType: DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass)
   name: ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass)
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_ToDOTSDynamicBone_GameObjectConversionSystem_RigComponent_Transform_EntityManager_Entity_DOTSDynamicBone_DOTSDynamicBoneClass_
@@ -561,6 +1134,24 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone
   nameWithType: DOTSDynamicBoneClass.ToDOTSDynamicBone
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  name: DOTSDynamicBoneClass.UpdateDataFrom
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.html
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  name: AnimatedLocalToWorld
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.html#DOTSDynamicBone_DOTSDynamicBoneClass_UpdateDataFrom_AnimatedLocalToWorld
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  name: Custom
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.html#DOTSDynamicBone_DOTSDynamicBoneClass_UpdateDataFrom_Custom
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom.Custom
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateLocalToWorldTransforms
   name: UpdateLocalToWorldTransforms
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_UpdateLocalToWorldTransforms
@@ -580,12 +1171,30 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName
   nameWithType: DOTSDynamicBoneClass.UpdateName
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  name: UpdateRotationTransforms
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_UpdateRotationTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  nameWithType: DOTSDynamicBoneClass.UpdateRotationTransforms
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  name: UpdateTranslationTransforms
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_UpdateTranslationTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  nameWithType: DOTSDynamicBoneClass.UpdateTranslationTransforms
 - uid: DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
   name: UseAnimatedLocalToRoot
   href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_UseAnimatedLocalToRoot
   commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
   fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
   nameWithType: DOTSDynamicBoneClass.UseAnimatedLocalToRoot
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  name: UseNaturalColliders
+  href: api/DOTSDynamicBone.DOTSDynamicBoneClass.html#DOTSDynamicBone_DOTSDynamicBoneClass_UseNaturalColliders
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  nameWithType: DOTSDynamicBoneClass.UseNaturalColliders
 - uid: DOTSDynamicBone.DOTSDynamicBoneComponent
   name: DOTSDynamicBoneComponent
   href: api/DOTSDynamicBone.DOTSDynamicBoneComponent.html
@@ -624,18 +1233,74 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.DOTSDynamicBoneComponent.Start
   nameWithType: DOTSDynamicBoneComponent.Start
-- uid: DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag
-  name: DOTSDynamicBoneParticleLocalToWorldOverride_Tag
-  href: api/DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.html
-  commentId: T:DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag
-  fullName: DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag
-  nameWithType: DOTSDynamicBoneParticleLocalToWorldOverride_Tag
-- uid: DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.overrideExportPhysicsWorld
-  name: overrideExportPhysicsWorld
-  href: api/DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.html#DOTSDynamicBone_DOTSDynamicBoneParticleLocalToWorldOverride_Tag_overrideExportPhysicsWorld
-  commentId: F:DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.overrideExportPhysicsWorld
-  fullName: DOTSDynamicBone.DOTSDynamicBoneParticleLocalToWorldOverride_Tag.overrideExportPhysicsWorld
-  nameWithType: DOTSDynamicBoneParticleLocalToWorldOverride_Tag.overrideExportPhysicsWorld
+- uid: DOTSDynamicBone.DOTSDynamicBoneCulling_Tag
+  name: DOTSDynamicBoneCulling_Tag
+  href: api/DOTSDynamicBone.DOTSDynamicBoneCulling_Tag.html
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneCulling_Tag
+  fullName: DOTSDynamicBone.DOTSDynamicBoneCulling_Tag
+  nameWithType: DOTSDynamicBoneCulling_Tag
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  name: DOTSDynamicBoneIndependantBone_Link
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.html
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  nameWithType: DOTSDynamicBoneIndependantBone_Link
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  name: DOTSDynamicBoneIndependant_Entity
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.html#DOTSDynamicBone_DOTSDynamicBoneIndependantBone_Link_DOTSDynamicBoneIndependant_Entity
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  nameWithType: DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  name: DOTSDynamicBoneIndependantMultipleComponent
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  name: Bones
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_Bones
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.Bones
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  name: Convert(Entity, EntityManager, GameObjectConversionSystem)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_Convert_Entity_EntityManager_GameObjectConversionSystem_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity, EntityManager, GameObjectConversionSystem)
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity, EntityManager, GameObjectConversionSystem)
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert*
+  name: Convert
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_Convert_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.Convert
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  name: GetMeshRenderers(RigComponent)
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_GetMeshRenderers_RigComponent_
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers*
+  name: GetMeshRenderers
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_GetMeshRenderers_
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers
+  isSpec: "True"
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  name: RigComponent
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_RigComponent
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  name: UseUniqueRigComponents
+  href: api/DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.html#DOTSDynamicBone_DOTSDynamicBoneIndependantMultipleComponent_UseUniqueRigComponents
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
 - uid: DOTSDynamicBone.DOTSDynamicBonesComponent
   name: DOTSDynamicBonesComponent
   href: api/DOTSDynamicBone.DOTSDynamicBonesComponent.html
@@ -873,6 +1538,80 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.DOTSPlane.Translate
   nameWithType: DOTSPlane.Translate
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation
+  name: ExcludeEntityFromSimulation
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html
+  commentId: T:DOTSDynamicBone.ExcludeEntityFromSimulation
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation
+  nameWithType: ExcludeEntityFromSimulation
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeChildrenFromCollision
+  name: ExcludeChildrenFromCollision
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_ExcludeChildrenFromCollision
+  commentId: F:DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeChildrenFromCollision
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeChildrenFromCollision
+  nameWithType: ExcludeEntityFromSimulation.ExcludeChildrenFromCollision
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeChildrenFromPhysics
+  name: ExcludeChildrenFromPhysics
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_ExcludeChildrenFromPhysics
+  commentId: F:DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeChildrenFromPhysics
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeChildrenFromPhysics
+  nameWithType: ExcludeEntityFromSimulation.ExcludeChildrenFromPhysics
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeFromCollision
+  name: ExcludeFromCollision
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_ExcludeFromCollision
+  commentId: F:DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeFromCollision
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeFromCollision
+  nameWithType: ExcludeEntityFromSimulation.ExcludeFromCollision
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeFromPhysics
+  name: ExcludeFromPhysics
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_ExcludeFromPhysics
+  commentId: F:DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeFromPhysics
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.ExcludeFromPhysics
+  nameWithType: ExcludeEntityFromSimulation.ExcludeFromPhysics
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.Null
+  name: "Null"
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_Null
+  commentId: P:DOTSDynamicBone.ExcludeEntityFromSimulation.Null
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.Null
+  nameWithType: ExcludeEntityFromSimulation.Null
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.Null*
+  name: "Null"
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_Null_
+  commentId: Overload:DOTSDynamicBone.ExcludeEntityFromSimulation.Null
+  isSpec: "True"
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.Null
+  nameWithType: ExcludeEntityFromSimulation.Null
+- uid: DOTSDynamicBone.ExcludeEntityFromSimulation.transform
+  name: transform
+  href: api/DOTSDynamicBone.ExcludeEntityFromSimulation.html#DOTSDynamicBone_ExcludeEntityFromSimulation_transform
+  commentId: F:DOTSDynamicBone.ExcludeEntityFromSimulation.transform
+  fullName: DOTSDynamicBone.ExcludeEntityFromSimulation.transform
+  nameWithType: ExcludeEntityFromSimulation.transform
+- uid: DOTSDynamicBone.IndependantDOTSDynamicBone
+  name: IndependantDOTSDynamicBone
+  href: api/DOTSDynamicBone.IndependantDOTSDynamicBone.html
+  commentId: T:DOTSDynamicBone.IndependantDOTSDynamicBone
+  fullName: DOTSDynamicBone.IndependantDOTSDynamicBone
+  nameWithType: IndependantDOTSDynamicBone
+- uid: DOTSDynamicBone.IndependantDOTSDynamicBone.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  name: Convert(Entity, EntityManager, GameObjectConversionSystem)
+  href: api/DOTSDynamicBone.IndependantDOTSDynamicBone.html#DOTSDynamicBone_IndependantDOTSDynamicBone_Convert_Entity_EntityManager_GameObjectConversionSystem_
+  commentId: M:DOTSDynamicBone.IndependantDOTSDynamicBone.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  fullName: DOTSDynamicBone.IndependantDOTSDynamicBone.Convert(Entity, EntityManager, GameObjectConversionSystem)
+  nameWithType: IndependantDOTSDynamicBone.Convert(Entity, EntityManager, GameObjectConversionSystem)
+- uid: DOTSDynamicBone.IndependantDOTSDynamicBone.Convert*
+  name: Convert
+  href: api/DOTSDynamicBone.IndependantDOTSDynamicBone.html#DOTSDynamicBone_IndependantDOTSDynamicBone_Convert_
+  commentId: Overload:DOTSDynamicBone.IndependantDOTSDynamicBone.Convert
+  isSpec: "True"
+  fullName: DOTSDynamicBone.IndependantDOTSDynamicBone.Convert
+  nameWithType: IndependantDOTSDynamicBone.Convert
+- uid: DOTSDynamicBone.IndependantDOTSDynamicBone.m_DOTSDynamicBone
+  name: m_DOTSDynamicBone
+  href: api/DOTSDynamicBone.IndependantDOTSDynamicBone.html#DOTSDynamicBone_IndependantDOTSDynamicBone_m_DOTSDynamicBone
+  commentId: F:DOTSDynamicBone.IndependantDOTSDynamicBone.m_DOTSDynamicBone
+  fullName: DOTSDynamicBone.IndependantDOTSDynamicBone.m_DOTSDynamicBone
+  nameWithType: IndependantDOTSDynamicBone.m_DOTSDynamicBone
 - uid: DOTSDynamicBone.IndependantDOTSDynamicBone_Tag
   name: IndependantDOTSDynamicBone_Tag
   href: api/DOTSDynamicBone.IndependantDOTSDynamicBone_Tag.html
@@ -904,19 +1643,12 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.Particle.CalculateParameters
   nameWithType: Particle.CalculateParameters
-- uid: DOTSDynamicBone.Particle.Create(GameObjectConversionSystem,Transform,System.Boolean,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean)
-  name: Create(GameObjectConversionSystem, Transform, Boolean, Int32, Single, Single, Single, Single, Single, Single, Single, Boolean)
-  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Create_GameObjectConversionSystem_Transform_System_Boolean_System_Int32_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Boolean_
-  commentId: M:DOTSDynamicBone.Particle.Create(GameObjectConversionSystem,Transform,System.Boolean,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean)
-  fullName: DOTSDynamicBone.Particle.Create(GameObjectConversionSystem, Transform, System.Boolean, System.Int32, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Boolean)
-  nameWithType: Particle.Create(GameObjectConversionSystem, Transform, Boolean, Int32, Single, Single, Single, Single, Single, Single, Single, Boolean)
-- uid: DOTSDynamicBone.Particle.Create*
-  name: Create
-  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Create_
-  commentId: Overload:DOTSDynamicBone.Particle.Create
-  isSpec: "True"
-  fullName: DOTSDynamicBone.Particle.Create
-  nameWithType: Particle.Create
+- uid: DOTSDynamicBone.Particle.collider
+  name: collider
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_collider
+  commentId: F:DOTSDynamicBone.Particle.collider
+  fullName: DOTSDynamicBone.Particle.collider
+  nameWithType: Particle.collider
 - uid: DOTSDynamicBone.Particle.Disable
   name: Disable()
   href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Disable
@@ -956,6 +1688,36 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.Particle.Exclude
   nameWithType: Particle.Exclude
+- uid: DOTSDynamicBone.Particle.h_Damping
+  name: h_Damping
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_h_Damping
+  commentId: F:DOTSDynamicBone.Particle.h_Damping
+  fullName: DOTSDynamicBone.Particle.h_Damping
+  nameWithType: Particle.h_Damping
+- uid: DOTSDynamicBone.Particle.h_Elasticity
+  name: h_Elasticity
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_h_Elasticity
+  commentId: F:DOTSDynamicBone.Particle.h_Elasticity
+  fullName: DOTSDynamicBone.Particle.h_Elasticity
+  nameWithType: Particle.h_Elasticity
+- uid: DOTSDynamicBone.Particle.h_Friction
+  name: h_Friction
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_h_Friction
+  commentId: F:DOTSDynamicBone.Particle.h_Friction
+  fullName: DOTSDynamicBone.Particle.h_Friction
+  nameWithType: Particle.h_Friction
+- uid: DOTSDynamicBone.Particle.h_Inert
+  name: h_Inert
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_h_Inert
+  commentId: F:DOTSDynamicBone.Particle.h_Inert
+  fullName: DOTSDynamicBone.Particle.h_Inert
+  nameWithType: Particle.h_Inert
+- uid: DOTSDynamicBone.Particle.h_Stiffness
+  name: h_Stiffness
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_h_Stiffness
+  commentId: F:DOTSDynamicBone.Particle.h_Stiffness
+  fullName: DOTSDynamicBone.Particle.h_Stiffness
+  nameWithType: Particle.h_Stiffness
 - uid: DOTSDynamicBone.Particle.Include
   name: Include()
   href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Include
@@ -969,12 +1731,24 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.Particle.Include
   nameWithType: Particle.Include
+- uid: DOTSDynamicBone.Particle.m_AnimatedLocalToWorldTransform
+  name: m_AnimatedLocalToWorldTransform
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_AnimatedLocalToWorldTransform
+  commentId: F:DOTSDynamicBone.Particle.m_AnimatedLocalToWorldTransform
+  fullName: DOTSDynamicBone.Particle.m_AnimatedLocalToWorldTransform
+  nameWithType: Particle.m_AnimatedLocalToWorldTransform
 - uid: DOTSDynamicBone.Particle.m_BoneLength
   name: m_BoneLength
   href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_BoneLength
   commentId: F:DOTSDynamicBone.Particle.m_BoneLength
   fullName: DOTSDynamicBone.Particle.m_BoneLength
   nameWithType: Particle.m_BoneLength
+- uid: DOTSDynamicBone.Particle.m_Bound
+  name: m_Bound
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_Bound
+  commentId: F:DOTSDynamicBone.Particle.m_Bound
+  fullName: DOTSDynamicBone.Particle.m_Bound
+  nameWithType: Particle.m_Bound
 - uid: DOTSDynamicBone.Particle.m_Damping
   name: m_Damping
   href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_Damping
@@ -1005,6 +1779,12 @@ references:
   commentId: F:DOTSDynamicBone.Particle.m_Exclude
   fullName: DOTSDynamicBone.Particle.m_Exclude
   nameWithType: Particle.m_Exclude
+- uid: DOTSDynamicBone.Particle.m_ExcludeFromCollision
+  name: m_ExcludeFromCollision
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_ExcludeFromCollision
+  commentId: F:DOTSDynamicBone.Particle.m_ExcludeFromCollision
+  fullName: DOTSDynamicBone.Particle.m_ExcludeFromCollision
+  nameWithType: Particle.m_ExcludeFromCollision
 - uid: DOTSDynamicBone.Particle.m_Friction
   name: m_Friction
   href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_Friction
@@ -1029,6 +1809,12 @@ references:
   commentId: F:DOTSDynamicBone.Particle.m_InitLocalRotation
   fullName: DOTSDynamicBone.Particle.m_InitLocalRotation
   nameWithType: Particle.m_InitLocalRotation
+- uid: DOTSDynamicBone.Particle.m_isCollide
+  name: m_isCollide
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_isCollide
+  commentId: F:DOTSDynamicBone.Particle.m_isCollide
+  fullName: DOTSDynamicBone.Particle.m_isCollide
+  nameWithType: Particle.m_isCollide
 - uid: DOTSDynamicBone.Particle.m_ParentIndex
   name: m_ParentIndex
   href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_m_ParentIndex
@@ -1071,18 +1857,57 @@ references:
   commentId: F:DOTSDynamicBone.Particle.m_TransformEntity
   fullName: DOTSDynamicBone.Particle.m_TransformEntity
   nameWithType: Particle.m_TransformEntity
+- uid: DOTSDynamicBone.Particle.Null
+  name: "Null"
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Null
+  commentId: P:DOTSDynamicBone.Particle.Null
+  fullName: DOTSDynamicBone.Particle.Null
+  nameWithType: Particle.Null
+- uid: DOTSDynamicBone.Particle.Null*
+  name: "Null"
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Null_
+  commentId: Overload:DOTSDynamicBone.Particle.Null
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Particle.Null
+  nameWithType: Particle.Null
+- uid: DOTSDynamicBone.Particle.Verify
+  name: Verify()
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Verify
+  commentId: M:DOTSDynamicBone.Particle.Verify
+  fullName: DOTSDynamicBone.Particle.Verify()
+  nameWithType: Particle.Verify()
+- uid: DOTSDynamicBone.Particle.Verify*
+  name: Verify
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Verify_
+  commentId: Overload:DOTSDynamicBone.Particle.Verify
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Particle.Verify
+  nameWithType: Particle.Verify
+- uid: DOTSDynamicBone.Particle.Zero
+  name: Zero()
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Zero
+  commentId: M:DOTSDynamicBone.Particle.Zero
+  fullName: DOTSDynamicBone.Particle.Zero()
+  nameWithType: Particle.Zero()
+- uid: DOTSDynamicBone.Particle.Zero*
+  name: Zero
+  href: api/DOTSDynamicBone.Particle.html#DOTSDynamicBone_Particle_Zero_
+  commentId: Overload:DOTSDynamicBone.Particle.Zero
+  isSpec: "True"
+  fullName: DOTSDynamicBone.Particle.Zero
+  nameWithType: Particle.Zero
 - uid: DOTSDynamicBone.ParticleTransform
   name: ParticleTransform
   href: api/DOTSDynamicBone.ParticleTransform.html
   commentId: T:DOTSDynamicBone.ParticleTransform
   fullName: DOTSDynamicBone.ParticleTransform
   nameWithType: ParticleTransform
-- uid: DOTSDynamicBone.ParticleTransform.#ctor(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)
-  name: ParticleTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)
-  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform__ctor_float3_float3_quaternion_quaternion_float3_System_Single_System_Int32_
-  commentId: M:DOTSDynamicBone.ParticleTransform.#ctor(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)
-  fullName: DOTSDynamicBone.ParticleTransform.ParticleTransform(float3, float3, quaternion, quaternion, float3, System.Single, System.Int32)
-  nameWithType: ParticleTransform.ParticleTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)
+- uid: DOTSDynamicBone.ParticleTransform.#ctor(float3,float3,quaternion,quaternion,float3,float3,System.Int32)
+  name: ParticleTransform(float3, float3, quaternion, quaternion, float3, float3, Int32)
+  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform__ctor_float3_float3_quaternion_quaternion_float3_float3_System_Int32_
+  commentId: M:DOTSDynamicBone.ParticleTransform.#ctor(float3,float3,quaternion,quaternion,float3,float3,System.Int32)
+  fullName: DOTSDynamicBone.ParticleTransform.ParticleTransform(float3, float3, quaternion, quaternion, float3, float3, System.Int32)
+  nameWithType: ParticleTransform.ParticleTransform(float3, float3, quaternion, quaternion, float3, float3, Int32)
 - uid: DOTSDynamicBone.ParticleTransform.#ctor(Transform)
   name: ParticleTransform(Transform)
   href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform__ctor_Transform_
@@ -1102,6 +1927,30 @@ references:
   commentId: F:DOTSDynamicBone.ParticleTransform.childCount
   fullName: DOTSDynamicBone.ParticleTransform.childCount
   nameWithType: ParticleTransform.childCount
+- uid: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType
+  name: ParticleTransform.DOTSDynamicBoneColliderType
+  href: api/DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.html
+  commentId: T:DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType
+  fullName: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType
+  nameWithType: ParticleTransform.DOTSDynamicBoneColliderType
+- uid: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.Cube
+  name: Cube
+  href: api/DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.html#DOTSDynamicBone_ParticleTransform_DOTSDynamicBoneColliderType_Cube
+  commentId: F:DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.Cube
+  fullName: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.Cube
+  nameWithType: ParticleTransform.DOTSDynamicBoneColliderType.Cube
+- uid: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.Plane
+  name: Plane
+  href: api/DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.html#DOTSDynamicBone_ParticleTransform_DOTSDynamicBoneColliderType_Plane
+  commentId: F:DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.Plane
+  fullName: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.Plane
+  nameWithType: ParticleTransform.DOTSDynamicBoneColliderType.Plane
+- uid: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.SphereLike
+  name: SphereLike
+  href: api/DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.html#DOTSDynamicBone_ParticleTransform_DOTSDynamicBoneColliderType_SphereLike
+  commentId: F:DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.SphereLike
+  fullName: DOTSDynamicBone.ParticleTransform.DOTSDynamicBoneColliderType.SphereLike
+  nameWithType: ParticleTransform.DOTSDynamicBoneColliderType.SphereLike
 - uid: DOTSDynamicBone.ParticleTransform.Equals(DOTSDynamicBone.ParticleTransform)
   name: Equals(ParticleTransform)
   href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_Equals_DOTSDynamicBone_ParticleTransform_
@@ -1158,6 +2007,12 @@ references:
   commentId: F:DOTSDynamicBone.ParticleTransform.position
   fullName: DOTSDynamicBone.ParticleTransform.position
   nameWithType: ParticleTransform.position
+- uid: DOTSDynamicBone.ParticleTransform.rawLTW
+  name: rawLTW
+  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_rawLTW
+  commentId: F:DOTSDynamicBone.ParticleTransform.rawLTW
+  fullName: DOTSDynamicBone.ParticleTransform.rawLTW
+  nameWithType: ParticleTransform.rawLTW
 - uid: DOTSDynamicBone.ParticleTransform.rotation
   name: rotation
   href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_rotation
@@ -1209,6 +2064,12 @@ references:
   commentId: M:DOTSDynamicBone.ParticleTransform.ToLocalToWorld
   fullName: DOTSDynamicBone.ParticleTransform.ToLocalToWorld()
   nameWithType: ParticleTransform.ToLocalToWorld()
+- uid: DOTSDynamicBone.ParticleTransform.ToLocalToWorld(System.Boolean)
+  name: ToLocalToWorld(Boolean)
+  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_ToLocalToWorld_System_Boolean_
+  commentId: M:DOTSDynamicBone.ParticleTransform.ToLocalToWorld(System.Boolean)
+  fullName: DOTSDynamicBone.ParticleTransform.ToLocalToWorld(System.Boolean)
+  nameWithType: ParticleTransform.ToLocalToWorld(Boolean)
 - uid: DOTSDynamicBone.ParticleTransform.ToLocalToWorld*
   name: ToLocalToWorld
   href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_ToLocalToWorld_
@@ -1229,18 +2090,24 @@ references:
   isSpec: "True"
   fullName: DOTSDynamicBone.ParticleTransform.ToTransform
   nameWithType: ParticleTransform.ToTransform
-- uid: DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)
-  name: UpdateTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)
-  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_UpdateTransform_float3_float3_quaternion_quaternion_float3_System_Single_System_Int32_
-  commentId: M:DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)
-  fullName: DOTSDynamicBone.ParticleTransform.UpdateTransform(float3, float3, quaternion, quaternion, float3, System.Single, System.Int32)
-  nameWithType: ParticleTransform.UpdateTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)
+- uid: DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,float3,quaternion,quaternion,float3,float3,System.Int32)
+  name: UpdateTransform(float3, float3, quaternion, quaternion, float3, float3, Int32)
+  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_UpdateTransform_float3_float3_quaternion_quaternion_float3_float3_System_Int32_
+  commentId: M:DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,float3,quaternion,quaternion,float3,float3,System.Int32)
+  fullName: DOTSDynamicBone.ParticleTransform.UpdateTransform(float3, float3, quaternion, quaternion, float3, float3, System.Int32)
+  nameWithType: ParticleTransform.UpdateTransform(float3, float3, quaternion, quaternion, float3, float3, Int32)
 - uid: DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,quaternion)
   name: UpdateTransform(float3, quaternion)
   href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_UpdateTransform_float3_quaternion_
   commentId: M:DOTSDynamicBone.ParticleTransform.UpdateTransform(float3,quaternion)
   fullName: DOTSDynamicBone.ParticleTransform.UpdateTransform(float3, quaternion)
   nameWithType: ParticleTransform.UpdateTransform(float3, quaternion)
+- uid: DOTSDynamicBone.ParticleTransform.UpdateTransform(LocalToWorld)
+  name: UpdateTransform(LocalToWorld)
+  href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_UpdateTransform_LocalToWorld_
+  commentId: M:DOTSDynamicBone.ParticleTransform.UpdateTransform(LocalToWorld)
+  fullName: DOTSDynamicBone.ParticleTransform.UpdateTransform(LocalToWorld)
+  nameWithType: ParticleTransform.UpdateTransform(LocalToWorld)
 - uid: DOTSDynamicBone.ParticleTransform.UpdateTransform(LocalToWorld,float3,quaternion)
   name: UpdateTransform(LocalToWorld, float3, quaternion)
   href: api/DOTSDynamicBone.ParticleTransform.html#DOTSDynamicBone_ParticleTransform_UpdateTransform_LocalToWorld_float3_quaternion_
@@ -1263,315 +2130,41 @@ references:
 - uid: DOTSDynamicBone.ProjectSetup
   name: Project Setup
   href: manual/DOTSDynamicBone.ProjectSetup.html
-- uid: DOTSDynamicBoneExtensions
-  name: DOTSDynamicBoneExtensions
-  href: api/DOTSDynamicBoneExtensions.html
-  commentId: N:DOTSDynamicBoneExtensions
-  fullName: DOTSDynamicBoneExtensions
-  nameWithType: DOTSDynamicBoneExtensions
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider
-  name: DOTSDynamicBoneCollider
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html
-  commentId: T:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider
-  nameWithType: DOTSDynamicBoneCollider
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.enable
-  name: enable
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_enable
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.enable
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.enable
-  nameWithType: DOTSDynamicBoneCollider.enable
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Bound
-  name: m_Bound
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_m_Bound
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Bound
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Bound
-  nameWithType: DOTSDynamicBoneCollider.m_Bound
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Center
-  name: m_Center
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_m_Center
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Center
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Center
-  nameWithType: DOTSDynamicBoneCollider.m_Center
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Direction
-  name: m_Direction
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_m_Direction
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Direction
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Direction
-  nameWithType: DOTSDynamicBoneCollider.m_Direction
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Height
-  name: m_Height
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_m_Height
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Height
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Height
-  nameWithType: DOTSDynamicBoneCollider.m_Height
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Radius
-  name: m_Radius
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_m_Radius
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Radius
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.m_Radius
-  nameWithType: DOTSDynamicBoneCollider.m_Radius
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem)
-  name: ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem)
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_ToDOTSDynamicBoneCollider_BufferElement_GameObjectConversionSystem_
-  commentId: M:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem)
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem)
-  nameWithType: DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem)
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement*
-  name: ToDOTSDynamicBoneCollider_BufferElement
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_ToDOTSDynamicBoneCollider_BufferElement_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+- uid: DOTSDynamicBone.Systems
+  name: DOTSDynamicBone.Systems
+  href: api/DOTSDynamicBone.Systems.html
+  commentId: N:DOTSDynamicBone.Systems
+  fullName: DOTSDynamicBone.Systems
+  nameWithType: DOTSDynamicBone.Systems
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  name: DOTSDynamicBoneTransformOverrideSystem
+  href: api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.html
+  commentId: T:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  name: OnCreate()
+  href: api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.html#DOTSDynamicBone_Systems_DOTSDynamicBoneTransformOverrideSystem_OnCreate
+  commentId: M:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate()
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnCreate()
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate*
+  name: OnCreate
+  href: api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.html#DOTSDynamicBone_Systems_DOTSDynamicBoneTransformOverrideSystem_OnCreate_
+  commentId: Overload:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
   isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
-  nameWithType: DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement
-  name: DOTSDynamicBoneCollider_BufferElement
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html
-  commentId: T:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement
-  nameWithType: DOTSDynamicBoneCollider_BufferElement
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.boneEntity
-  name: boneEntity
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_boneEntity
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.boneEntity
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.boneEntity
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.boneEntity
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide(float3@,System.Single)
-  name: Collide(ref float3, Single)
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_Collide_float3__System_Single_
-  commentId: M:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide(float3@,System.Single)
-  name.vb: Collide(ByRef float3, Single)
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide(ref float3, System.Single)
-  fullName.vb: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide(ByRef float3, System.Single)
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.Collide(ref float3, Single)
-  nameWithType.vb: DOTSDynamicBoneCollider_BufferElement.Collide(ByRef float3, Single)
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide*
-  name: Collide
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_Collide_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnCreate
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  name: OnUpdate()
+  href: api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.html#DOTSDynamicBone_Systems_DOTSDynamicBoneTransformOverrideSystem_OnUpdate
+  commentId: M:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate()
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnUpdate()
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate*
+  name: OnUpdate
+  href: api/DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.html#DOTSDynamicBone_Systems_DOTSDynamicBoneTransformOverrideSystem_OnUpdate_
+  commentId: Overload:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
   isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Collide
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.Collide
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Create(Entity,Entity,DOTSDynamicBone.ParticleTransform)
-  name: Create(Entity, Entity, ParticleTransform)
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_Create_Entity_Entity_DOTSDynamicBone_ParticleTransform_
-  commentId: M:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Create(Entity,Entity,DOTSDynamicBone.ParticleTransform)
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Create(Entity, Entity, DOTSDynamicBone.ParticleTransform)
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.Create(Entity, Entity, ParticleTransform)
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Create*
-  name: Create
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_Create_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Create
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Create
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.Create
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.enabled
-  name: enabled
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_enabled
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.enabled
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.enabled
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.enabled
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.entity
-  name: entity
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_entity
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.entity
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.entity
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.entity
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Bound
-  name: m_Bound
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Bound
-  commentId: P:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Bound
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Bound
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Bound
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Bound*
-  name: m_Bound
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Bound_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Bound
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Bound
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Bound
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Center
-  name: m_Center
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Center
-  commentId: P:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Center
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Center
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Center
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Center*
-  name: m_Center
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Center_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Center
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Center
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Center
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Direction
-  name: m_Direction
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Direction
-  commentId: P:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Direction
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Direction
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Direction
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Direction*
-  name: m_Direction
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Direction_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Direction
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Direction
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Direction
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Height
-  name: m_Height
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Height
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Height
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Height
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Height
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Radius
-  name: m_Radius
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_m_Radius
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Radius
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.m_Radius
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.m_Radius
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Null
-  name: "Null"
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_Null
-  commentId: P:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Null
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Null
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.Null
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Null*
-  name: "Null"
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_Null_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Null
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.Null
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.Null
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.transform
-  name: transform
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_transform
-  commentId: F:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.transform
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.transform
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.transform
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)
-  name: UpdateTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_UpdateTransform_float3_float3_quaternion_quaternion_float3_System_Single_System_Int32_
-  commentId: M:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3,float3,quaternion,quaternion,float3,System.Single,System.Int32)
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3, float3, quaternion, quaternion, float3, System.Single, System.Int32)
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3, float3, quaternion, quaternion, float3, Single, Int32)
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3,quaternion)
-  name: UpdateTransform(float3, quaternion)
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_UpdateTransform_float3_quaternion_
-  commentId: M:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3,quaternion)
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3, quaternion)
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.UpdateTransform(float3, quaternion)
-- uid: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform*
-  name: UpdateTransform
-  href: api/DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.html#DOTSDynamicBoneExtensions_DOTSDynamicBoneCollider_BufferElement_UpdateTransform_
-  commentId: Overload:DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.DOTSDynamicBoneCollider_BufferElement.UpdateTransform
-  nameWithType: DOTSDynamicBoneCollider_BufferElement.UpdateTransform
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider
-  name: IDOTSDynamicBoneCollider
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html
-  commentId: T:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider
-  nameWithType: IDOTSDynamicBoneCollider
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide(float3@,System.Single)
-  name: Collide(ref float3, Single)
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_Collide_float3__System_Single_
-  commentId: M:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide(float3@,System.Single)
-  name.vb: Collide(ByRef float3, Single)
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide(ref float3, System.Single)
-  fullName.vb: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide(ByRef float3, System.Single)
-  nameWithType: IDOTSDynamicBoneCollider.Collide(ref float3, Single)
-  nameWithType.vb: IDOTSDynamicBoneCollider.Collide(ByRef float3, Single)
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide*
-  name: Collide
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_Collide_
-  commentId: Overload:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.Collide
-  nameWithType: IDOTSDynamicBoneCollider.Collide
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Bound
-  name: m_Bound
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_m_Bound
-  commentId: P:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Bound
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Bound
-  nameWithType: IDOTSDynamicBoneCollider.m_Bound
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Bound*
-  name: m_Bound
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_m_Bound_
-  commentId: Overload:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Bound
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Bound
-  nameWithType: IDOTSDynamicBoneCollider.m_Bound
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Center
-  name: m_Center
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_m_Center
-  commentId: P:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Center
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Center
-  nameWithType: IDOTSDynamicBoneCollider.m_Center
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Center*
-  name: m_Center
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_m_Center_
-  commentId: Overload:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Center
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Center
-  nameWithType: IDOTSDynamicBoneCollider.m_Center
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Direction
-  name: m_Direction
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_m_Direction
-  commentId: P:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Direction
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Direction
-  nameWithType: IDOTSDynamicBoneCollider.m_Direction
-- uid: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Direction*
-  name: m_Direction
-  href: api/DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.html#DOTSDynamicBoneExtensions_IDOTSDynamicBoneCollider_m_Direction_
-  commentId: Overload:DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Direction
-  isSpec: "True"
-  fullName: DOTSDynamicBoneExtensions.IDOTSDynamicBoneCollider.m_Direction
-  nameWithType: IDOTSDynamicBoneCollider.m_Direction
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions
-  name: ParticleTransformExtensions
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.html
-  commentId: T:DOTSDynamicBoneExtensions.ParticleTransformExtensions
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions
-  nameWithType: ParticleTransformExtensions
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound
-  name: ParticleTransformExtensions.Bound
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.html
-  commentId: T:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound
-  nameWithType: ParticleTransformExtensions.Bound
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.Inside
-  name: Inside
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.html#DOTSDynamicBoneExtensions_ParticleTransformExtensions_Bound_Inside
-  commentId: F:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.Inside
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.Inside
-  nameWithType: ParticleTransformExtensions.Bound.Inside
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.Outside
-  name: Outside
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.html#DOTSDynamicBoneExtensions_ParticleTransformExtensions_Bound_Outside
-  commentId: F:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.Outside
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Bound.Outside
-  nameWithType: ParticleTransformExtensions.Bound.Outside
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction
-  name: ParticleTransformExtensions.Direction
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.html
-  commentId: T:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction
-  nameWithType: ParticleTransformExtensions.Direction
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.X
-  name: X
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.html#DOTSDynamicBoneExtensions_ParticleTransformExtensions_Direction_X
-  commentId: F:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.X
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.X
-  nameWithType: ParticleTransformExtensions.Direction.X
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.Y
-  name: Y
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.html#DOTSDynamicBoneExtensions_ParticleTransformExtensions_Direction_Y
-  commentId: F:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.Y
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.Y
-  nameWithType: ParticleTransformExtensions.Direction.Y
-- uid: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.Z
-  name: Z
-  href: api/DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.html#DOTSDynamicBoneExtensions_ParticleTransformExtensions_Direction_Z
-  commentId: F:DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.Z
-  fullName: DOTSDynamicBoneExtensions.ParticleTransformExtensions.Direction.Z
-  nameWithType: ParticleTransformExtensions.Direction.Z
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnUpdate
