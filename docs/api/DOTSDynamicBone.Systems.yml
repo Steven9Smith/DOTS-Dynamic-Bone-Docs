@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.Systems
+  commentId: N:DOTSDynamicBone.Systems
+  id: DOTSDynamicBone.Systems
+  children:
+  - DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBone.Systems
+  nameWithType: DOTSDynamicBone.Systems
+  fullName: DOTSDynamicBone.Systems
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  commentId: T:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  name: DOTSDynamicBoneTransformOverrideSystem
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  id: DOTSDynamicBoneIndependantBone_Link
+  parent: DOTSDynamicBone
+  children:
+  - DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneIndependantBone_Link
+  nameWithType: DOTSDynamicBoneIndependantBone_Link
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  type: Struct
+  source:
+    id: DOTSDynamicBoneIndependantBone_Link
+    path: ''
+    startLine: 90
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: 'public struct DOTSDynamicBoneIndependantBone_Link : IComponentData'
+    content.vb: >-
+      Public Structure DOTSDynamicBoneIndependantBone_Link
+          Implements IComponentData
+  implements:
+  - IComponentData
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  id: DOTSDynamicBoneIndependant_Entity
+  parent: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneIndependant_Entity
+  nameWithType: DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantBone_Link.DOTSDynamicBoneIndependant_Entity
+  type: Field
+  source:
+    id: DOTSDynamicBoneIndependant_Entity
+    path: ''
+    startLine: 92
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public Entity DOTSDynamicBoneIndependant_Entity
+    return:
+      type: Entity
+    content.vb: Public DOTSDynamicBoneIndependant_Entity As Entity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DOTSDynamicBone
+  commentId: N:DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone
+- uid: IComponentData
+  isExternal: true
+  name: IComponentData
+  nameWithType: IComponentData
+  fullName: IComponentData
+- uid: Entity
+  isExternal: true
+  name: Entity
+  nameWithType: Entity
+  fullName: Entity

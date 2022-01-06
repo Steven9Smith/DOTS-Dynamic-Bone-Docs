@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  id: DOTSDynamicBoneIndependantMultipleComponent
+  parent: DOTSDynamicBone
+  children:
+  - DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  - DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  - DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  - DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  - DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneIndependantMultipleComponent
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  type: Class
+  source:
+    id: DOTSDynamicBoneIndependantMultipleComponent
+    path: ''
+    startLine: 666
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: 'This is a component that creates a multiple DOTSDynamicBone_BufferElements onto an Entity. '
+  remarks: This is a component that creates a multiple DOTSDynamicBone_BufferElements onto an Entity.
+  example: []
+  syntax:
+    content: 'public class DOTSDynamicBoneIndependantMultipleComponent : MonoBehaviour, IConvertGameObjectToEntity'
+    content.vb: >-
+      Public Class DOTSDynamicBoneIndependantMultipleComponent
+          Inherits MonoBehaviour
+          Implements IConvertGameObjectToEntity
+  inheritance:
+  - System.Object
+  implements:
+  - IConvertGameObjectToEntity
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  id: UseUniqueRigComponents
+  parent: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  langs:
+  - csharp
+  - vb
+  name: UseUniqueRigComponents
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.UseUniqueRigComponents
+  type: Field
+  source:
+    id: UseUniqueRigComponents
+    path: ''
+    startLine: 671
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public bool UseUniqueRigComponents
+    return:
+      type: System.Boolean
+    content.vb: Public UseUniqueRigComponents As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  id: RigComponent
+  parent: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  langs:
+  - csharp
+  - vb
+  name: RigComponent
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.RigComponent
+  type: Field
+  source:
+    id: RigComponent
+    path: ''
+    startLine: 674
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public RigComponent RigComponent
+    return:
+      type: RigComponent
+    content.vb: Public RigComponent As RigComponent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  id: Bones
+  parent: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  langs:
+  - csharp
+  - vb
+  name: Bones
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.Bones
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Bones
+  type: Field
+  source:
+    id: Bones
+    path: ''
+    startLine: 677
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public List<DOTSDynamicBoneClass> Bones
+    return:
+      type: List{DOTSDynamicBone.DOTSDynamicBoneClass}
+    content.vb: Public Bones As List(Of DOTSDynamicBoneClass)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity,EntityManager,GameObjectConversionSystem)
+  id: Convert(Entity,EntityManager,GameObjectConversionSystem)
+  parent: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  langs:
+  - csharp
+  - vb
+  name: Convert(Entity, EntityManager, GameObjectConversionSystem)
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity, EntityManager, GameObjectConversionSystem)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert(Entity, EntityManager, GameObjectConversionSystem)
+  type: Method
+  source:
+    id: Convert
+    path: ''
+    startLine: 684
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
+    parameters:
+    - id: entity
+      type: Entity
+    - id: dstManager
+      type: EntityManager
+    - id: conversionSystem
+      type: GameObjectConversionSystem
+    content.vb: Public Sub Convert(entity As Entity, dstManager As EntityManager, conversionSystem As GameObjectConversionSystem)
+  overload: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  id: GetMeshRenderers(RigComponent)
+  parent: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent
+  langs:
+  - csharp
+  - vb
+  name: GetMeshRenderers(RigComponent)
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers(RigComponent)
+  type: Method
+  source:
+    id: GetMeshRenderers
+    path: ''
+    startLine: 781
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: "\nThis returns a list of SkinnedMeshedRenderers attach to the given RigComponent\n"
+  example: []
+  syntax:
+    content: public List<SkinnedMeshRenderer> GetMeshRenderers(RigComponent rig)
+    parameters:
+    - id: rig
+      type: RigComponent
+      description: ''
+    return:
+      type: List{SkinnedMeshRenderer}
+      description: ''
+    content.vb: Public Function GetMeshRenderers(rig As RigComponent) As List(Of SkinnedMeshRenderer)
+  overload: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DOTSDynamicBone
+  commentId: N:DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IConvertGameObjectToEntity
+  isExternal: true
+  name: IConvertGameObjectToEntity
+  nameWithType: IConvertGameObjectToEntity
+  fullName: IConvertGameObjectToEntity
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RigComponent
+  isExternal: true
+  name: RigComponent
+  nameWithType: RigComponent
+  fullName: RigComponent
+- uid: List{DOTSDynamicBone.DOTSDynamicBoneClass}
+  commentId: '!:List{DOTSDynamicBone.DOTSDynamicBoneClass}'
+  definition: List`1
+  name: List<DOTSDynamicBoneClass>
+  nameWithType: List<DOTSDynamicBoneClass>
+  fullName: List<DOTSDynamicBone.DOTSDynamicBoneClass>
+  nameWithType.vb: List(Of DOTSDynamicBoneClass)
+  fullName.vb: List(Of DOTSDynamicBone.DOTSDynamicBoneClass)
+  name.vb: List(Of DOTSDynamicBoneClass)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DOTSDynamicBone.DOTSDynamicBoneClass
+    name: DOTSDynamicBoneClass
+    nameWithType: DOTSDynamicBoneClass
+    fullName: DOTSDynamicBone.DOTSDynamicBoneClass
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DOTSDynamicBone.DOTSDynamicBoneClass
+    name: DOTSDynamicBoneClass
+    nameWithType: DOTSDynamicBoneClass
+    fullName: DOTSDynamicBone.DOTSDynamicBoneClass
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert
+  name: Convert
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.Convert
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.Convert
+- uid: Entity
+  isExternal: true
+  name: Entity
+  nameWithType: Entity
+  fullName: Entity
+- uid: EntityManager
+  isExternal: true
+  name: EntityManager
+  nameWithType: EntityManager
+  fullName: EntityManager
+- uid: GameObjectConversionSystem
+  isExternal: true
+  name: GameObjectConversionSystem
+  nameWithType: GameObjectConversionSystem
+  fullName: GameObjectConversionSystem
+- uid: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers
+  name: GetMeshRenderers
+  nameWithType: DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers
+  fullName: DOTSDynamicBone.DOTSDynamicBoneIndependantMultipleComponent.GetMeshRenderers
+- uid: List{SkinnedMeshRenderer}
+  commentId: '!:List{SkinnedMeshRenderer}'
+  definition: List`1
+  name: List<SkinnedMeshRenderer>
+  nameWithType: List<SkinnedMeshRenderer>
+  fullName: List<SkinnedMeshRenderer>
+  nameWithType.vb: List(Of SkinnedMeshRenderer)
+  fullName.vb: List(Of SkinnedMeshRenderer)
+  name.vb: List(Of SkinnedMeshRenderer)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SkinnedMeshRenderer
+    name: SkinnedMeshRenderer
+    nameWithType: SkinnedMeshRenderer
+    fullName: SkinnedMeshRenderer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SkinnedMeshRenderer
+    name: SkinnedMeshRenderer
+    nameWithType: SkinnedMeshRenderer
+    fullName: SkinnedMeshRenderer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,13 @@
+apiRules:
+- include: # The namespaces to generate
+    uidRegex: ^DOTSDynamicBone
+    type: Namespace
+- include:
+    uidRegex: ^DOTSDynamicBoneExtensions
+    type: Namespace
+- exclude:
+    uidRegex: .* # Every other namespaces are ignored
+    type: Namespace
+- exclude:
+    uidRegex: ^DOTSDynamicBone.Systems
+    type: Namespace

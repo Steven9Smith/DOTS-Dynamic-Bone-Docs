@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  id: DOTSDynamicBone.FreezeAxis
+  parent: DOTSDynamicBone
+  children:
+  - DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.None
+  - DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.X
+  - DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Y
+  - DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Z
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBone.FreezeAxis
+  nameWithType: DOTSDynamicBone.FreezeAxis
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  type: Enum
+  source:
+    id: FreezeAxis
+    path: ''
+    startLine: 1799
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public enum FreezeAxis
+    content.vb: Public Enum FreezeAxis
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.None
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.None
+  id: None
+  parent: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DOTSDynamicBone.FreezeAxis.None
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 1801
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: None = 0
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.X
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.X
+  id: X
+  parent: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: DOTSDynamicBone.FreezeAxis.X
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.X
+  type: Field
+  source:
+    id: X
+    path: ''
+    startLine: 1801
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: X = 1
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Y
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Y
+  id: Y
+  parent: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: DOTSDynamicBone.FreezeAxis.Y
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Y
+  type: Field
+  source:
+    id: Y
+    path: ''
+    startLine: 1801
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: Y = 2
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Z
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Z
+  id: Z
+  parent: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: DOTSDynamicBone.FreezeAxis.Z
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis.Z
+  type: Field
+  source:
+    id: Z
+    path: ''
+    startLine: 1801
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: Z = 3
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DOTSDynamicBone
+  commentId: N:DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBone.FreezeAxis
+  nameWithType: DOTSDynamicBone.FreezeAxis
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis

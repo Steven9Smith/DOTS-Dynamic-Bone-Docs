@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.Collision
+  commentId: N:DOTSDynamicBone.Collision
+  id: DOTSDynamicBone.Collision
+  children:
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+  - DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBone.Collision
+  nameWithType: DOTSDynamicBone.Collision
+  fullName: DOTSDynamicBone.Collision
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  name: DOTSDynamicBoneCollider
+  nameWithType: DOTSDynamicBoneCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+- uid: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+  commentId: T:DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+  parent: DOTSDynamicBone.Collision
+  name: IDOTSDynamicBoneCollider
+  nameWithType: IDOTSDynamicBoneCollider
+  fullName: DOTSDynamicBone.Collision.IDOTSDynamicBoneCollider
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  parent: DOTSDynamicBone.Collision
+  name: DOTSDynamicBoneCollider_BufferElement
+  nameWithType: DOTSDynamicBoneCollider_BufferElement
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+  name: DOTSDynamicBoneNaturalColliderComponent
+  nameWithType: DOTSDynamicBoneNaturalColliderComponent
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalColliderComponent
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+  parent: DOTSDynamicBone.Collision
+  name: DOTSDynamicBoneNaturalCollider_Tag
+  nameWithType: DOTSDynamicBoneNaturalCollider_Tag
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneNaturalCollider_Tag
+- uid: DOTSDynamicBone.Collision
+  commentId: N:DOTSDynamicBone.Collision
+  name: DOTSDynamicBone.Collision
+  nameWithType: DOTSDynamicBone.Collision
+  fullName: DOTSDynamicBone.Collision

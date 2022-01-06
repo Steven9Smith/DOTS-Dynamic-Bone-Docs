@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  id: DOTSDynamicBoneClass.UpdateDataFrom
+  parent: DOTSDynamicBone
+  children:
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneClass.UpdateDataFrom
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  type: Enum
+  source:
+    id: UpdateDataFrom
+    path: ''
+    startLine: 1202
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public enum UpdateDataFrom
+    content.vb: Public Enum UpdateDataFrom
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  id: AnimatedLocalToWorld
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  langs:
+  - csharp
+  - vb
+  name: AnimatedLocalToWorld
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.AnimatedLocalToWorld
+  type: Field
+  source:
+    id: AnimatedLocalToWorld
+    path: ''
+    startLine: 1204
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: AnimatedLocalToWorld = 0
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  id: Custom
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom.Custom
+  type: Field
+  source:
+    id: Custom
+    path: ''
+    startLine: 1205
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: Custom = 1
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DOTSDynamicBone
+  commentId: N:DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBoneClass.UpdateDataFrom
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom

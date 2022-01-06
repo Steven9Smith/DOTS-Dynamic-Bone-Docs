@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  id: DOTSDynamicBoneCollider
+  parent: DOTSDynamicBone.Collision
+  children:
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem,Transform,System.Boolean)
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  - DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneCollider
+  nameWithType: DOTSDynamicBoneCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  type: Class
+  source:
+    id: DOTSDynamicBoneCollider
+    path: ''
+    startLine: 108
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  summary: 'This is a Preset collider for the DOTSDynamicBoneCollisionSystem '
+  remarks: This is a Preset collider for the DOTSDynamicBoneCollisionSystem
+  example: []
+  syntax:
+    content: 'public class DOTSDynamicBoneCollider : MonoBehaviour'
+    content.vb: >-
+      Public Class DOTSDynamicBoneCollider
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  id: Enable
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: Enable
+  nameWithType: DOTSDynamicBoneCollider.Enable
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Enable
+  type: Field
+  source:
+    id: Enable
+    path: ''
+    startLine: 114
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  example: []
+  syntax:
+    content: public bool Enable
+    return:
+      type: System.Boolean
+      description: This represents the type of collider the DOTS Dynamic Collider represents
+    content.vb: Public Enable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  id: Persistant
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: Persistant
+  nameWithType: DOTSDynamicBoneCollider.Persistant
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.Persistant
+  type: Field
+  source:
+    id: Persistant
+    path: ''
+    startLine: 117
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public bool Persistant
+    return:
+      type: System.Boolean
+    content.vb: Public Persistant As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  id: UseUnityPhysicsCollider
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: UseUnityPhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseUnityPhysicsCollider
+  type: Field
+  source:
+    id: UseUnityPhysicsCollider
+    path: ''
+    startLine: 120
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public bool UseUnityPhysicsCollider
+    return:
+      type: System.Boolean
+    content.vb: Public UseUnityPhysicsCollider As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  id: UseParticlePhysicsCollider
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: UseParticlePhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.UseParticlePhysicsCollider
+  type: Field
+  source:
+    id: UseParticlePhysicsCollider
+    path: ''
+    startLine: 123
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public bool UseParticlePhysicsCollider
+    return:
+      type: System.Boolean
+    content.vb: Public UseParticlePhysicsCollider As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  id: FallbackToParicleRadiusOnNullPhysicsCollider
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: FallbackToParicleRadiusOnNullPhysicsCollider
+  nameWithType: DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.FallbackToParicleRadiusOnNullPhysicsCollider
+  type: Field
+  source:
+    id: FallbackToParicleRadiusOnNullPhysicsCollider
+    path: ''
+    startLine: 126
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public bool FallbackToParicleRadiusOnNullPhysicsCollider
+    return:
+      type: System.Boolean
+    content.vb: Public FallbackToParicleRadiusOnNullPhysicsCollider As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  id: m_Direction
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: m_Direction
+  nameWithType: DOTSDynamicBoneCollider.m_Direction
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Direction
+  type: Field
+  source:
+    id: m_Direction
+    path: ''
+    startLine: 129
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public TransformsExtensions.Direction m_Direction
+    return:
+      type: TransformsExtensions.Direction
+    content.vb: Public m_Direction As TransformsExtensions.Direction
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  id: m_Center
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: m_Center
+  nameWithType: DOTSDynamicBoneCollider.m_Center
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Center
+  type: Field
+  source:
+    id: m_Center
+    path: ''
+    startLine: 132
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public float3 m_Center
+    return:
+      type: float3
+    content.vb: Public m_Center As float3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  id: m_Bound
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: m_Bound
+  nameWithType: DOTSDynamicBoneCollider.m_Bound
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Bound
+  type: Field
+  source:
+    id: m_Bound
+    path: ''
+    startLine: 135
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public TransformsExtensions.Bound m_Bound
+    return:
+      type: TransformsExtensions.Bound
+    content.vb: Public m_Bound As TransformsExtensions.Bound
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  id: m_Radius
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: m_Radius
+  nameWithType: DOTSDynamicBoneCollider.m_Radius
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Radius
+  type: Field
+  source:
+    id: m_Radius
+    path: ''
+    startLine: 138
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public float m_Radius
+    return:
+      type: System.Single
+    content.vb: Public m_Radius As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  commentId: F:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  id: m_Height
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: m_Height
+  nameWithType: DOTSDynamicBoneCollider.m_Height
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.m_Height
+  type: Field
+  source:
+    id: m_Height
+    path: ''
+    startLine: 141
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public float m_Height
+    return:
+      type: System.Single
+    content.vb: Public m_Height As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem,Transform,System.Boolean)
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem,Transform,System.Boolean)
+  id: ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem,Transform,System.Boolean)
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem, Transform, Boolean)
+  nameWithType: DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem, Transform, Boolean)
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem, Transform, System.Boolean)
+  type: Method
+  source:
+    id: ToDOTSDynamicBoneCollider_BufferElement
+    path: ''
+    startLine: 145
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  summary: 'Converts the collider into a DOTSDynamicBoneCollider_BufferElement '
+  example: []
+  syntax:
+    content: public DOTSDynamicBoneCollider_BufferElement ToDOTSDynamicBoneCollider_BufferElement(GameObjectConversionSystem conversionSystem, Transform BoneRoot, bool IsCollided = false)
+    parameters:
+    - id: conversionSystem
+      type: GameObjectConversionSystem
+      description: GameObjectConversion system
+    - id: BoneRoot
+      type: Transform
+    - id: IsCollided
+      type: System.Boolean
+    return:
+      type: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+      description: DOTSDynamicBoneCollider_BufferElement
+    content.vb: Public Function ToDOTSDynamicBoneCollider_BufferElement(conversionSystem As GameObjectConversionSystem, BoneRoot As Transform, IsCollided As Boolean = False) As DOTSDynamicBoneCollider_BufferElement
+  overload: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  commentId: M:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  id: HasPhysicsShape
+  parent: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  langs:
+  - csharp
+  - vb
+  name: HasPhysicsShape()
+  nameWithType: DOTSDynamicBoneCollider.HasPhysicsShape()
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape()
+  type: Method
+  source:
+    id: HasPhysicsShape
+    path: ''
+    startLine: 173
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Collision
+  syntax:
+    content: public bool HasPhysicsShape()
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasPhysicsShape As Boolean
+  overload: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DOTSDynamicBone.Collision
+  commentId: N:DOTSDynamicBone.Collision
+  name: DOTSDynamicBone.Collision
+  nameWithType: DOTSDynamicBone.Collision
+  fullName: DOTSDynamicBone.Collision
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TransformsExtensions.Direction
+  isExternal: true
+  name: TransformsExtensions.Direction
+  nameWithType: TransformsExtensions.Direction
+  fullName: TransformsExtensions.Direction
+- uid: float3
+  isExternal: true
+  name: float3
+  nameWithType: float3
+  fullName: float3
+- uid: TransformsExtensions.Bound
+  isExternal: true
+  name: TransformsExtensions.Bound
+  nameWithType: TransformsExtensions.Bound
+  fullName: TransformsExtensions.Bound
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement*
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+  name: ToDOTSDynamicBoneCollider_BufferElement
+  nameWithType: DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.ToDOTSDynamicBoneCollider_BufferElement
+- uid: GameObjectConversionSystem
+  isExternal: true
+  name: GameObjectConversionSystem
+  nameWithType: GameObjectConversionSystem
+  fullName: GameObjectConversionSystem
+- uid: Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  commentId: T:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+  parent: DOTSDynamicBone.Collision
+  name: DOTSDynamicBoneCollider_BufferElement
+  nameWithType: DOTSDynamicBoneCollider_BufferElement
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider_BufferElement
+- uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape*
+  commentId: Overload:DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape
+  name: HasPhysicsShape
+  nameWithType: DOTSDynamicBoneCollider.HasPhysicsShape
+  fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider.HasPhysicsShape

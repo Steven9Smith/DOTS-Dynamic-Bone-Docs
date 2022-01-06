@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  commentId: T:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  id: DOTSDynamicBoneTransformOverrideSystem
+  parent: DOTSDynamicBone.Systems
+  children:
+  - DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  - DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneTransformOverrideSystem
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  type: Class
+  source:
+    id: DOTSDynamicBoneTransformOverrideSystem
+    path: ''
+    startLine: 3848
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Systems
+  syntax:
+    content: 'public class DOTSDynamicBoneTransformOverrideSystem : SystemBase'
+    content.vb: >-
+      Public Class DOTSDynamicBoneTransformOverrideSystem
+          Inherits SystemBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  commentId: M:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  id: OnCreate
+  parent: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  langs:
+  - csharp
+  - vb
+  name: OnCreate()
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnCreate()
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate()
+  type: Method
+  source:
+    id: OnCreate
+    path: ''
+    startLine: 3857
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Systems
+  syntax:
+    content: protected override void OnCreate()
+    content.vb: Protected Overrides Sub OnCreate
+  overload: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  commentId: M:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  id: OnUpdate
+  parent: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem
+  langs:
+  - csharp
+  - vb
+  name: OnUpdate()
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnUpdate()
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate()
+  type: Method
+  source:
+    id: OnUpdate
+    path: ''
+    startLine: 4048
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone.Systems
+  syntax:
+    content: protected override void OnUpdate()
+    content.vb: Protected Overrides Sub OnUpdate
+  overload: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: DOTSDynamicBone.Systems
+  commentId: N:DOTSDynamicBone.Systems
+  name: DOTSDynamicBone.Systems
+  nameWithType: DOTSDynamicBone.Systems
+  fullName: DOTSDynamicBone.Systems
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate*
+  commentId: Overload:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  name: OnCreate
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnCreate
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnCreate
+- uid: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate*
+  commentId: Overload:DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  name: OnUpdate
+  nameWithType: DOTSDynamicBoneTransformOverrideSystem.OnUpdate
+  fullName: DOTSDynamicBone.Systems.DOTSDynamicBoneTransformOverrideSystem.OnUpdate

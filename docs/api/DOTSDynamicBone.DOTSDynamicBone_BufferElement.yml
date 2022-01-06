@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.DOTSDynamicBone_BufferElement
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone_BufferElement
+  id: DOTSDynamicBone_BufferElement
+  parent: DOTSDynamicBone
+  children:
+  - DOTSDynamicBone.DOTSDynamicBone_BufferElement.end
+  - DOTSDynamicBone.DOTSDynamicBone_BufferElement.start
+  - DOTSDynamicBone.DOTSDynamicBone_BufferElement.Value
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBone_BufferElement
+  nameWithType: DOTSDynamicBone_BufferElement
+  fullName: DOTSDynamicBone.DOTSDynamicBone_BufferElement
+  type: Struct
+  source:
+    id: DOTSDynamicBone_BufferElement
+    path: ''
+    startLine: 1693
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: This is a BufferElement that holds a bone and the start and end index of its particles in the Particle DynamicBuffer
+  remarks: This is a BufferElement that holds a bone and the start and end index of its particles in the Particle DynamicBuffer
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct DOTSDynamicBone_BufferElement : IBufferElementData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure DOTSDynamicBone_BufferElement
+          Implements IBufferElementData
+  implements:
+  - IBufferElementData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: DOTSDynamicBone.DOTSDynamicBone_BufferElement.Value
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_BufferElement.Value
+  id: Value
+  parent: DOTSDynamicBone.DOTSDynamicBone_BufferElement
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DOTSDynamicBone_BufferElement.Value
+  fullName: DOTSDynamicBone.DOTSDynamicBone_BufferElement.Value
+  type: Field
+  source:
+    id: Value
+    path: ''
+    startLine: 1697
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public DOTSDynamicBone Value
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone
+      description: A DOTSDynamicBone
+    content.vb: Public Value As DOTSDynamicBone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBone_BufferElement.start
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_BufferElement.start
+  id: start
+  parent: DOTSDynamicBone.DOTSDynamicBone_BufferElement
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: DOTSDynamicBone_BufferElement.start
+  fullName: DOTSDynamicBone.DOTSDynamicBone_BufferElement.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 1699
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public int start
+    return:
+      type: System.Int32
+      description: start index in a Particle DynamicBuffer
+    content.vb: Public start As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBone_BufferElement.end
+  commentId: F:DOTSDynamicBone.DOTSDynamicBone_BufferElement.end
+  id: end
+  parent: DOTSDynamicBone.DOTSDynamicBone_BufferElement
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: DOTSDynamicBone_BufferElement.end
+  fullName: DOTSDynamicBone.DOTSDynamicBone_BufferElement.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 1701
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public int end
+    return:
+      type: System.Int32
+      description: end index in a Particle DynamicBuffer
+    content.vb: Public end As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DOTSDynamicBone
+  commentId: N:DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone
+- uid: IBufferElementData
+  isExternal: true
+  name: IBufferElementData
+  nameWithType: IBufferElementData
+  fullName: IBufferElementData
+- uid: DOTSDynamicBone.DOTSDynamicBone
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone.DOTSDynamicBone
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

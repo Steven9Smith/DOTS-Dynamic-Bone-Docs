@@ -1,0 +1,1864 @@
+### YamlMime:ManagedReference
+items:
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass
+  id: DOTSDynamicBoneClass
+  parent: DOTSDynamicBone
+  children:
+  - DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  - DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.Disable
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Colliders
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Damping
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_DampingDistrib
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_DistanceToObject
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_DistantDisable
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Elasticity
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_ElasticityDistrib
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_EndLength
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_EndOffset
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Exclusions
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Force
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_FreezeAxis
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Friction
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_FrictionDistrib
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Gravity
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Inert
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_InertDistrib
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Radius
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_RadiusDistrib
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_ReferenceObject
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Root
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Stiffness
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_StiffnessDistrib
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateMode
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateRate
+  - DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  - DOTSDynamicBone.DOTSDynamicBoneClass.Name
+  - DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
+  - DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass,DynamicBuffer{DOTSDynamicBone.Particle}@)
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UpdateLocalToWorldTransforms
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
+  - DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneClass
+  nameWithType: DOTSDynamicBoneClass
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass
+  type: Class
+  source:
+    id: DOTSDynamicBoneClass
+    path: ''
+    startLine: 1008
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: This holds and displays all the data needs to modify to create the DOTSDynamicBone data
+  remarks: This holds and displays all the data needs to modify to create the DOTSDynamicBone data
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DOTSDynamicBoneClass
+    content.vb: >-
+      <Serializable>
+
+      Public Class DOTSDynamicBoneClass
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.Name
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.Name
+  id: Name
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DOTSDynamicBoneClass.Name
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 1015
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+      description: Just The name of the root bone (so you can see it in the editor easier, changing it won&apos;t break anything but may confuse you
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName
+  id: UpdateName
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: UpdateName()
+  nameWithType: DOTSDynamicBoneClass.UpdateName()
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName()
+  type: Method
+  source:
+    id: UpdateName
+    path: ''
+    startLine: 1019
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: "\nUpdates the name of the Name property. (Used only in the Editor)\n"
+  example: []
+  syntax:
+    content: public void UpdateName()
+    content.vb: Public Sub UpdateName
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.Disable
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.Disable
+  id: Disable
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: Disable
+  nameWithType: DOTSDynamicBoneClass.Disable
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.Disable
+  type: Field
+  source:
+    id: Disable
+    path: ''
+    startLine: 1025
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool Disable
+    return:
+      type: System.Boolean
+      description: Set to true to disable the calculations done on the the bones Particles
+    content.vb: Public Disable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  id: m_UpdateDataFrom
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_UpdateDataFrom
+  nameWithType: DOTSDynamicBoneClass.m_UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateDataFrom
+  type: Field
+  source:
+    id: m_UpdateDataFrom
+    path: ''
+    startLine: 1030
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public DOTSDynamicBoneClass.UpdateDataFrom m_UpdateDataFrom
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+      description: An option to choose where the data updates from.
+    content.vb: Public m_UpdateDataFrom As DOTSDynamicBoneClass.UpdateDataFrom
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  id: UseNaturalColliders
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: UseNaturalColliders
+  nameWithType: DOTSDynamicBoneClass.UseNaturalColliders
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UseNaturalColliders
+  type: Field
+  source:
+    id: UseNaturalColliders
+    path: ''
+    startLine: 1035
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool UseNaturalColliders
+    return:
+      type: System.Boolean
+      description: Set this to true to use enable DOTS PhysicCollider collisions.
+    content.vb: Public UseNaturalColliders As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateLocalToWorldTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateLocalToWorldTransforms
+  id: UpdateLocalToWorldTransforms
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: UpdateLocalToWorldTransforms
+  nameWithType: DOTSDynamicBoneClass.UpdateLocalToWorldTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateLocalToWorldTransforms
+  type: Field
+  source:
+    id: UpdateLocalToWorldTransforms
+    path: ''
+    startLine: 1041
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool UpdateLocalToWorldTransforms
+    return:
+      type: System.Boolean
+      description: Set to true to update the LocalToWorld of the Particle&apos;s Corresponding Entity
+    content.vb: Public UpdateLocalToWorldTransforms As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  id: UpdateTranslationTransforms
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: UpdateTranslationTransforms
+  nameWithType: DOTSDynamicBoneClass.UpdateTranslationTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateTranslationTransforms
+  type: Field
+  source:
+    id: UpdateTranslationTransforms
+    path: ''
+    startLine: 1046
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool UpdateTranslationTransforms
+    return:
+      type: System.Boolean
+      description: Set to true to update the Translation of the Particle&apos;s Corresponding Entity
+    content.vb: Public UpdateTranslationTransforms As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  id: UpdateRotationTransforms
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: UpdateRotationTransforms
+  nameWithType: DOTSDynamicBoneClass.UpdateRotationTransforms
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateRotationTransforms
+  type: Field
+  source:
+    id: UpdateRotationTransforms
+    path: ''
+    startLine: 1051
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool UpdateRotationTransforms
+    return:
+      type: System.Boolean
+      description: Set to true to update the Rotation of the Particle&apos;s Corresponding Entity
+    content.vb: Public UpdateRotationTransforms As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
+  id: UseAnimatedLocalToRoot
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: UseAnimatedLocalToRoot
+  nameWithType: DOTSDynamicBoneClass.UseAnimatedLocalToRoot
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UseAnimatedLocalToRoot
+  type: Field
+  source:
+    id: UseAnimatedLocalToRoot
+    path: ''
+    startLine: 1057
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool UseAnimatedLocalToRoot
+    return:
+      type: System.Boolean
+      description: Set to true if the entity is Animated using th Unity.Animations Package
+    content.vb: Public UseAnimatedLocalToRoot As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
+  id: RigComponent
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: RigComponent
+  nameWithType: DOTSDynamicBoneClass.RigComponent
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RigComponent
+  type: Field
+  source:
+    id: RigComponent
+    path: ''
+    startLine: 1062
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public RigComponent RigComponent
+    return:
+      type: RigComponent
+      description: This should be the GameObject this script is attached to
+    content.vb: Public RigComponent As RigComponent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Root
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Root
+  id: m_Root
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Root
+  nameWithType: DOTSDynamicBoneClass.m_Root
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Root
+  type: Field
+  source:
+    id: m_Root
+    path: ''
+    startLine: 1067
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public Transform m_Root
+    return:
+      type: Transform
+      description: The root of the transform hierarchy to apply physics.
+    content.vb: Public m_Root As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateRate
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateRate
+  id: m_UpdateRate
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_UpdateRate
+  nameWithType: DOTSDynamicBoneClass.m_UpdateRate
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateRate
+  type: Field
+  source:
+    id: m_UpdateRate
+    path: ''
+    startLine: 1073
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_UpdateRate
+    return:
+      type: System.Single
+      description: Internal physics simulation rate.
+    content.vb: Public m_UpdateRate As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateMode
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateMode
+  id: m_UpdateMode
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_UpdateMode
+  nameWithType: DOTSDynamicBoneClass.m_UpdateMode
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_UpdateMode
+  type: Field
+  source:
+    id: m_UpdateMode
+    path: ''
+    startLine: 1079
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public DOTSDynamicBone.UpdateMode m_UpdateMode
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone.UpdateMode
+      description: Internal physics simulation type.
+    content.vb: Public m_UpdateMode As DOTSDynamicBone.UpdateMode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Damping
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Damping
+  id: m_Damping
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Damping
+  nameWithType: DOTSDynamicBoneClass.m_Damping
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Damping
+  type: Field
+  source:
+    id: m_Damping
+    path: ''
+    startLine: 1086
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_Damping
+    return:
+      type: System.Single
+      description: How much the bones slowed down.
+    content.vb: Public m_Damping As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_DampingDistrib
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_DampingDistrib
+  id: m_DampingDistrib
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_DampingDistrib
+  nameWithType: DOTSDynamicBoneClass.m_DampingDistrib
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_DampingDistrib
+  type: Field
+  source:
+    id: m_DampingDistrib
+    path: ''
+    startLine: 1088
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public AnimationCurve m_DampingDistrib
+    return:
+      type: AnimationCurve
+      description: How much the bones slowed down over a distribution curve.
+    content.vb: Public m_DampingDistrib As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Elasticity
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Elasticity
+  id: m_Elasticity
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Elasticity
+  nameWithType: DOTSDynamicBoneClass.m_Elasticity
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Elasticity
+  type: Field
+  source:
+    id: m_Elasticity
+    path: ''
+    startLine: 1095
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_Elasticity
+    return:
+      type: System.Single
+      description: How much the force applied to return each bone to original orientation.
+    content.vb: Public m_Elasticity As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_ElasticityDistrib
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_ElasticityDistrib
+  id: m_ElasticityDistrib
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_ElasticityDistrib
+  nameWithType: DOTSDynamicBoneClass.m_ElasticityDistrib
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_ElasticityDistrib
+  type: Field
+  source:
+    id: m_ElasticityDistrib
+    path: ''
+    startLine: 1097
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public AnimationCurve m_ElasticityDistrib
+    return:
+      type: AnimationCurve
+      description: How much the force applied to return each bone to original orientation over a distribution curve.
+    content.vb: Public m_ElasticityDistrib As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Stiffness
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Stiffness
+  id: m_Stiffness
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Stiffness
+  nameWithType: DOTSDynamicBoneClass.m_Stiffness
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Stiffness
+  type: Field
+  source:
+    id: m_Stiffness
+    path: ''
+    startLine: 1104
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_Stiffness
+    return:
+      type: System.Single
+      description: How much bone&apos;s original orientation are preserved.
+    content.vb: Public m_Stiffness As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_StiffnessDistrib
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_StiffnessDistrib
+  id: m_StiffnessDistrib
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_StiffnessDistrib
+  nameWithType: DOTSDynamicBoneClass.m_StiffnessDistrib
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_StiffnessDistrib
+  type: Field
+  source:
+    id: m_StiffnessDistrib
+    path: ''
+    startLine: 1106
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public AnimationCurve m_StiffnessDistrib
+    return:
+      type: AnimationCurve
+      description: How much bone&apos;s original orientation are preserved over a distribution curve.
+    content.vb: Public m_StiffnessDistrib As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Inert
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Inert
+  id: m_Inert
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Inert
+  nameWithType: DOTSDynamicBoneClass.m_Inert
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Inert
+  type: Field
+  source:
+    id: m_Inert
+    path: ''
+    startLine: 1113
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_Inert
+    return:
+      type: System.Single
+      description: How much character&apos;s position change is ignored in physics simulation.
+    content.vb: Public m_Inert As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_InertDistrib
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_InertDistrib
+  id: m_InertDistrib
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_InertDistrib
+  nameWithType: DOTSDynamicBoneClass.m_InertDistrib
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_InertDistrib
+  type: Field
+  source:
+    id: m_InertDistrib
+    path: ''
+    startLine: 1115
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public AnimationCurve m_InertDistrib
+    return:
+      type: AnimationCurve
+      description: How much character&apos;s position change is ignored in physics simulation over a distribution curve.
+    content.vb: Public m_InertDistrib As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Friction
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Friction
+  id: m_Friction
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Friction
+  nameWithType: DOTSDynamicBoneClass.m_Friction
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Friction
+  type: Field
+  source:
+    id: m_Friction
+    path: ''
+    startLine: 1121
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_Friction
+    return:
+      type: System.Single
+      description: How much the bones slowed down when collide.
+    content.vb: Public m_Friction As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_FrictionDistrib
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_FrictionDistrib
+  id: m_FrictionDistrib
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_FrictionDistrib
+  nameWithType: DOTSDynamicBoneClass.m_FrictionDistrib
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_FrictionDistrib
+  type: Field
+  source:
+    id: m_FrictionDistrib
+    path: ''
+    startLine: 1123
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public AnimationCurve m_FrictionDistrib
+    return:
+      type: AnimationCurve
+      description: How much the bones slowed down when collide over a distribution curve.
+    content.vb: Public m_FrictionDistrib As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Radius
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Radius
+  id: m_Radius
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Radius
+  nameWithType: DOTSDynamicBoneClass.m_Radius
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Radius
+  type: Field
+  source:
+    id: m_Radius
+    path: ''
+    startLine: 1129
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_Radius
+    return:
+      type: System.Single
+      description: Each bone can be a sphere to collide with colliders. Radius describe sphere&apos;s size.
+    content.vb: Public m_Radius As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_RadiusDistrib
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_RadiusDistrib
+  id: m_RadiusDistrib
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_RadiusDistrib
+  nameWithType: DOTSDynamicBoneClass.m_RadiusDistrib
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_RadiusDistrib
+  type: Field
+  source:
+    id: m_RadiusDistrib
+    path: ''
+    startLine: 1131
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public AnimationCurve m_RadiusDistrib
+    return:
+      type: AnimationCurve
+      description: Each bone can be a sphere to collide with colliders. Radius describe sphere&apos;s size over a distribution curve.
+    content.vb: Public m_RadiusDistrib As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_EndLength
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_EndLength
+  id: m_EndLength
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_EndLength
+  nameWithType: DOTSDynamicBoneClass.m_EndLength
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_EndLength
+  type: Field
+  source:
+    id: m_EndLength
+    path: ''
+    startLine: 1137
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_EndLength
+    return:
+      type: System.Single
+      description: If End Length is not zero, an extra bone is generated at the end of transform hierarchy.
+    content.vb: Public m_EndLength As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_EndOffset
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_EndOffset
+  id: m_EndOffset
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_EndOffset
+  nameWithType: DOTSDynamicBoneClass.m_EndOffset
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_EndOffset
+  type: Field
+  source:
+    id: m_EndOffset
+    path: ''
+    startLine: 1143
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public Vector3 m_EndOffset
+    return:
+      type: Vector3
+      description: If End Offset is not zero, an extra bone is generated at the end of transform hierarchy.
+    content.vb: Public m_EndOffset As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Gravity
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Gravity
+  id: m_Gravity
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Gravity
+  nameWithType: DOTSDynamicBoneClass.m_Gravity
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Gravity
+  type: Field
+  source:
+    id: m_Gravity
+    path: ''
+    startLine: 1149
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public Vector3 m_Gravity
+    return:
+      type: Vector3
+      description: The force apply to bones. Partial force apply to character&apos;s initial pose is cancelled out.
+    content.vb: Public m_Gravity As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Force
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Force
+  id: m_Force
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Force
+  nameWithType: DOTSDynamicBoneClass.m_Force
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Force
+  type: Field
+  source:
+    id: m_Force
+    path: ''
+    startLine: 1155
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public Vector3 m_Force
+    return:
+      type: Vector3
+      description: The force apply to bones.
+    content.vb: Public m_Force As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Colliders
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Colliders
+  id: m_Colliders
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Colliders
+  nameWithType: DOTSDynamicBoneClass.m_Colliders
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Colliders
+  type: Field
+  source:
+    id: m_Colliders
+    path: ''
+    startLine: 1161
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public List<DOTSDynamicBoneCollider> m_Colliders
+    return:
+      type: List{DOTSDynamicBone.Collision.DOTSDynamicBoneCollider}
+      description: Collider objects interact with the bones.
+    content.vb: Public m_Colliders As List(Of DOTSDynamicBoneCollider)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Exclusions
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Exclusions
+  id: m_Exclusions
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Exclusions
+  nameWithType: DOTSDynamicBoneClass.m_Exclusions
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Exclusions
+  type: Field
+  source:
+    id: m_Exclusions
+    path: ''
+    startLine: 1167
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public List<ExcludeEntityFromSimulation> m_Exclusions
+    return:
+      type: List{DOTSDynamicBone.ExcludeEntityFromSimulation}
+      description: Bones excluded from physics simulation.
+    content.vb: Public m_Exclusions As List(Of ExcludeEntityFromSimulation)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_FreezeAxis
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_FreezeAxis
+  id: m_FreezeAxis
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_FreezeAxis
+  nameWithType: DOTSDynamicBoneClass.m_FreezeAxis
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_FreezeAxis
+  type: Field
+  source:
+    id: m_FreezeAxis
+    path: ''
+    startLine: 1173
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public DOTSDynamicBone.FreezeAxis m_FreezeAxis
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+      description: Constrain bones to move on specified plane.
+    content.vb: Public m_FreezeAxis As DOTSDynamicBone.FreezeAxis
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_DistantDisable
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_DistantDisable
+  id: m_DistantDisable
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_DistantDisable
+  nameWithType: DOTSDynamicBoneClass.m_DistantDisable
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_DistantDisable
+  type: Field
+  source:
+    id: m_DistantDisable
+    path: ''
+    startLine: 1179
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public bool m_DistantDisable
+    return:
+      type: System.Boolean
+      description: Disable physics simulation automatically if Entity is far from the m_ReferencedObject Entity.
+    content.vb: Public m_DistantDisable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_ReferenceObject
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_ReferenceObject
+  id: m_ReferenceObject
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_ReferenceObject
+  nameWithType: DOTSDynamicBoneClass.m_ReferenceObject
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_ReferenceObject
+  type: Field
+  source:
+    id: m_ReferenceObject
+    path: ''
+    startLine: 1184
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public Transform m_ReferenceObject
+    return:
+      type: Transform
+      description: Entity to be referenced for m_DistantDisable
+    content.vb: Public m_ReferenceObject As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_DistanceToObject
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_DistanceToObject
+  id: m_DistanceToObject
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_DistanceToObject
+  nameWithType: DOTSDynamicBoneClass.m_DistanceToObject
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_DistanceToObject
+  type: Field
+  source:
+    id: m_DistanceToObject
+    path: ''
+    startLine: 1189
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  example: []
+  syntax:
+    content: public float m_DistanceToObject
+    return:
+      type: System.Single
+      description: distnace the Entity has to be from the referenced Entity
+    content.vb: Public m_DistanceToObject As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  id: m_BoneTotalLength
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_BoneTotalLength
+  nameWithType: DOTSDynamicBoneClass.m_BoneTotalLength
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_BoneTotalLength
+  type: Field
+  source:
+    id: m_BoneTotalLength
+    path: ''
+    startLine: 1195
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public float m_BoneTotalLength
+    return:
+      type: System.Single
+    content.vb: Public m_BoneTotalLength As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  commentId: F:DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  id: m_Weight
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: m_Weight
+  nameWithType: DOTSDynamicBoneClass.m_Weight
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.m_Weight
+  type: Field
+  source:
+    id: m_Weight
+    path: ''
+    startLine: 1198
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public float m_Weight
+    return:
+      type: System.Single
+    content.vb: Public m_Weight As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  id: '#ctor'
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: DOTSDynamicBoneClass()
+  nameWithType: DOTSDynamicBoneClass.DOTSDynamicBoneClass()
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.DOTSDynamicBoneClass()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1212
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public DOTSDynamicBoneClass()
+    content.vb: Public Sub New
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass,DynamicBuffer{DOTSDynamicBone.Particle}@)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass,DynamicBuffer{DOTSDynamicBone.Particle}@)
+  id: ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass,DynamicBuffer{DOTSDynamicBone.Particle}@)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass, ref DynamicBuffer<Particle>)
+  nameWithType: DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass, ref DynamicBuffer<Particle>)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBone.DOTSDynamicBoneClass, ref DynamicBuffer<DOTSDynamicBone.Particle>)
+  type: Method
+  source:
+    id: ToDOTSDynamicBone
+    path: ''
+    startLine: 1250
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: "\nCreates a valid DOTSDynamicBone\n"
+  example: []
+  syntax:
+    content: public DOTSDynamicBone ToDOTSDynamicBone(GameObjectConversionSystem m_ConversionSystem, RigComponent RigComponent, Transform Root, EntityManager dstManager, Entity rootEntity, DOTSDynamicBoneClass boneComponent, ref DynamicBuffer<Particle> m_Particles)
+    parameters:
+    - id: m_ConversionSystem
+      type: GameObjectConversionSystem
+      description: 'Provided GameObjectConversionSystem '
+    - id: RigComponent
+      type: RigComponent
+      description: RigComponent to be used on the conversion
+    - id: Root
+      type: Transform
+      description: The Root GameObject with the RigComponent
+    - id: dstManager
+      type: EntityManager
+      description: EntityManager
+    - id: rootEntity
+      type: Entity
+      description: Entity where the root DOTSDynamicBone will affect
+    - id: boneComponent
+      type: DOTSDynamicBone.DOTSDynamicBoneClass
+      description: Bone related data
+    - id: m_Particles
+      type: DynamicBuffer{DOTSDynamicBone.Particle}
+      description: Buffer of particles to ppopulate with data.
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone
+      description: DOTSDynamicBone
+    content.vb: Public Function ToDOTSDynamicBone(m_ConversionSystem As GameObjectConversionSystem, RigComponent As RigComponent, Root As Transform, dstManager As EntityManager, rootEntity As Entity, boneComponent As DOTSDynamicBoneClass, ByRef m_Particles As DynamicBuffer(Of Particle)) As DOTSDynamicBone
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone*
+  nameWithType.vb: DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass, ByRef DynamicBuffer(Of Particle))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBone.DOTSDynamicBoneClass, ByRef DynamicBuffer(Of DOTSDynamicBone.Particle))
+  name.vb: ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass, ByRef DynamicBuffer(Of Particle))
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass)
+  id: ToDOTSDynamicBone(GameObjectConversionSystem,RigComponent,Transform,EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBoneClass)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass)
+  nameWithType: DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBoneClass)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone(GameObjectConversionSystem, RigComponent, Transform, EntityManager, Entity, DOTSDynamicBone.DOTSDynamicBoneClass)
+  type: Method
+  source:
+    id: ToDOTSDynamicBone
+    path: ''
+    startLine: 1278
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: "\nCreates a valid DOTSDynamicBone\n"
+  example: []
+  syntax:
+    content: public DOTSDynamicBone ToDOTSDynamicBone(GameObjectConversionSystem m_ConversionSystem, RigComponent RigComponent, Transform Root, EntityManager dstManager, Entity rootEntity, DOTSDynamicBoneClass boneComponent)
+    parameters:
+    - id: m_ConversionSystem
+      type: GameObjectConversionSystem
+      description: 'Provided GameObjectConversionSystem '
+    - id: RigComponent
+      type: RigComponent
+      description: RigComponent to be used on the conversion
+    - id: Root
+      type: Transform
+      description: The Root GameObject with the RigComponent
+    - id: dstManager
+      type: EntityManager
+      description: EntityManager
+    - id: rootEntity
+      type: Entity
+      description: Entity where the root DOTSDynamicBone will affect
+    - id: boneComponent
+      type: DOTSDynamicBone.DOTSDynamicBoneClass
+      description: Bone related data
+    return:
+      type: DOTSDynamicBone.DOTSDynamicBone
+      description: DOTSDynamicBone
+    content.vb: Public Function ToDOTSDynamicBone(m_ConversionSystem As GameObjectConversionSystem, RigComponent As RigComponent, Root As Transform, dstManager As EntityManager, rootEntity As Entity, boneComponent As DOTSDynamicBoneClass) As DOTSDynamicBone
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)
+  id: AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager,Entity,System.Boolean,System.Boolean)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, Boolean, Boolean)
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, Boolean, Boolean)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager, Entity, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: AddDOTSDynamicBoneColliderComponentsToEntity
+    path: ''
+    startLine: 1298
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  summary: "\nadds some DynamicBoneColliderComponents to the given entity\n"
+  example: []
+  syntax:
+    content: public static void AddDOTSDynamicBoneColliderComponentsToEntity(EntityManager em, Entity e, bool useNaturalColliders, bool excludePhysics)
+    parameters:
+    - id: em
+      type: EntityManager
+      description: EntityManager
+    - id: e
+      type: Entity
+      description: Entity
+    - id: useNaturalColliders
+      type: System.Boolean
+      description: ''
+    - id: excludePhysics
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Sub AddDOTSDynamicBoneColliderComponentsToEntity(em As EntityManager, e As Entity, useNaturalColliders As Boolean, excludePhysics As Boolean)
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)
+  id: RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager,Entity)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager, Entity)
+  type: Method
+  source:
+    id: RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+    path: ''
+    startLine: 1313
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public static void RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(EntityManager em, Entity e)
+    parameters:
+    - id: em
+      type: EntityManager
+    - id: e
+      type: Entity
+    content.vb: Public Shared Sub RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity(em As EntityManager, e As Entity)
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)
+  id: SetDOTSDynamicBoneCalculationCulling(DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single,System.Boolean)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone, Entity, Single, Boolean)
+  nameWithType: DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone, Entity, Single, Boolean)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single, System.Boolean)
+  type: Method
+  source:
+    id: SetDOTSDynamicBoneCalculationCulling
+    path: ''
+    startLine: 1319
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public static void SetDOTSDynamicBoneCalculationCulling(ref DOTSDynamicBone bone, Entity reference_entity, float distance, bool ActivateCulling = true)
+    parameters:
+    - id: bone
+      type: DOTSDynamicBone.DOTSDynamicBone
+    - id: reference_entity
+      type: Entity
+    - id: distance
+      type: System.Single
+    - id: ActivateCulling
+      type: System.Boolean
+    content.vb: Public Shared Sub SetDOTSDynamicBoneCalculationCulling(ByRef bone As DOTSDynamicBone, reference_entity As Entity, distance As Single, ActivateCulling As Boolean = True)
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling*
+  nameWithType.vb: DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ByRef DOTSDynamicBone, Entity, Single, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling(ByRef DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single, System.Boolean)
+  name.vb: SetDOTSDynamicBoneCalculationCulling(ByRef DOTSDynamicBone, Entity, Single, Boolean)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)
+  id: AddDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@,Entity,System.Single)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone, Entity, Single)
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone, Entity, Single)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single)
+  type: Method
+  source:
+    id: AddDOTSDynamicBoneCalculationCulling
+    path: ''
+    startLine: 1327
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public static void AddDOTSDynamicBoneCalculationCulling(EntityManager em, Entity e, ref DOTSDynamicBone bone, Entity reference_entity, float distance)
+    parameters:
+    - id: em
+      type: EntityManager
+    - id: e
+      type: Entity
+    - id: bone
+      type: DOTSDynamicBone.DOTSDynamicBone
+    - id: reference_entity
+      type: Entity
+    - id: distance
+      type: System.Single
+    content.vb: Public Shared Sub AddDOTSDynamicBoneCalculationCulling(em As EntityManager, e As Entity, ByRef bone As DOTSDynamicBone, reference_entity As Entity, distance As Single)
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling*
+  nameWithType.vb: DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone, Entity, Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone.DOTSDynamicBone, Entity, System.Single)
+  name.vb: AddDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone, Entity, Single)
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)
+  id: RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity)
+  type: Method
+  source:
+    id: RemoveDOTSDynamicBoneCalculationCulling
+    path: ''
+    startLine: 1334
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public static void RemoveDOTSDynamicBoneCalculationCulling(EntityManager em, Entity e)
+    parameters:
+    - id: em
+      type: EntityManager
+    - id: e
+      type: Entity
+    content.vb: Public Shared Sub RemoveDOTSDynamicBoneCalculationCulling(em As EntityManager, e As Entity)
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)
+  commentId: M:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)
+  id: RemoveDOTSDynamicBoneCalculationCulling(EntityManager,Entity,DOTSDynamicBone.DOTSDynamicBone@)
+  parent: DOTSDynamicBone.DOTSDynamicBoneClass
+  langs:
+  - csharp
+  - vb
+  name: RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone)
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone)
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ref DOTSDynamicBone.DOTSDynamicBone)
+  type: Method
+  source:
+    id: RemoveDOTSDynamicBoneCalculationCulling
+    path: ''
+    startLine: 1340
+  assemblies:
+  - cs.temp.dll
+  namespace: DOTSDynamicBone
+  syntax:
+    content: public static void RemoveDOTSDynamicBoneCalculationCulling(EntityManager em, Entity e, ref DOTSDynamicBone bone)
+    parameters:
+    - id: em
+      type: EntityManager
+    - id: e
+      type: Entity
+    - id: bone
+      type: DOTSDynamicBone.DOTSDynamicBone
+    content.vb: Public Shared Sub RemoveDOTSDynamicBoneCalculationCulling(em As EntityManager, e As Entity, ByRef bone As DOTSDynamicBone)
+  overload: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling*
+  nameWithType.vb: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone.DOTSDynamicBone)
+  name.vb: RemoveDOTSDynamicBoneCalculationCulling(EntityManager, Entity, ByRef DOTSDynamicBone)
+references:
+- uid: DOTSDynamicBone
+  commentId: N:DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName
+  name: UpdateName
+  nameWithType: DOTSDynamicBoneClass.UpdateName
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateName
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBoneClass.UpdateDataFrom
+  nameWithType: DOTSDynamicBoneClass.UpdateDataFrom
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.UpdateDataFrom
+- uid: RigComponent
+  isExternal: true
+  name: RigComponent
+  nameWithType: RigComponent
+  fullName: RigComponent
+- uid: Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: DOTSDynamicBone.DOTSDynamicBone.UpdateMode
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone.UpdateMode
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBone.UpdateMode
+  nameWithType: DOTSDynamicBone.UpdateMode
+  fullName: DOTSDynamicBone.DOTSDynamicBone.UpdateMode
+- uid: AnimationCurve
+  isExternal: true
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: AnimationCurve
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: List{DOTSDynamicBone.Collision.DOTSDynamicBoneCollider}
+  commentId: '!:List{DOTSDynamicBone.Collision.DOTSDynamicBoneCollider}'
+  definition: List`1
+  name: List<DOTSDynamicBoneCollider>
+  nameWithType: List<DOTSDynamicBoneCollider>
+  fullName: List<DOTSDynamicBone.Collision.DOTSDynamicBoneCollider>
+  nameWithType.vb: List(Of DOTSDynamicBoneCollider)
+  fullName.vb: List(Of DOTSDynamicBone.Collision.DOTSDynamicBoneCollider)
+  name.vb: List(Of DOTSDynamicBoneCollider)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+    name: DOTSDynamicBoneCollider
+    nameWithType: DOTSDynamicBoneCollider
+    fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+    name: DOTSDynamicBoneCollider
+    nameWithType: DOTSDynamicBoneCollider
+    fullName: DOTSDynamicBone.Collision.DOTSDynamicBoneCollider
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{DOTSDynamicBone.ExcludeEntityFromSimulation}
+  commentId: '!:List{DOTSDynamicBone.ExcludeEntityFromSimulation}'
+  definition: List`1
+  name: List<ExcludeEntityFromSimulation>
+  nameWithType: List<ExcludeEntityFromSimulation>
+  fullName: List<DOTSDynamicBone.ExcludeEntityFromSimulation>
+  nameWithType.vb: List(Of ExcludeEntityFromSimulation)
+  fullName.vb: List(Of DOTSDynamicBone.ExcludeEntityFromSimulation)
+  name.vb: List(Of ExcludeEntityFromSimulation)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DOTSDynamicBone.ExcludeEntityFromSimulation
+    name: ExcludeEntityFromSimulation
+    nameWithType: ExcludeEntityFromSimulation
+    fullName: DOTSDynamicBone.ExcludeEntityFromSimulation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DOTSDynamicBone.ExcludeEntityFromSimulation
+    name: ExcludeEntityFromSimulation
+    nameWithType: ExcludeEntityFromSimulation
+    fullName: DOTSDynamicBone.ExcludeEntityFromSimulation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBone.FreezeAxis
+  nameWithType: DOTSDynamicBone.FreezeAxis
+  fullName: DOTSDynamicBone.DOTSDynamicBone.FreezeAxis
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.#ctor*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.#ctor
+  name: DOTSDynamicBoneClass
+  nameWithType: DOTSDynamicBoneClass.DOTSDynamicBoneClass
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.DOTSDynamicBoneClass
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone
+  name: ToDOTSDynamicBone
+  nameWithType: DOTSDynamicBoneClass.ToDOTSDynamicBone
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.ToDOTSDynamicBone
+- uid: GameObjectConversionSystem
+  isExternal: true
+  name: GameObjectConversionSystem
+  nameWithType: GameObjectConversionSystem
+  fullName: GameObjectConversionSystem
+- uid: EntityManager
+  isExternal: true
+  name: EntityManager
+  nameWithType: EntityManager
+  fullName: EntityManager
+- uid: Entity
+  isExternal: true
+  name: Entity
+  nameWithType: Entity
+  fullName: Entity
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass
+  commentId: T:DOTSDynamicBone.DOTSDynamicBoneClass
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBoneClass
+  nameWithType: DOTSDynamicBoneClass
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass
+- uid: DynamicBuffer{DOTSDynamicBone.Particle}
+  commentId: '!:DynamicBuffer{DOTSDynamicBone.Particle}'
+  definition: DynamicBuffer`1
+  name: DynamicBuffer<Particle>
+  nameWithType: DynamicBuffer<Particle>
+  fullName: DynamicBuffer<DOTSDynamicBone.Particle>
+  nameWithType.vb: DynamicBuffer(Of Particle)
+  fullName.vb: DynamicBuffer(Of DOTSDynamicBone.Particle)
+  name.vb: DynamicBuffer(Of Particle)
+  spec.csharp:
+  - uid: DynamicBuffer`1
+    name: DynamicBuffer
+    nameWithType: DynamicBuffer
+    fullName: DynamicBuffer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DOTSDynamicBone.Particle
+    name: Particle
+    nameWithType: Particle
+    fullName: DOTSDynamicBone.Particle
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DynamicBuffer`1
+    name: DynamicBuffer
+    nameWithType: DynamicBuffer
+    fullName: DynamicBuffer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DOTSDynamicBone.Particle
+    name: Particle
+    nameWithType: Particle
+    fullName: DOTSDynamicBone.Particle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DOTSDynamicBone.DOTSDynamicBone
+  commentId: T:DOTSDynamicBone.DOTSDynamicBone
+  parent: DOTSDynamicBone
+  name: DOTSDynamicBone
+  nameWithType: DOTSDynamicBone
+  fullName: DOTSDynamicBone.DOTSDynamicBone
+- uid: DynamicBuffer`1
+  isExternal: true
+  name: DynamicBuffer<>
+  nameWithType: DynamicBuffer<>
+  fullName: DynamicBuffer<>
+  nameWithType.vb: DynamicBuffer(Of )
+  fullName.vb: DynamicBuffer(Of )
+  name.vb: DynamicBuffer(Of )
+  spec.csharp:
+  - uid: DynamicBuffer`1
+    name: DynamicBuffer
+    nameWithType: DynamicBuffer
+    fullName: DynamicBuffer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DynamicBuffer`1
+    name: DynamicBuffer
+    nameWithType: DynamicBuffer
+    fullName: DynamicBuffer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity
+  name: AddDOTSDynamicBoneColliderComponentsToEntity
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneColliderComponentsToEntity
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+  name: RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneNaturalColliderComponentsFromEntity
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling
+  name: SetDOTSDynamicBoneCalculationCulling
+  nameWithType: DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.SetDOTSDynamicBoneCalculationCulling
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling
+  name: AddDOTSDynamicBoneCalculationCulling
+  nameWithType: DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.AddDOTSDynamicBoneCalculationCulling
+- uid: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling*
+  commentId: Overload:DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling
+  name: RemoveDOTSDynamicBoneCalculationCulling
+  nameWithType: DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling
+  fullName: DOTSDynamicBone.DOTSDynamicBoneClass.RemoveDOTSDynamicBoneCalculationCulling
